@@ -1,16 +1,18 @@
 ﻿/*--------------------------------------------------------------------------------------------------------------------------
   Tasks from 9 to 19 
  -------------------------------------------------------------------------------------------------------------------------*/
-
 namespace StudentGroups
 {
-    using System;
-    using System.Linq;
+    using System;    
     using System.Collections.Generic;
+    using System.Linq;
+
     class Program
     {
         static void Main(string[] args)
         {
+            Console.BufferHeight = 90;
+
             var pesho = new Student("Pesho", "Goshov", "123408", "+346 889 10 25 92", "pesho@gmail.com",
                 new List<int> { 2, 5, 6 }, 5);
             var tosho = new Student("Tosho", "Goshov", "123406", "+330 879 10 25 92", "tosho@abv.bg",
@@ -58,26 +60,29 @@ namespace StudentGroups
 
             // Task 13
             Console.WriteLine(Environment.NewLine + "STUDENTS WITH AT LEAST ONE EXCELLENT MARK: ");
-            var ExcellentMarks = allStudents
+            var excellentMarks = allStudents
                                     .Where(x => x.Marks.Contains(6))
-                                    .Select(x => new { Name =string.Format("{0,-20}", x.FirstName + " " + x.LastName), 
-                                                       Marks = string.Format("{0,-5}",string.Join(" ", x.Marks) )});
-            Console.WriteLine(string.Join(Environment.NewLine, ExcellentMarks));
-             
+                                    .Select(x => new
+                                    {
+                                        Name = string.Format("{0,-20}", x.FirstName + " " + x.LastName),
+                                        Marks = string.Format("{0,-5}", string.Join(" ", x.Marks))
+                                    });
+            Console.WriteLine(string.Join(Environment.NewLine, excellentMarks));
+
             // Task 14
             Console.WriteLine(Environment.NewLine + "STUDENTS WITH TWO POOR MARKS:");
-            var PoorMarks = allStudents
-                                .Where(x=> x.HaveTwoPoorMarks() == true)
+            var poorMarks = allStudents
+                                .Where(x => x.HaveTwoPoorMarks() == true)
                                 .Select(x => new
                                 {
                                     Name = string.Format("{0,-20}", x.FirstName + " " + x.LastName),
                                     Marks = string.Format("{0,-5}", string.Join(" ", x.Marks))
                                 });
-            Console.WriteLine(string.Join(Environment.NewLine, PoorMarks));
+            Console.WriteLine(string.Join(Environment.NewLine, poorMarks));
             // Task 15
             Console.WriteLine(Environment.NewLine + "STUDENTS ENROLLED IN 2006:");
             var class2006 = allStudents
-                                .Where(x=> x.FN.Substring(4, 2) == "06")
+                                .Where(x => x.FN.Substring(4, 2) == "06")
                                  .Select(x => new
                                  {
                                      Name = string.Format("{0,-20}", x.FirstName + " " + x.LastName),
@@ -87,29 +92,29 @@ namespace StudentGroups
             Console.WriteLine(string.Join(Environment.NewLine, class2006));
 
             // Task 17
-            Console.WriteLine(Environment.NewLine+ "LONGEST STRING (LAST NAME) IS:");
-            string[] longestString = allStudents                                        
-                                        .Select(x=> x.LastName)                                          
+            Console.WriteLine(Environment.NewLine + "LONGEST STRING (LAST NAME) IS:");
+            string[] longestString = allStudents
+                                        .Select(x => x.LastName)
                                         .ToArray();
-            string longest = longestString.OrderBy(x=> x.Length).Last();
-            Console.WriteLine(string.Join("",longest));
+            string longest = longestString.OrderBy(x => x.Length).Last();
+            Console.WriteLine(string.Join(string.Empty, longest));
 
             // Task 18
             Console.WriteLine(Environment.NewLine + "STUDENTS GROUPED BY GROUP NUMBER:");
             var groupedByGroupNumber = allStudents
-                                        .OrderBy(x=> x.GroupNumber)
+                                        .OrderBy(x => x.GroupNumber)
                                          .Select(x => new
                                          {
                                              Name = string.Format("{0,-20}  ", x.FirstName + " " + x.LastName),
-                                             Group = x.GroupNumber                                             
+                                             Group = x.GroupNumber
                                          });
             Console.WriteLine(string.Join(Environment.NewLine, groupedByGroupNumber));
 
             //Task 19
             Console.WriteLine(Environment.NewLine + "STUDENTS GROUPED BY GROUP NUMBER (using extension method):");
             var groupedByGroupNumber2 = allStudents.OrderByGroupName();
-           
-            Console.WriteLine( groupedByGroupNumber2);
+
+            Console.WriteLine(groupedByGroupNumber2);
         }
     }
 }

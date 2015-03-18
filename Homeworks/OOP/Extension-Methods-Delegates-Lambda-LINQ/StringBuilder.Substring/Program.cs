@@ -1,23 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-//Problem 1. StringBuilder.Substring
+﻿//// Problem 1. StringBuilder.Substring
 
 //Implement an extension method Substring(int index, int length) for the class StringBuilder that 
 //returns new StringBuilder and has the same functionality as Substring in the class String.
 namespace StringBuilderSubstring
 {
-    class Program
+    using System;
+    using System.Text;
+
+    public class Program
     {
         static void Main(string[] args)
         {
             var sbTest = new StringBuilder();
-            sbTest.Append("123456789012345678");
-            var newSb = sbTest.Substring(4, 4);
-            Console.WriteLine(newSb.ToString());
-
+            sbTest.Append("This is test of extension method Substring(int index, int length) for the class StringBuilder");
+            Console.WriteLine(sbTest.ToString());
+            int index = 7;
+            int lenght = 35;
+            var newSb = sbTest.Substring(index, lenght);
+            Console.WriteLine();
+            Console.WriteLine("Substring from index [{0}] with lenght [{1}]: {2}", index, lenght, newSb.ToString());
         }
     }
 }

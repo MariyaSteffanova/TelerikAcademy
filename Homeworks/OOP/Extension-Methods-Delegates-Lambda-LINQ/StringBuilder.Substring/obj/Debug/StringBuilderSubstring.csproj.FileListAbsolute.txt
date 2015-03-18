@@ -1,0 +1,5 @@
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StringBuilder.Substring\bin\Debug\StringBuilder.Substring.exe.config
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StringBuilder.Substring\bin\Debug\StringBuilder.Substring.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StringBuilder.Substring\bin\Debug\StringBuilder.Substring.pdb
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StringBuilder.Substring\obj\Debug\StringBuilder.Substring.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StringBuilder.Substring\obj\Debug\StringBuilder.Substring.pdb

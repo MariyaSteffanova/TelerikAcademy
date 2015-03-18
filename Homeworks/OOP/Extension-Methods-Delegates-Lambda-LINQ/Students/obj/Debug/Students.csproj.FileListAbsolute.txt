@@ -1,0 +1,5 @@
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\Students\bin\Debug\Students.exe.config
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\Students\bin\Debug\Students.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\Students\bin\Debug\Students.pdb
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\Students\obj\Debug\Students.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\Students\obj\Debug\Students.pdb

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StudentGroups
+﻿namespace StudentGroups
 {
-   public class Student
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
+    public class Student
     {
         private string fName;
         private string lName;
@@ -26,58 +24,59 @@ namespace StudentGroups
             this.Marks = marks;
             this.GroupNumber = groupNumber;
         }
+
         public int GroupNumber
         {
-            get { return groupNumber; }
-            set { groupNumber = value; }
+            get { return this.groupNumber; }
+            set { this.groupNumber = value; }
         }
-        
+
         public List<int> Marks
         {
-            get { return marks; }
-            set { marks = value; }
+            get { return this.marks; }
+            set { this.marks = value; }
         }
-        
+
         public string Email
         {
-            get { return mail; }
-            set { mail = value; }
+            get { return this.mail; }
+            set { this.mail = value; }
         }
 
         public string Tel
         {
-            get { return phoneNumber; }
-            set { phoneNumber = value; }
+            get { return this.phoneNumber; }
+            set { this.phoneNumber = value; }
         }
-        
+
         public string FN
         {
-            get { return fnumber; }
-            set { fnumber = value; }
+            get { return this.fnumber; }
+            set { this.fnumber = value; }
         }
-        
+
         public string LastName
         {
-            get { return lName; }
-            set { lName = value; }
+            get { return this.lName; }
+            set { this.lName = value; }
         }
 
         public string FirstName
         {
-            get { return fName; }
-            set { fName = value; }
+            get { return this.fName; }
+            set { this.fName = value; }
         }
+
         public override string ToString()
         {
             var sb = new StringBuilder();
-            sb.Append(string.Format("Name: {0,-18} | ", this.FirstName +  " " + this.LastName));
-          
+            sb.Append(string.Format("Name: {0,-18} | ", this.FirstName + " " + this.LastName));
+
             sb.Append(string.Format("E-Mail: {0, -15} | ", this.Email));
-           // sb.Append(" Marks: " + string.Join(",", this.Marks));
+            // sb.Append(" Marks: " + string.Join(",", this.Marks));
             sb.Append(string.Format("Group: {0,-3} | ", this.GroupNumber));
             sb.Append(string.Format("Phone number: {0, -11}", this.Tel));
             return sb.ToString();
         }
-       
     }
 }

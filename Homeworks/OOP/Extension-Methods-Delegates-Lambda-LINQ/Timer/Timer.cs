@@ -1,36 +1,38 @@
-﻿//Problem 7. Timer
-
-//Using delegates write a class Timer that can execute certain method at each t seconds.
-namespace Timer
+﻿namespace Timer
 {
     using System;
-    using System.Diagnostics;
+    using System.Threading;
 
-    public delegate void TimeInterval(long param);
+    public delegate void TimerExe();
+
     public class Timer
     {
-        static void Main(string[] args)
+        private int interval;              
+
+        public Timer(int seconds)
         {
-            var stop = new Stopwatch();
-            stop.Start();
-            var printStop = new Stopwatch();
-            printStop.Start();
+            this.Interval = seconds;
+        }
 
-            TimeInterval d = new TimeInterval(TestTimer);// delegate 
-
-            while (true)
+        public int Interval
+        {
+            get { return this.interval; }
+            set
             {
-                if (stop.ElapsedMilliseconds == 250)
-                {
-                    d(printStop.ElapsedMilliseconds);
-                    stop.Restart();
-                }
+                if (value < 1) { throw new ArgumentException("Interval can not be less than 1 second"); }
+                this.interval = value;
             }
         }
-        public static void TestTimer(long param)
-        {
 
-            Console.WriteLine("Passed: {0}seconds | {1} miliseconds ",param / 1000, param);
+        public TimerExe ExecuteMethods { get; set; }
+
+        public void Run()
+        {
+            while (true)
+            {
+                this.ExecuteMethods();
+                Thread.Sleep(this.Interval * 1000); // because Thread works woth miliseconds
+            }
         }
     }
 }

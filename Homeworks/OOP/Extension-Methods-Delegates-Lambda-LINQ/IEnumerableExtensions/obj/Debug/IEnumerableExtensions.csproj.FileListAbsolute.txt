@@ -1,0 +1,5 @@
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\IEnumerableExtensions\bin\Debug\IEnumerableExtensions.exe.config
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\IEnumerableExtensions\bin\Debug\IEnumerableExtensions.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\IEnumerableExtensions\bin\Debug\IEnumerableExtensions.pdb
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\IEnumerableExtensions\obj\Debug\IEnumerableExtensions.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\IEnumerableExtensions\obj\Debug\IEnumerableExtensions.pdb
