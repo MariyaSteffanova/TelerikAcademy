@@ -1,0 +1,6 @@
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\bin\Debug\MobilePhone.exe.config
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\obj\Debug\MobilePhone.csprojResolveAssemblyReference.cache
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\bin\Debug\MobilePhone.exe
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\bin\Debug\MobilePhone.pdb
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\obj\Debug\MobilePhone.exe
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 1\MobilePhone\obj\Debug\MobilePhone.pdb

@@ -1,0 +1,6 @@
+c:\users\solara\documents\visual studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\bin\Debug\EuclidianSpace3D.exe.config
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\bin\Debug\EuclidianSpace3D.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\bin\Debug\EuclidianSpace3D.pdb
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\obj\Debug\EuclidianSpace3D.csprojResolveAssemblyReference.cache
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\obj\Debug\EuclidianSpace3D.exe
+C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\EuclidianSpace3D\obj\Debug\EuclidianSpace3D.pdb

@@ -1,0 +1,6 @@
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\bin\Debug\AnimalHierarchy.exe.config
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\obj\Debug\AnimalHierarchy.csprojResolveAssemblyReference.cache
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\bin\Debug\AnimalHierarchy.exe
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\bin\Debug\AnimalHierarchy.pdb
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\obj\Debug\AnimalHierarchy.exe
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\AnimalHierarchy\obj\Debug\AnimalHierarchy.pdb

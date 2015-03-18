@@ -1,0 +1,6 @@
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\bin\Debug\SchoolClasses.exe.config
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\obj\Debug\SchoolClasses.csprojResolveAssemblyReference.cache
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\bin\Debug\SchoolClasses.exe
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\bin\Debug\SchoolClasses.pdb
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\obj\Debug\SchoolClasses.exe
+c:\users\solara\documents\visual studio 2013\Projects\OOP Principles - Part 1\SchoolClasses\obj\Debug\SchoolClasses.pdb
