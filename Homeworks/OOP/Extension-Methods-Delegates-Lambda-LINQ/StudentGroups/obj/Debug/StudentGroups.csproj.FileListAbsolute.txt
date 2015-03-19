@@ -1,5 +1,0 @@
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StudentGroups\bin\Debug\StudentGroups.exe.config
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StudentGroups\bin\Debug\StudentGroups.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StudentGroups\bin\Debug\StudentGroups.pdb
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StudentGroups\obj\Debug\StudentGroups.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\StudentGroups\obj\Debug\StudentGroups.pdb

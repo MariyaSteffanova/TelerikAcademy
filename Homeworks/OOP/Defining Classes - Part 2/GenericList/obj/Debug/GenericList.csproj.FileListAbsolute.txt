@@ -1,5 +1,0 @@
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\GenericList\bin\Debug\GenericList.exe.config
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\GenericList\bin\Debug\GenericList.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\GenericList\bin\Debug\GenericList.pdb
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\GenericList\obj\Debug\GenericList.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Defining Classes - Part 2\GenericList\obj\Debug\GenericList.pdb

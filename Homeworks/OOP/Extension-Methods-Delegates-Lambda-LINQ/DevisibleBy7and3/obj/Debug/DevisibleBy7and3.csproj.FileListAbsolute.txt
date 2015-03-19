@@ -1,6 +1,0 @@
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\bin\Debug\DevisibleBy7and3.exe.config
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\bin\Debug\DevisibleBy7and3.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\bin\Debug\DevisibleBy7and3.pdb
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\obj\Debug\DevisibleBy7and3.csprojResolveAssemblyReference.cache
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\obj\Debug\DevisibleBy7and3.exe
-C:\Users\Solara\Documents\Visual Studio 2013\Projects\Extension-Methods-Delegates-Lambda-LINQ\DevisibleBy7and3\obj\Debug\DevisibleBy7and3.pdb
