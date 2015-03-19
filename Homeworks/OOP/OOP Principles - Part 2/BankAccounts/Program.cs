@@ -1,32 +1,45 @@
 ﻿namespace BankAccounts
 {
     using System;
-   public class Program
+    using System.Collections.Generic;
+    public class Program
     {
         static void Main(string[] args)
         {
+            var mortgages = new List<Mortgage>();
+            mortgages.Add(new Mortgage(DateTime.Parse("16.12.2014"), Account.CustomerType.Individual, 1500m));
+            mortgages.Add(new Mortgage(DateTime.Parse("16.12.2013"), Account.CustomerType.Individual, 2560));
+            mortgages.Add(new Mortgage(DateTime.Parse("16.02.2015"), Account.CustomerType.Company, 5147));
+            mortgages.Add(new Mortgage(DateTime.Parse("16.12.2013"), Account.CustomerType.Company, 1247));
 
-            var deposit = new Mortgage(DateTime.Parse("16.12.2014"),Account.CustomerType.Individual, 1500m);
-            //deposit.CreatedOn = ;           
-            Console.WriteLine(deposit.InterestRate);
+            string outputTitle = string.Format("{0} | {1} | {2,10} | {3} | {4}",
+                "ACCOUNT TYPE", "DATE OF CREATION", "CUSTOMER", "BALANCE", "INTEREST");
+            Console.WriteLine(outputTitle + Environment.NewLine);
+            foreach (var mortgage in mortgages)
+            {
+                mortgage.Print();
+            }
+            Console.WriteLine();
+            var deposits = new List<Deposit>();
+            deposits.Add(new Deposit(DateTime.Parse("16.12.2014"), Account.CustomerType.Individual, 1500m));
+            deposits.Add(new Deposit(DateTime.Parse("16.12.2013"), Account.CustomerType.Individual, 2560));
+            deposits.Add(new Deposit(DateTime.Parse("16.02.2015"), Account.CustomerType.Company, 5147));
+            deposits.Add(new Deposit(DateTime.Parse("16.12.2013"), Account.CustomerType.Company, 1247));
+            foreach (var deposit in deposits)
+            {
+                deposit.Print();
+            }
 
-           deposit = new Mortgage(DateTime.Parse("16.12.2013"),Account.CustomerType.Individual, 2000);
-           // deposit.CreatedOn = ;
-            Console.WriteLine(deposit.InterestRate);
-
-            //var deposit1 = new Deposit();
-            //deposit.CreatedOn = DateTime.Parse("16.12.2013");
-            //deposit.Balance = 5240;
-            //Console.WriteLine(deposit.InterestRate);
-            //Console.WriteLine(deposit.Balance);
-
-            //var deposit2 = new Deposit();
-            //deposit.CreatedOn = DateTime.Parse("16.12.2012");
-            //deposit.Balance = 6300;
-            //Console.WriteLine(deposit.InterestRate);
-
-            //var d = new Deposit(4340.0m);
-            //Console.WriteLine(d.InterestRate);
+            Console.WriteLine();
+            var loans = new List<Loan>();
+            loans.Add(new Loan(DateTime.Parse("16.09.2013"), Account.CustomerType.Individual, 1500));
+            loans.Add(new Loan(DateTime.Parse("16.12.2013"), Account.CustomerType.Individual, 2560));
+            loans.Add(new Loan(DateTime.Parse("16.02.2014"), Account.CustomerType.Company, 5147));
+            loans.Add(new Loan(DateTime.Parse("16.12.2013"), Account.CustomerType.Company, 1247));
+            foreach (var loan in loans)
+            {
+                loan.Print();
+            }
         }
     }
 }

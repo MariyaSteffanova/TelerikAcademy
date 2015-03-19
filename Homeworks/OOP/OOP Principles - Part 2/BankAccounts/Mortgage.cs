@@ -1,12 +1,13 @@
 ﻿namespace BankAccounts
 {
     using System;
-   public class Mortgage : Account
+   public class Mortgage : Account, IDeposit
     {
        public Mortgage(DateTime date, CustomerType customer, decimal balance)
            : base(date, customer, balance)
        {
-           this.InterestRate = this.CalculateInterestRate();
+           this.NumberOfMonths = this.CalcMonths();
+           this.InterestRate = this.CalculateInterestRate();           
        }
 
         public override decimal CalculateInterestRate()
@@ -17,6 +18,11 @@
                 return 0;
 
             return (decimal)this.NumberOfMonths * interesrRateConst;
+        }
+
+        public void DepositMoney(decimal amount)
+        {
+            this.Balance += amount;
         }
     }
 }

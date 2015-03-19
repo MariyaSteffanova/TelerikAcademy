@@ -15,9 +15,9 @@
         {
             this.CreatedOn = date;
             this.Customer = customer;
-            this.Balance = balance;
-            this.InterestRate = this.CalculateInterestRate();
+            this.Balance = balance;            
             this.NumberOfMonths = this.CalcMonths();
+            this.InterestRate = this.CalculateInterestRate();
         }
 
         public CustomerType Customer
@@ -37,8 +37,8 @@
 
         public decimal InterestRate
         {
-            get { return this.interestRate ;} //= this.CalculateInterestRate(); }
-            protected set { this.interestRate = value;}// this.CalculateInterestRate(); }
+            get { return this.interestRate; } //= this.CalculateInterestRate(); }
+            protected set { this.interestRate = value; }// this.CalculateInterestRate(); }
         }
 
         public DateTime CreatedOn
@@ -49,8 +49,8 @@
 
         protected int NumberOfMonths
         {
-            get { return this.numberOfMonths;}// = this.CalcMonths(); }
-             set
+            get { return this.numberOfMonths; }// = this.CalcMonths(); }
+            set
             {
                 this.numberOfMonths = value;// this.CalcMonths();  // do not work :/
             }
@@ -69,5 +69,12 @@
         }
 
         public abstract decimal CalculateInterestRate();
+
+        public void Print()
+        {
+            string output = string.Format("{0,12} | {1,-16:dd.MM.yyyy} | {2,10} | {3,7} | {4}",
+                this.GetType().Name, this.CreatedOn, this.Customer, this.Balance, this.InterestRate);
+            Console.WriteLine(output);
+        }
     }
 }
