@@ -15,8 +15,7 @@
             get { return this.message; }
             set { this.message = value; }
         }
-
-
+        
         public InvalidRangeException(T param)
         {
             if (param.GetType() == typeof(Int32))

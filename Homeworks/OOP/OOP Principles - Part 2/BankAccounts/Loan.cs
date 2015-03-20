@@ -13,13 +13,15 @@
 
         public override decimal CalculateInterestRate()
         {
-            if (this.Customer.Equals(CustomerType.Individual) && this.NumberOfMonths <= 3)
-                throw new ArgumentNullException("Loan accounts have no interest for the first 3 months if are held by individuals");
+            if (this.Customer.Equals(CustomerType.Individual))
+                if (this.NumberOfMonths <= 3)
+                    return 0;   // throw new ArgumentNullException("Loan accounts have no interest for the first 3 months if are held by individuals");
+                else return (this.NumberOfMonths - 3) * interesrRateConst;
 
-            if (this.Customer.Equals(CustomerType.Company) && this.NumberOfMonths <= 2)
-                throw new ArgumentNullException("Loan accounts have no interest for the first 2 months if are held by a company.");
-
-            return (decimal)this.NumberOfMonths * interesrRateConst;
+            if (this.Customer.Equals(CustomerType.Company))
+                if (this.NumberOfMonths <= 2)
+                    return 0;
+            return (this.NumberOfMonths - 2) * interesrRateConst;
         }
 
         public void DepositMoney(decimal amount)

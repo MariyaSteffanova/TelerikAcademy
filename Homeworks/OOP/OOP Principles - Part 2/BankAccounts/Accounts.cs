@@ -15,7 +15,7 @@
         {
             this.CreatedOn = date;
             this.Customer = customer;
-            this.Balance = balance;            
+            this.Balance = balance;
             this.NumberOfMonths = this.CalcMonths();
             this.InterestRate = this.CalculateInterestRate();
         }
@@ -29,16 +29,13 @@
         public decimal Balance
         {
             get { return this.balace; }
-            set
-            {
-                this.balace = value;
-            }
+            set { this.balace = value; }
         }
 
         public decimal InterestRate
         {
-            get { return this.interestRate; } //= this.CalculateInterestRate(); }
-            protected set { this.interestRate = value; }// this.CalculateInterestRate(); }
+            get { return this.interestRate; }
+            protected set { this.interestRate = value; }
         }
 
         public DateTime CreatedOn
@@ -49,23 +46,13 @@
 
         protected int NumberOfMonths
         {
-            get { return this.numberOfMonths; }// = this.CalcMonths(); }
-            set
-            {
-                this.numberOfMonths = value;// this.CalcMonths();  // do not work :/
-            }
+            get { return this.numberOfMonths; }
+            set { this.numberOfMonths = value; }
         }
 
         public enum CustomerType
         {
             Individual, Company
-        }
-
-        protected int CalcMonths()
-        {
-            if (this.CreatedOn > DateTime.Now) throw new ArgumentException("The date of creation of account cannot be in the future!");
-            this.numberOfMonths = DateTime.Now.Month - this.CreatedOn.Month + 12 * (DateTime.Now.Year - this.CreatedOn.Year);
-            return this.numberOfMonths;
         }
 
         public abstract decimal CalculateInterestRate();
@@ -75,6 +62,14 @@
             string output = string.Format("{0,12} | {1,-16:dd.MM.yyyy} | {2,10} | {3,7} | {4}",
                 this.GetType().Name, this.CreatedOn, this.Customer, this.Balance, this.InterestRate);
             Console.WriteLine(output);
+        }
+
+        protected int CalcMonths()
+        {
+            if (this.CreatedOn > DateTime.Now) throw new ArgumentException("The date of creation of account cannot be in the future!");
+
+            this.numberOfMonths =DateTime.Now.Month - this.CreatedOn.Month + 12 * (DateTime.Now.Year - this.CreatedOn.Year);
+            return this.numberOfMonths;
         }
     }
 }

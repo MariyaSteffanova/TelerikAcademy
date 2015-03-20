@@ -7,7 +7,6 @@
         public Circle(decimal radius)
         {
             this.Width = radius;
-           // this.Height = radius;
         }
 
         public override decimal CalculateSurface()

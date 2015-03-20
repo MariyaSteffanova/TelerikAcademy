@@ -1,29 +1,27 @@
 ﻿namespace Shapes
 {
     using System;
+    using System.Collections.Generic;
 
     public class Program
     {
         static void Main()
         {
-            var rectangleFirst = new Rectangle(2, 4);
-            var rectangleSecond = new Rectangle(4, 4);
-            var rectangleThird = new Rectangle(5, 6);
+            var shapes = new List<Shape>();
+            shapes.Add(new Rectangle(2, 4));
+            shapes.Add(new Triangle(4, 4));
+            shapes.Add(new Circle(3));            
 
-            var triangleFirst = new Triangle(2, 4);
-            var triangleSecond = new Triangle(4, 4);
-            var triangleThird = new Triangle(5, 8);
+            shapes.Add(new Rectangle(4, 4));
+            shapes.Add(new Triangle(2, 4));
+            shapes.Add(new Circle(6));           
 
-            var circleFirst = new Circle(3);
-            var circleSecond = new Circle(6);
-            var circleThird = new Circle(9);
+            shapes.Add(new Rectangle(5, 6));
+            shapes.Add(new Triangle(5, 8));
+            shapes.Add(new Circle(9));
 
-            Shape[] shapes = new Shape[]{ 
-                             rectangleFirst,  triangleFirst,  circleFirst,
-                             rectangleSecond, triangleSecond, circleSecond,
-                             rectangleThird,  triangleThird,  circleThird };
             double ind = 0;
-            for (int index = 0; index < shapes.Length; index++)
+            for (int index = 0; index < shapes.Count; index++)
             {
                 ind += 0.3;
                 int numeration = 1 + (int)ind;
