@@ -1,0 +1,11 @@
+#nav,ul
+{
+	list-style-type: disc;
+}
+#section, img
+{
+	width:150px;
+	border-width:1px;
+	border-style: solid;
+	border-color: black;
+}
