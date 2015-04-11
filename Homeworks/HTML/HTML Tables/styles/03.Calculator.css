@@ -1,0 +1,26 @@
+#section, table, input
+{
+	color: #3CC;
+	background:#F3F9FA;
+}
+table, td
+{
+	
+	border: 1px;
+	border-style: solid;
+	border-color: purple;
+	text-align: center;
+	height: 35px;
+	margin: 0px 0px;	
+	font-weight: bolder;
+}
+input
+{
+	border: none;
+	text-align: right;
+}
+input:focus 
+{
+	border: none;
+	outline: none;
+}

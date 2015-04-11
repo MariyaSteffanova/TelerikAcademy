@@ -1,0 +1,14 @@
+.submitButton
+{	
+	background-image: url('../images/submit-icon.jpg');
+	background-size: 100% ;
+	width: 130px;
+	height: 70px;	
+	cursor:pointer;
+	background-color: white;
+	border:none;
+}
+.required
+{
+	font-weight: bold;
+}
