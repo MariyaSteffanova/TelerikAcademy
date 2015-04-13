@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="styles/Registration-form-style.css" />
+</head>
+<body>
+	<section>
+	<form>
+		<table border="1px" cellspacing="0px">
+		<tfoot>
+			<tr>
+				<td colspan="2">
+					<span id="foot-btn">
+						<button name = "submit-btn"type="submit">Submit</button>
+						<button name="reset-btn" type="reset">Reset This Form</button>
+					</span>
+				</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<th>Last Name</th>
+				<td><input name="lname" type="text"/></td>
+			</tr>
+			<tr>
+				<th>First Name</th>
+				<td><input name="fname" type="text"/></td>
+			</tr>
+			<tr>
+				<th>Address</th>
+				<td><textarea name="address" rows="4"></textarea></td>
+			</tr>
+			<tr>
+				<th>City</th>
+				<td>					
+					<input class="larger-size" name="city" type="text"/>
+					<span>State</span>
+					<input class="min-size" name="state" type="text"/>					
+				</td>
+			</tr>
+			<tr>
+				<th>Zip/Postal Code</th>
+				<td><input class="min-size" name="zip" type="text" /></td>				
+			</tr>
+			<tr>
+				<th>Country</th>
+				<td>
+					<select>
+						<option value="bulgaria">Bulgaria</option>
+						<option value="portugal">Portugal</option>
+						<option value="spain">Spain</option>
+						<option value="argentina">Argentina</option>
+						<option value="trinidadAndTobago">Trinidad and Tobago</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Phone(country code,</br> area code, number)</th>
+				<td>(+
+					<input class="min-size" name="country-code" type="text" pattern="[0-9]{3}" />)
+					<input class="min-size" name="area-code" type="text" pattern="[0-9]{3}" />
+					<input class="middle-size" name="number" type="text" pattern="[0-9]{6}"/>
+				</td>
+			</tr>
+			<tr>
+				<th>E-mail</th>
+				<td><input name="email" type="email" /></td>
+			</tr>
+			<tr>
+				<th>Birth date</th>
+				<td><input name="bday" type="date"/></td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td>
+					<select>
+						<option value="female">Female</option>
+						<option value="male">Male</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Starting date</th>
+				<td>
+					<input name="start-date" type="radio" value="spring">Spring 2015</input>
+					<input name="start-date" type="radio" value="summer">Summer 2015</input>
+				</td>
+			</tr>
+			<tr>
+				<th>Comments/Questions</th>
+				<td>
+					<textarea rows="5"></textarea>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</form>
+	</section>
+</body>
+</html>

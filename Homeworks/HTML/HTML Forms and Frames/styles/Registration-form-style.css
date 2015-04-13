@@ -1,0 +1,24 @@
+.min-size
+{
+	width: 40px;
+}
+.middle-size
+{
+	width: 90px;
+}
+.larger-size
+{
+	width: 120px;
+}
+tfoot
+{
+	background-color: #8000FF;
+}
+#foot-btn
+{
+	margin-left: 120px;	
+}
+#foot-btn button
+{
+	border-radius: 3px;
+}

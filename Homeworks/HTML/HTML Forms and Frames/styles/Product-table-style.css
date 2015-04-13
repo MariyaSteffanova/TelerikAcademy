@@ -1,0 +1,117 @@
+.btn
+{
+	width: 22px;
+	height: 22px;
+	background:url(../images/btn.png) no-repeat;
+	border-radius: 5px;
+	vertical-align: top;
+}
+.min-size
+{
+	width: 70px;
+}
+.mid-size
+{
+	width: 158px;
+}
+.max-size
+{
+	width: 244px;
+}
+.min-size input
+{
+	width: 30px;
+}
+.mid-size input
+{
+	width: 78px;
+}
+.max-size input
+{
+	width: 142;
+}
+
+#product-table
+{
+	border: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #D1D4D8;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #666;
+}
+#product-table thead
+{
+	background: #E7E9EB;
+}
+#product-table input
+{
+	height: 15px;
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 3px;
+}
+#titles div
+{
+	
+	background:url(../images/pattern.png) repeat-x;
+}
+#input-fields
+{	
+	height: 34px;
+}
+#foot
+{	
+	background:url(../images/pattern-bottom.png) repeat-x;
+}
+#foot button
+{
+	width: 22px;
+	height: 22px;
+	margin: 3px;
+	border-radius: 5px;
+}
+#foot a:link
+{
+	color: #666;
+	text-decoration: none;
+}
+#foot a:visited
+{
+	color: #666;
+	text-decoration: none;
+}
+#foot a:active
+{
+	color: #666;
+	border: 1px;
+	border-style: solid;
+	border-color: #f60;
+	border-radius: 2px;
+}
+#first-page
+{
+	background:url(../images/first-page.png) ;
+}
+#prev-page
+{
+	background:url(../images/prev-page.png) ;
+}
+#next-page
+{
+	background:url(../images/next-page.png) ;
+}
+#last-page
+{
+	background:url(../images/last-page.png) ;
+}
+#foot select
+{
+	color: #666;
+}
+ 
+#statistics
+{
+	margin-left:300px;
+}
