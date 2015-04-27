@@ -1,0 +1,56 @@
+#main-container{
+	width: 1320px;
+	height: 680px;
+	border-radius: 5px;
+	background: #1E3741;
+	padding: 0px;
+	font-size: 28px;
+}
+nav{
+	padding: 3px;
+	height: 38px;
+	margin-bottom: 65px;
+}
+nav ul{
+	list-style-type:none;
+	padding: 0px;
+}
+nav a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 7px;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+nav li{
+	background: #4B5F67;
+	float: left;
+	margin: 1px;
+	padding: 10px;
+	text-align: center;
+}
+nav li:hover{
+	background: #1E3741;
+}
+section{
+	clear: both;
+	color: #808080;
+	width: 460px;
+	float: left;
+}
+section header{
+	background: #00968C;
+	color: #fff;
+	padding: 8px;
+}
+section article{
+	border-bottom: 1px solid #4B5F67;
+}
+section article p{
+	margin-left: 10px;
+}
+img{
+	height: 489px;
+	float: left;
+}

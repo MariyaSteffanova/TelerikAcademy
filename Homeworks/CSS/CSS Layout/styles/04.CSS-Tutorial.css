@@ -1,0 +1,105 @@
+#content-wrap{
+	background: #F1F1F1;
+	font-size: 13px;
+	width:830px;
+	height: 690px;
+	padding: 6px;
+	border: 1px solid #888888;
+}
+nav{
+	display: inline-block;
+	float: left;
+	width: 145px;
+	padding: 2px;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0px;
+}
+nav a{
+	text-decoration: none;
+	color: inherit;
+}
+nav ul>a{
+	color: #880000;
+	font-weight: bolder;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+nav>a{
+	font-weight: bold;
+}
+#main-container{
+	width:500px;
+	padding: 9px;
+	background: #fff;
+	border: 1px solid gray;
+	float: left;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+#main-container img{
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+#main-container header{
+	margin-top: -15px;
+}
+#main-container button{
+	width: 100px;
+	height: 20px;
+	background: #fff;
+	border: 1px solid #000;
+	font-size: 10px;
+	text-align: center;
+}
+h2{
+	background: #888888;
+	color: #fff;
+	/*line-height: 14px;*/
+	font-size: 15px;
+}
+article a{
+	color: #880000;
+}
+aside{
+	float: left;
+	width: 152px;
+}
+aside h2{	
+	margin: -5px;
+  	margin-bottom: 8px;
+}
+aside article{
+	border: 1px solid gray;
+	background: #fff;
+	margin: 2px;
+	font-size:14px;
+	padding: 5px;
+	text-align: center;
+}
+aside a{
+	display: inline-block;
+  	font-size: 13px;
+}
+#search-bar input{
+	width: 100px;
+}
+#view-styles-btn{
+	width: 100px;
+	height: 35px;
+	border: 1px solid #679BC1;
+	border-radius: 5px;
+	color: #1EC4FE;
+	background: #acdef9; /* Old browsers */
+	background: -moz-linear-gradient(left,  #acdef9 0%, #d4f0fe 26%, #d4f0fe 76%, #a4dcf9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#acdef9), color-stop(26%,#d4f0fe), color-stop(76%,#d4f0fe), color-stop(100%,#a4dcf9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #acdef9 0%,#d4f0fe 26%,#d4f0fe 76%,#a4dcf9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #acdef9 0%,#d4f0fe 26%,#d4f0fe 76%,#a4dcf9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #acdef9 0%,#d4f0fe 26%,#d4f0fe 76%,#a4dcf9 100%); /* IE10+ */
+	background: linear-gradient(to right,  #acdef9 0%,#d4f0fe 26%,#d4f0fe 76%,#a4dcf9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acdef9', endColorstr='#a4dcf9',GradientType=1 ); /* IE6-9 */
+	
+}
