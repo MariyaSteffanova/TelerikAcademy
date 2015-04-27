@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles/04.Claculator.css"/>
+</head>
+<body>
+	<section >
+		<div id="border">
+			<img id="icon" src="images/icon.png"/>
+			<span>Calculator</span>
+			<img id="window-btns" src="images/window-btns.png"/>
+			<div id="field">
+				<nav>
+					<ul>
+						<li>View</li>
+						<li>Edit</li>
+						<li>Help</li>
+					</ul>
+				</nav>
+				<div id="screen">
+					<span>885445</span>			
+				</div>
+				<div id="binary-representation">
+					<ul>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>0000</li>
+						<li>1000</li>
+						<li>0111</li>
+						<li>0001</li>
+						<li>1011</li>
+						<li>1011</li>
+						<li>0111</li>
+					</ul>
+					<ul id="binary-positions">
+						<li>63</li>
+						<li>47</li>
+						<li>32</li>
+						<li>31</li>
+						<li>15</li>
+						<li> 0</li>
+					</ul>
+				</div>
+				<ul class="aside">
+					<li>
+						<input type="radio">Hex</input>
+					</li>
+					<li>
+						<input type="radio">Dec</input>
+					</li>
+					<li>
+						<input type="radio">Oct</input>
+					</li>
+					<li>
+						<input type="radio">Bin</input>
+					</li>
+				</ul>
+				<ul class="aside">
+					<li>
+						<input type="radio">Qword</input>
+					</li>
+					<li>
+						<input type="radio">Dword</input>
+					</li>
+					<li>
+						<input type="radio">Word</input>
+					</li>
+					<li>
+						<input type="radio">Byte</input>
+					</li>
+				</ul>
+				<ul class="buttons">
+					<li class="unactive-buttons"><button> .</button></li>
+					<li><button><span>Mod</span></button></li>
+					<li><button><span>(</span></button></li>
+					<li><button><span>)</span></button></li>
+					<li><button><span>RoL</span</button></li>
+					<li><button><span>RoR</span</button></li>
+					<li><button><span>Or</span</button></li>
+					<li><button><span>Xor</span></button></li>
+					<li><button><span>Lsh</span></button></li>
+					<li><button><span>Rsh</span></button></li>
+					<li><button><span>Not</span></button></li>
+					<li><button><span>And</span></button></li>
+				</ul>
+				<ul class="buttons unactive-buttons" id="hex-numbers">
+					<li><button><span>A</span></button></li>
+					<li><button><span>B</span></button></li>
+					<li><button><span>C</span></button></li>
+					<li><button><span>D</span></button></li>
+					<li><button><span>E</span></button></li>
+					<li><button><span>F</span></button></li>
+				</ul>
+				<ul class="buttons unactive-buttons" id="memory-btns">
+					<li><button><span>MC</span></button></li>
+					<li><button><span>MR</span></button></li>
+					<li><button><span>MS</span></button></li>
+					<li><button><span>M+</span></button></li>
+					<li><button><span>M-</span></button></li>
+				</ul>
+				<ul class="buttons" id="delete-btns">
+					<li><button><span>←</span></button></li>
+					<li><button><span>CE</span></button></li>
+					<li><button><span>C</span></button></li>
+				</ul>
+				<ul class="buttons" id="num-clavier">
+					<li><button><span>1</span></button></li>
+					<li><button><span>2</span></button></li>
+					<li><button><span>3</span></button></li>
+					<li><button><span>4</span></button></li>
+					<li><button><span>5</span></button></li>
+					<li><button><span>6</span></button></li>
+					<li><button><span>7</span></button></li>
+					<li><button><span>8</span></button></li>
+					<li><button><span>9</span></button></li>
+					<li><button id="zero"><span>0</span></button></li>
+					<li class="unactive-buttons"><button><span>.</span></button></li>
+				</ul>
+				<ul class="buttons" id="operations">
+					<li><button><span>±</span></button></li>
+					<li><button><span>√</span></button></li>
+					<li><button><span>/</span></button></li>
+					<li><button><span>%</span></button></li>
+					<li><button><span>*</span></button></li>
+					<li><button><span>1/x</span></button></li>
+					<li><button><span>-</span></button></li>
+					<li><button id="result"><span>=</span></button></li>
+					<li><button id="plus"><span>+</span></button></li>
+				</ul>
+			</div>			
+		</div>
+	</section>
+	<aside>
+		<header>Note</header>
+		<article>Some buttons do not have hover effect and I do not have any idea why :D </article>
+	</aside>
+</body>
+</html>
