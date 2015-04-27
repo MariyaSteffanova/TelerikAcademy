@@ -34,4 +34,12 @@ article img{
 .btn button{
 	background: url("../imgs/btn.png") no-repeat;
 	background-size: cover;
+	height: 25px;
+	text-align: right;
+}
+.listen-btn{
+	width: 60px;
+}
+.add-btn{
+	width: 50px;
 }
