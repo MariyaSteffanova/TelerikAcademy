@@ -1,0 +1,33 @@
+body{
+	background: #595959;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+header{
+	font-size: 27px;
+	color: #7A848E;
+}
+th{
+	color: white;
+	font-style: italic;
+	text-align: left;
+	font-weight: normal;
+}
+td{
+	padding-left: 30px;
+}
+.red{
+	color: red;
+}
+.yellow{
+	color: #F2DE95;
+}
+.orange{
+	color: #C4681F
+}
+.gray{
+	color: #7A848E;
+}
+#on-line-holder,img{
+	width: 16px;
+}

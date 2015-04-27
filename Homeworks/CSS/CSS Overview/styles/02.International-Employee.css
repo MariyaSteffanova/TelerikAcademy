@@ -1,0 +1,43 @@
+body{
+	font-family: sans-serif;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+thead{
+	color: #fff;
+	border-bottom: 1px;
+	border-bottom-color: #908787;
+	border-bottom-style: solid;
+	background: #5ec306; /* Old browsers */
+	background: -moz-linear-gradient(top,  #5ec306 1%, #49ab04 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#5ec306), color-stop(100%,#49ab04)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5ec306 1%,#49ab04 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5ec306 1%,#49ab04 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5ec306 1%,#49ab04 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5ec306 1%,#49ab04 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ec306', endColorstr='#49ab04',GradientType=0 ); /* IE6-9 */
+}
+table{
+	border-collapse: collapse;
+}
+table td{
+	padding-right: 40px;
+	padding-left: 10px;
+	border-right: 1px;
+	border-right-style: solid;
+	border-right-color: #908787;
+	
+}
+table td:nth-child(4){
+	border: none;
+}
+tbody tr:nth-child(odd){
+	background: #fff;
+}
+tbody tr:nth-child(even){
+	background: #ECECD8;
+}
+img{
+	width: 25px;
+	margin-bottom: -7px;
+}

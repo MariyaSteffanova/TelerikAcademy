@@ -1,0 +1,41 @@
+body{
+	background: #A9A9A9;
+}
+h1{
+	text-align: center;
+	color: #F9F9D2;
+	font-size: 40px;
+}
+ul{
+	font-size: 22px;
+	font-weight: bold;
+}
+ul, ul a{
+	text-align: center;
+	color: white;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ul li:nth-child(4)
+{
+	text-decoration: underline;
+}
+.current{
+	background: #D3D3D3;
+}
+a{
+	color: black;
+}
+section h1{
+	font-size: 28px;
+	text-align: left;
+}
+article footer{
+	font-size: 14px;
+}
+#footer{
+	text-align: center;
+	font-size: 18px;
+}
