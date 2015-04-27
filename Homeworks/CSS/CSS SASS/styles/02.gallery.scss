@@ -1,0 +1,46 @@
+body{
+	background: #808080;
+	
+	#gallery{
+		background: #666;
+		margin-left: 108px;
+		
+		img{
+			width: 200px;
+			height: 150px;
+			float: left;
+			margin: 5px;
+			border-radius: 5px;
+			border: 4px solid #666;
+		}
+	}
+}
+#gallery_container{
+	
+	label
+	{
+		visibility: hidden;
+	}
+	img
+	{
+		opacity: 0;
+		clear: both;
+		width: 400px;
+		height: 300px;
+		position: absolute;
+	    top: 250px;
+	    left: 450px; 
+	    border: 15px solid #333;
+	    border-radius: 10px;
+	}
+	img:target
+	{
+	opacity:1;
+	}
+	img:target~#lamp_off_01{
+		opacity:0;
+	}
+	#lamp_off_01{
+		opacity:1;
+	}
+}
