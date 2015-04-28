@@ -1,0 +1,51 @@
+body{
+    background: #1c1f29;
+    padding-left: 165px;
+}
+h1{
+    text-align: center;
+    color: #E4DAC5;
+}
+.task-container{
+    padding: 10px;
+    float: left;
+    width: 300px;
+    height: 150px;
+    border: 3px solid #FFB347;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.task-container input{
+    width: 80px;
+    float: left;
+    margin-left: 2px;
+}
+.task-container div{
+    color: #fff;
+}
+.task-container h3{
+    color: #FFB347;
+}
+.task-container p{
+    color: #fff;
+}
+.example{
+    font-style: italic;
+    font-size: 0.8em;
+    color: #808080;
+}
+button{
+    background:#FFB347;
+    color: white;
+    font-weight: bolder;
+    border-color: #FFB347;
+    margin-left: 3px;
+}
+
+h3 span{
+    font-size: 0.8em;
+    color: #EDD61D;
+    font-style: italic;
+    font-weight: lighter;
+}
