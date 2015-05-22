@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Loops</title>
+	<link rel="stylesheet" href="styles/loops.css">
+</head>
+<body>
+	<h1>Loops</h1>
+	<select id="select-task" name="form_select" onchange="showDiv(this)">
+	   <option>Select task...</option>
+	   <option value="Task1">Task1</option>
+	   <option value ="Task2">Task2</option>
+	   <option value="Task3">Task3</option>
+	   <option value ="Task4">Task4</option>
+	</select>
+
+	<div class="task-container" id="Task1">
+		<h2>Task 1. Numbers</h2>
+		<h3>Write a script that prints all the numbers from 1 to N.</h3>
+		<input type="text" id="input-task1" placeholder="Enter number"/>
+		<button onclick="printNumbers()">Test</button>
+		<div class="result" id="result-task1"></div>
+	</div>
+
+	<div class="task-container" id="Task2">
+		<h2>Task 2. Numbers not divisible</h2>
+		<h3>Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time.</h3>
+		<input type="text" id="input-task2" placeholder="Enter number"/>
+		<button onclick="printNotDivisibleBy3And7()">Test</button>
+		<div class="result" id="result-task2"></div>
+	</div>
+
+	<div class="task-container" id="Task3">
+		<h2>Task 3. Min/Max of sequence</h2>
+		<h3>Write a script that finds the max and min number from a sequence of numbers.</h3>
+		<input type="text" id="input-task3" placeholder="Enter sequence (separated by space or comma)"/>
+		<button onclick="findMinAndMaxValue()">Test</button>
+		<div class="result" id="result-task3"></div>
+	</div>
+
+	<div class="task-container" id="Task4">
+		<h2>Task 4. Lexicographically smallest</h2>
+		<h3>Write a script that finds the lexicographically smallest and largest property in document, window and navigator objects.</h3>
+		<button onclick="compareProperties()">Test</button>
+		<div class="result" id="result-task4">
+			<p id="document"></p>
+			<p id="window"></p>
+			<p id="navigator"></p>
+		</div>		
+	</div>
+
+	<script type="text/javascript" src="scripts/loops.js"></script>
+</body>
+</html>

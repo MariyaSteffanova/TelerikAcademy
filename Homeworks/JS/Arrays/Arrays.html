@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Arrays</title>
+	<link rel="stylesheet" href="styles/arrays.css">
+</head>
+<body>
+	<h1>Arrays</h1>
+	<select id="select-task" name="form_select" onchange="showDiv(this)">
+	   <option>Select task...</option>
+	   <option value="Task1">Task1</option>
+	   <option value ="Task2">Task2</option>
+	   <option value="Task3">Task3</option>
+	   <option value ="Task4">Task4</option>
+	   <option value="Task5">Task5</option>
+	   <option value ="Task6">Task6</option>
+	    <option value ="Task7">Task7</option>
+	</select>
+
+	<div class="task-container" id="Task1">
+		<h2>Task 1. Increase array members</h2>
+		<h3>Write a script that allocates array of 20 integers and 
+			initializes each element by its index multiplied by 5.
+			Print the obtained array on the console.</h3>
+		<div id="initial-task1"></div>
+		<button onclick="increaseArrayMembers()">Test</button>
+		<div class="result" id="result-task1"></div>
+	</div>
+
+	<div class="task-container" id="Task2">
+		<h2>Task 2. Lexicographically comparison</h2>
+		<h3>Write a script that compares two char arrays lexicographically (letter by letter).</h3>
+		<input type="text" placeholder="Enter first word" id="first-in-task2"/>
+		<input type="text" placeholder="Enter first word" id="second-in-task2"/>
+		<button onclick="compareCharArrays()">Test</button>
+		<div class="result" id="result-task2"></div>
+	</div>
+
+	<div class="task-container" id="Task3">
+		<h2>Task 3. Maximal sequence</h2>
+		<h3>Write a script that finds the maximal sequence of equal elements in an array.</h3>
+		<div id="initial-task3"></div>
+		<button onclick="findMaxSequence()">Test</button>
+		<div class="result" id="result-task3"></div>
+	</div>
+
+	<div class="task-container" id="Task4">
+		<h2>Task 4. Maximal increasing sequence</h2>
+		<h3>Write a script that finds the maximal increasing sequence in an array.</h3>
+		<div id="initial-task4"></div>
+		<button onclick="findMaxIncreasingSequence()">Test</button>
+		<div class="result" id="result-task4"></div>
+	</div>
+
+	<div class="task-container" id="Task5">
+		<h2>Task 5. Selection Sort</h2>
+		<h3>Sorting an array means to arrange its elements in increasing order.
+Write a script to sort an array.
+Use the selection sort algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.</h3>
+		<div id="initial-task5"></div>
+		<button onclick="selectionSort()">Test</button>
+		<div class="result" id="result-task5"></div>
+	</div>
+
+	<div class="task-container" id="Task6">
+		<h2>Task 6. Most frequent number</h2>
+		<h3>Write a script that finds the most frequent number in an array.</h3>
+		<div id="initial-task6"></div>
+		<button onclick="findFrequent()">Test</button>
+		<div class="result" id="result-task6"></div>
+	</div>
+
+	<div class="task-container" id="Task7">
+		<h2>Task 7. Binary search</h2>
+		<h3>Write a script that finds the <strong>index</strong> of given element in a <strong>sorted array</strong> of integers by using the binary search algorithm.</h3>
+		<div id="initial-task7">
+			Sorted array: [5,6,7,8,9,10,11,12,13,14,15,16,17]
+		</div>
+		<input type="text" placeholder="Enter number to search" id="input-task7"/>
+		<button onclick="binarySearch()">Test</button>
+		<div class="result" id="result-task7"></div>
+	</div>
+
+
+	<script type="text/javascript" src="scripts/modifyArrayMembers.js"></script>
+	<script type="text/javascript" src="scripts/lexicographicComparer.js"></script>
+	<script type="text/javascript" src="scripts/maxSequence.js"></script>
+	<script type="text/javascript" src="scripts/maxIncreasingSequence.js"></script>
+	<script type="text/javascript" src="scripts/selectionSort.js"></script>
+	<script type="text/javascript" src="scripts/mostFrequentNumber.js"></script>
+	<script type="text/javascript" src="scripts/binarySearch.js"></script>
+	<script type="text/javascript" src="scripts/showAndHideContentBySelect.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Operators</title>
+    <link rel="stylesheet" type="text/css" href="styles/conditional-statements.css"/>
+</head>
+<body>
+    <header>
+        <h1>Java Script: Conditional Statements HW</h1>
+    </header>
+    <section class="task-container">
+        <h3>Task 1: <span>Exchange Values</span></h3>
+        <p>Write an if statement that examines two integer variables and exchanges their values if the first one is greater than the second one.</p>    
+        <article>
+            <input type="text" id="input-task1-first" placeholder="a ="/>
+            <input type="text" id="input-task1-second" placeholder="b ="/>
+             <button onclick="exchangeValues()">Test</button>
+            <div id="result-task1-first"></div>
+            <div id="result-task1-second"></div>
+        </article>
+       
+    </section>
+
+    <section class="task-container">
+        <h3>Task 2: <span>Sign of product</span></h3>
+        <p>Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it. Use a sequence of if statements.
+        </p>
+        <article>
+            <input type="text" id="input-task2-first" placeholder="a ="/>
+            <input type="text" id="input-task2-second" placeholder="b ="/>
+            <input type="text" id="input-task2-third" placeholder="c ="/>
+             <button onclick="checkProductSign()">Test</button>
+            <div id="result-task2"></div>
+        </article>
+       
+    </section>
+
+    <section class="task-container">
+        <h3>Task 3: <span>Biggest from 3 integers</span></h3>
+        <p>Write a script that finds the biggest of three integers using nested if statements.
+        </p>
+        <article>
+            <input type="text" id="input-task3-first" placeholder="a ="/>
+            <input type="text" id="input-task3-second" placeholder="b ="/>
+            <input type="text" id="input-task3-third" placeholder="c ="/>
+            <button onclick="findBiggestFrom3()">Test</button>
+            <div id="result-task3"></div>
+        </article>
+    </section>
+
+    <section class="task-container">
+        <h3>Task 4: <span>Sort integers</span></h3>
+        <p>Sort 3 real values in <strong>descending</strong> order using nested if statements.
+        </p>
+        <article>
+        	<input type="text" id="input-task4-first" placeholder="a ="/>
+            <input type="text" id="input-task4-second" placeholder="b ="/>
+            <input type="text" id="input-task4-third" placeholder="c ="/>
+            <button onclick="sortDescending()">Test</button>
+            <div id="result-task4"></div>
+        </article>
+    </section>
+
+    <section class="task-container">
+        <h3>Task 5: <span>Name of digit</span></h3>
+        <p>Write script that asks for a digit and depending on the input shows the name of that digit (in English) using a switch statement.
+        </p>
+        <article>
+        	<input type="text" id="input-task5" placeholder="Enter number"/>
+             <button onclick="spellDigit()">Test</button>
+            <div id="result-task5"></div>
+        </article>
+    </section>
+
+    <section class="task-container">
+        <h3>Task 6: <span>Quadratic Equation</span></h3>
+        <p>Write a script that enters the coefficients a, b and c of a quadratic equation
+        a*x2 + b*x + c = 0
+        and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots</p>
+        <article>
+             <input type="text" id="input-task6-first" placeholder="a ="/>
+             <input type="text" id="input-task6-second" placeholder="b ="/>
+             <input type="text" id="input-task6-third" placeholder="c ="/>
+             <button onclick="calcQuadraticEquation()">Test</button>
+            <div id="result-task6"></div>
+        </article>
+    </section>
+
+    <section class="task-container smallInput">
+        <h3>Task 7: <span>Greatest from 5 numbers</span></h3>
+        <p>Write a script that finds the greatest of given 5 variables.
+        </p>
+        <article>        	
+        	<input type="text" id="input-task7-first" placeholder="a ="/>
+            <input type="text" id="input-task7-second" placeholder="b ="/>
+            <input type="text" id="input-task7-third" placeholder="c ="/>
+            <input type="text" id="input-task7-fourth" placeholder="d ="/>
+            <input type="text" id="input-task7-fifth" placeholder="e ="/>
+
+             <button onclick="findBiggestFrom5()">Test</button>
+            <div id="result-task7"></div>
+        </article>
+    </section>
+
+    <section class="task-container">
+        <h3>Task 8: <span>Number as word</span></h3>
+        <p>Write a script that converts a number in the range [0...9pronunciation99] to a text corresponding to its English. Examples:
+        </p>
+        <article>
+            <input type="text" id="input-task8" placeholder="Enter number[0-999]"/>
+            
+             <button onclick="translateNumber()">Test</button>
+            <div id="result-task8"></div>
+        </article>
+    </section>
+
+    <script src="scripts/conditional-statements.js"></script>
+</body>
+</html>
