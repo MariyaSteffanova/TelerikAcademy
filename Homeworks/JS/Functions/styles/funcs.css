@@ -1,0 +1,63 @@
+body{
+	background: #242424;
+	color: white ;
+	text-align: center;
+}
+h1{
+	color: green;
+}
+
+.task-container{
+	display: none;
+	width: 500px;
+	border: 5px solid #7E5BA4;
+	border-radius: 50px;
+	padding: 0 0 40px 30px;
+	margin: 20px 400px;
+}
+.result{
+	clear: both;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+h2{
+	color: #669933;
+}
+h3{
+	color: #808080;
+}
+button{
+	width: 70px;
+	height: 30px;
+	background: #666;
+	color: #669933;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+button a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+input{
+	width: 80px;
+}
+input, button{
+	float: left;
+	margin: 5px;
+}
+select{
+	width: 200px;
+	padding: 5px;
+	font-size: 24px;
+	border-radius: 10px;
+	background: #7E5BA4;
+	color: white;
+}
+h3 strong{
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: underline;
+}

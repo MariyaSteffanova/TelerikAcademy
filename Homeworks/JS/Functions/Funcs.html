@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Functions</title>
+	<link rel="stylesheet" href="styles/funcs.css">
+</head>
+<body>
+	<h1>Functions</h1>
+	<select id="select-task" name="form_select" onchange="showDiv(this)">
+	   <option>Select task...</option>
+	   <option value="Task1">Task1</option>
+	   <option value ="Task2">Task2</option>
+	   <option value="Task3">Task3</option>
+	   <option value ="Task4">Task4</option>
+	   <option value="Task5">Task5</option>
+	   <option value ="Task6">Task6</option>
+	    <option value ="Task7">Task7</option>
+	</select>
+
+	<div class="task-container" id="Task1">
+		<h2>Task 1. English digit</h2>
+		<h3>Write a function that returns the last digit of given integer as an English word.</h3>
+		<input type="text" placeholder="Enter number" id="input-task1"/>
+		<button onclick="returnLastDigitAsWord()">Test</button>
+		<div class="result" id="result-task1"></div>
+	</div>
+
+	<div class="task-container" id="Task2">
+		<h2>Task 2. Reverse number</h2>
+		<h3>Write a function that reverses the digits of given decimal number.</h3>
+		<input type="text" placeholder="Enter number" id="input-task2"/>
+		
+		<button onclick="reverseNumber()">Test</button>
+		<div class="result" id="result-task2"></div>
+	</div>
+
+	<div class="task-container" id="Task3">
+		<h2>Task 3. Occurrences of word</h2>
+		<h3>Write a function that finds all the occurrences of word in a text.
+The search can be case sensitive or case insensitive.
+Use function overloading.</h3>
+		<div id="initial-task3">
+			Lorem ipsum dolor sit amet,<br/>
+			LOREM ipsum dolor sit amet,<br/>
+			lorem ipsum dolor sit amet,<br/>
+			LoRem ipsum dolor sit amet,<br/>
+			Lorem ipsum dolor sit amet,<br/>   
+			consectetur adipisicing elit. Culpa eos error incidunt ipsa sed explicabo amet quae voluptates, libero in, dolorem sint assumenda minus obcaecati beatae, molestiae nam ut ea.
+		</div>
+		<button onclick="countOccurrences()">Test</button>
+		<div class="result" id="result-task3"></div>
+	</div>
+
+	<div class="task-container" id="Task4">
+		<h2>Task 4. Number of elements</h2>
+		<h3>Write a function to count the number of div elements on the web page</h3>
+		<div id="initial-task4"></div>
+		<button><a href="CountDivs.html">Test</a></button>
+		<div class="result" id="result-task4"></div>
+	</div>
+
+	<div class="task-container" id="Task5">
+		<h2>Task 5. Appearance count</h2>
+		<h3>Write a function that counts how many times given number appears in given array.
+Write a test function to check if the function is working correctly.</h3>
+		<div id="initial-task5">4, 1, 5, 4, 2, 3, 4, 5, 4</div>
+		<input type="text" placeholder="Enter number" id="input-task5"/>
+		<button onclick="countAppearanceOfNumber()">Test</button>
+		<div class="result" id="result-task5"></div>
+	</div>
+
+	<div class="task-container" id="Task6">
+		<h2>Task 6. Larger than neighbours</h2>
+		<h3>Write a function that checks if the element at given position in given array of integers is bigger than its two neighbours (when such exist).</h3>
+		<div id="initial-task6">
+			1, 2, 3, 4, 3, 3, 7, 0
+		</div>
+		<input type="text" placeholder="Enter index" id="input-task6"/>
+		<button onclick="biggerThanNeighbours()">Test</button>
+		<div class="result" id="result-task6"></div>
+	</div>
+
+	<div class="task-container" id="Task7">
+		<h2>Task 7. First larger than neighbours</h2>
+		<h3>Write a function that returns the index of the first element in array that is larger than its neighbours or -1, if there’s no such element.
+Use the function from the previous exercise.</h3>
+		<div id="initial-task7">1, 2, 3, 4, 3, 3, 7, 0</div>
+		<button onclick="firstBiggerThanNeighbours()">Test</button>
+		<div class="result" id="result-task7"></div>
+	</div>
+
+
+	<script type="text/javascript" src="scripts/digitAsWord.js"></script>
+	<script type="text/javascript" src="scripts/reverseNumber.js"></script>
+	<script type="text/javascript" src="scripts/occurrencesOfWord.js"></script>
+	<script type="text/javascript" src="scripts/maxIncreasingSequence.js"></script>
+	<script type="text/javascript" src="scripts/countAppearanceOfNumber.js"></script>
+	<script type="text/javascript" src="scripts/biggerThanNeighbours.js"></script>
+	<script type="text/javascript" src="scripts/showAndHideContentBySelect.js"></script>
+</body>
+</html>
