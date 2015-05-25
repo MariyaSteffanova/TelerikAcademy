@@ -1,0 +1,112 @@
+body, ul, li{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #242424;
+	color: white ;
+	text-align: center;
+}
+h1{
+	color: green;
+}
+
+.task-container{
+	display: none;
+	width: 500px;
+	border: 5px solid #7E5BA4;
+	border-radius: 50px;
+	padding: 0 0 40px 30px;
+	margin: 20px 400px;
+	text-align: left;
+}
+.task-container ul li ul li{
+	margin-left: 10px;
+	color: #808080;
+}
+.task-container .points-container{
+	position: relative;
+	color: yellow;
+
+}
+.task-container #distance{
+	color: orange;
+	left: 54px;
+	top: 125px;
+	width: 105px;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+
+}
+
+.task-container #calculated-distance{
+	color: orange;
+	left: 105px;
+	top: 125px;
+	position: absolute;
+	-webkit-transform: rotate(47deg);
+}
+
+.task-container .point{
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	background: yellow;
+	position: absolute;
+	color: #808080;
+	font-size: 14px;
+}
+.task-container  #point-1{
+	left: 50px;
+	top: 80px;
+}
+.task-container  #point-2{
+	left: 150px;
+	top: 180px;
+}
+.result{
+	clear: both;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+}
+h2{
+	color: #669933;
+}
+h3{
+	color: #808080;
+}
+button{
+	width: 100px;
+	height: 30px;
+	background: #666;
+	color: #669933;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+button a {
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+input{
+	width: 80px;
+}
+input, button{
+	float: left;
+	margin: 5px;
+}
+select{
+	width: 200px;
+	padding: 5px;
+	font-size: 24px;
+	border-radius: 10px;
+	background: #7E5BA4;
+	color: white;
+}
+h3 strong{
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
