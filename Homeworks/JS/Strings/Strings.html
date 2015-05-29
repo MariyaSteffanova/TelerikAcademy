@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Strings</title>
+	<link rel="stylesheet" href="styles/strings.css">
+</head>
+<body>
+	<h1>Strings</h1>
+	<select id="select-task" name="form_select" onchange="showDiv(this)">
+		<option>Select task...</option>
+		<option value="Task1">Task1</option>
+		<option value ="Task2">Task2</option>
+		<option value="Task3">Task3</option>
+		<option value ="Task4">Task4</option>
+		<option value="Task5">Task5</option>
+		<option value ="Task6">Task6</option>
+		<option value ="Task7">Task7</option>
+		<option value ="Task8">Task8</option>
+		<option value ="Task9">Task9</option>
+		<option value ="Task10">Task10</option>
+		<option value ="Task11">Task11</option>
+		<option value ="Task12">Task12</option>
+	</select>
+
+	<div class="task-container" id="Task1">
+		<h2>Task 1. Reverse string</h2>
+		<h3>Write a JavaScript function that reverses a string and returns it.</h3>
+		<input type="text" placeholder="Enter string" id="input-task1"/>
+		<button onclick="reverseString()">Test</button>
+		<div class="result" id="result-task1"></div>
+	</div>
+
+	<div class="task-container" id="Task2">
+		<h2>Task 2. Correct brackets</h2>
+		<h3>Write a JavaScript function to check if in a given expression the brackets are put correctly.<br/>
+		<i>Example of correct expression: ((a+b)/5-d). <br/>
+			Example of incorrect expressionlicabopression: )(a+b)).</i></h3>
+		<input type="text" placeholder="Enter expression" id="input-task2"/>
+		
+		<button onclick="checkBrackets()">Test</button>
+		<div class="result" id="result-task2"></div>
+	</div>
+
+	<div class="task-container" id="Task3">
+		<h2>Task 3. Sub-string in text</h2>
+		<h3>Write a JavaScript function that finds how many times a substring is contained in a given text (perform case insensitive search).<br/>
+		<i>Example:<br/>
+
+		The target sub-string is in<br/>
+
+		The text is as follows: 
+		<span id="initial-task3">We are living in an yellow submarine. We don't have anything else. inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.
+		</span><br/>
+
+		The result is: 9</i></h3>
+		<input type="text" placeholder="default: 'in'" id="input-task3">
+		<button onclick="countSubstrings()">Test</button>
+		<div class="result" id="result-task3"></div>
+	</div>
+
+	<div class="task-container" id="Task4">
+		<h2>Task 4. Parse tags</h2>
+		<h3></h3>
+		<div id="initial-task4">
+		You are given a text. Write a function that changes the text in all regions. <br/>
+		We are &lt;mixcase&gt; living &lt;/mixcase&gt; in a &lt;upcase&gt; yellow submarine &lt;/upcase&gt;. We &lt;mixcase&gt; don't &lt;/mixcase&gt; have &lt;lowcase&gt; ANYTHING &lt;/lowcase&gt; else.
+		</div>
+		<button onclick="parseTags()">Test</button>
+		<div class="result" id="result-task4"></div>
+	</div>
+
+	<div class="task-container" id="Task5">
+		<h2>Task 5. nbsp</h2>
+		<h3>Write a function that replaces non breaking white-spaces in a text with &nbsp;</h3>
+		<div id="initial-task5">Text: We are   living in a yellow submarine. We don't have anything   else.</div>
+		<button onclick="replaceWhitespace()">Test</button>
+		<div class="result" id="result-task5"></div>
+	</div>
+
+	<div class="task-container" id="Task6">
+		<h2>Task 6. Extract text from HTML</h2>
+		<h3>
+			Write a function that extracts the content of a html page given as text.<br/>
+			The function should return anything that is in a tag, without the tags.
+		</h3>
+		<div id="initial-task6">
+			<img src="images/ExtractText.png"/><br/>
+			Result should be: Sample sitetextmore textand more...in body
+		</div>
+		<button onclick="extractText()">Test</button>
+		<div class="result" id="result-task6"></div>
+	</div>
+
+	<div class="task-container" id="Task7">
+		<h2>Task 7.  Parse URL</h2>
+		<h3>Write a script that parses an URL address given in the format: [protocol]://[server]/[resource] and extracts from it the [protocol], [server] and [resource] elements.<br/>
+		Return the elements in a JSON object.</h3>
+		<div id="initial-task7">
+			<img src="images/ParseURL.png"/>
+		</div>
+		<button onclick="parseURL()">Test</button>
+		<div class="result" id="result-task7"></div>
+	</div>
+
+	<div class="task-container" id="Task8">
+		<h2>Task 8.  Replace tags</h2>
+		<h3>Write a JavaScript function that replaces in a HTML document given as string all the tags &lt;a href="…"&gt;…&lt;/a&gt; with corresponding tags [URL=…]…/URL].</h3>
+		<div id="initial-task8">
+			<img src="images/ReplaceTags.png"/>
+		</div>
+		<button onclick="replaceTags()">Test</button>
+		<div class="result" id="result-task8"></div>
+	</div>
+
+	<div class="task-container" id="Task9">
+		<h2>Task 9. Extract e-mails</h2>
+		<h3>
+			Write a function for extracting all email addresses from given text.<br/>
+			All sub-strings that match the format @… should be recognized as emails.<br/>
+			Return the emails as array of strings.
+		</h3>
+		<div id="initial-task9">
+			If you have questions about LINQ or Unity you can write on ivaylo.kenov@abg.gr. If you have questions about algorythms you can write to Nikolay Kostov at nikolay_kostov@abc.en. If you have another questions you can write to te follow contacts: academy.telerik@telerik.net, zdravko9georgiev@insomnia.es, doncho-minkov@giginmail.com or evlogi.hristov_9@example.fr. 
+		</div>
+		<button onclick="extractEmails()">Test</button>
+		<div class="result" id="result-task9"></div>
+	</div>
+
+	<div class="task-container" id="Task10">
+		<h2>Task 10. Find palindromes</h2>
+		<h3>
+			Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".
+		</h3>
+		<div id="initial-task10">
+			<ul>Nine letters palindromes
+				<li>deleveled - something that goes out of level</li>
+				<li>evitative – a grammatical case indicating fear or aversion</li>
+				<li>Malayalam – a language of South India</li>
+				<li>redivider – someone or something that redivides (tied for longest "real" palindrome that is not a proper noun and that appears in English dictionaries)</li>
+				<li>releveler – (American spelling) someone or something that levels again (tied for longest "real" palindrome that is not a proper noun and that appears in English dictionaries).</li>
+				<li>Rotavator – a type of machine for breaking up soil (trademark)
+			</ul>
+		</div>
+		<button onclick="extractPalindromes()">Test</button>
+		<div class="result" id="result-task10"></div>
+	</div>
+
+	<div class="task-container" id="Task11">
+		<h2>Task 11. String format</h2>
+		<h3>
+			Write a function that formats a string using placeholders.<br/>
+			The function should work with up to 30 placeholders and all types.
+		</h3>
+		<div id="initial-task11">
+			<img src="images/FormatString.png"/>
+		</div>
+		<button onclick="stringFormat()">Test</button>
+		<div class="result" id="result-task11"></div>
+	</div>
+
+	<div class="task-container" id="Task12">
+		<h2>Task 12. Generate list</h2>
+		<h3>
+			Write a function that creates a HTML &lt;ul&gt; using a template for every HTML &lt;li&gt;.<br/>
+			The source of the list should be an array of elements.<br/>
+			Replace all placeholders marked with –{…}– with the value of the corresponding property of the object.
+		</h3>
+		<div id="initial-task12">
+			Sorry, you have to click two buttons :}
+		</div>
+		<button><a href="GenerateList.html">Go</a></button>
+		<div class="result" id="result-task12"></div>
+	</div>
+
+	<script type="text/javascript" src="scripts/reverseString.js"></script>
+	<script type="text/javascript" src="scripts/expressionBracketsChecker.js"></script>
+	<script type="text/javascript" src="scripts/substringCounter.js"></script>
+	<script type="text/javascript" src="scripts/tagsParser.js"></script>
+	<script type="text/javascript" src="scripts/replaceWhitespace.js"></script>
+	<script type="text/javascript" src="scripts/extractTextFromHTML.js"></script>
+	<script type="text/javascript" src="scripts/urlParser.js"></script>
+	<script type="text/javascript" src="scripts/replaceTags.js"></script>
+	<script type="text/javascript" src="scripts/extractEmails.js"></script>
+	<script type="text/javascript" src="scripts/extractPalindromes.js"></script>
+	<script type="text/javascript" src="scripts/stringFormat.js"></script>
+	
+
+
+	<script type="text/javascript" src="scripts/showAndHideContentBySelect.js"></script>
+</body>
+</html>
