@@ -1,0 +1,80 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/.npmignore
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/CONTRIBUTING.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/History.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/ReleaseNotes.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/bower.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/chai.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/karma.conf.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/karma.sauce.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/assertion.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/config.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/core/assertions.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/interface/assert.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/interface/expect.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/interface/should.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/addChainableMethod.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/addMethod.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/addProperty.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/flag.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getActual.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getEnumerableProperties.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getMessage.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getName.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getPathInfo.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getPathValue.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/getProperties.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/hasProperty.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/inspect.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/objDisplay.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/overwriteChainableMethod.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/overwriteMethod.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/overwriteProperty.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/test.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/lib/chai/utils/transferFlags.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/assertion-error/.npmignore
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/assertion-error/History.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/assertion-error/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/assertion-error/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/assertion-error/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/.npmignore
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/History.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/karma.conf.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/lib/eql.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/.npmignore
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/History.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/lib/type.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/node_modules/type-detect/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/deep-eql/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/.npmignore
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/History.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/README.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/ReleaseNotes.md
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/index.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/lib/type.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/node_modules/type-detect/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/node_modules/chai/sauce.browsers.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/package.json
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/tasks/task-1.js
+#	deleted:    Homeworks/JS OOP/ClassicalInheritance/homework/tests/tests-task-1.js
+#
+# Untracked files:
+#	Homeworks/JS OOP/ClassicalInheritance/
+#
+
