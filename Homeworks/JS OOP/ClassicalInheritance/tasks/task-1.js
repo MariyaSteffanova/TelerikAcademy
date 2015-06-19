@@ -27,7 +27,8 @@ function solve() {
 
 		var validator = {
 			validateName: function(name) {
-				if(!/[A-z]/.test(name)) {
+				var regexValidationName = /^[A-Za-z]{0,}$/i;
+				if(!regexValidationName.test(name)) {
 					throw new Error('First name and Last name must always be strings , containing only Latin letters!');
 				}
 				if(name.length < 3 || name.length > 20){
@@ -35,8 +36,8 @@ function solve() {
 				}
 			},
 			validateAge: function(age) {
-				age = +age;
-				if(!isFinite(age) ){
+				age = parseInt(age);
+				if(isNaN(age) ){
 					throw  new Error('Age must be a valid number!');
 				}
 
@@ -90,8 +91,10 @@ function solve() {
 				},
 				set: function(value) {
 					var names = value.split(' ');
-					validator.validateName(names[0]);
-					validator.validateName(names[1]);
+					if(names.length != 2){
+						throw new Error('Full name consist first and last names separated by a single space! ' +
+							'Full name cannot be a single string or more than two strings!')
+					}
 					this.firstname = names[0];
 					this.lastname = names[1];
 				}
