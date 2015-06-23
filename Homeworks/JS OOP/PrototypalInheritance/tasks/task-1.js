@@ -157,7 +157,7 @@ function solve() {
                  throw new Error(' ');
                  }
                 if (typeof (child._type) !== 'undefined') {
-                    child.parent = this.type;
+                    child.parent = this;
                 }
 
                 this.content = '';
