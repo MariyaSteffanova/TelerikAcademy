@@ -6,29 +6,25 @@
  * i.e. `Object.create(domElement).init('div')`
  * property type that is the type of the domElement
  * a valid type is any non-empty string that contains only Latin letters and digits
- *
  * property innerHTML of type string
  * gets the domElement, parsed as valid HTML
  * <type attr1="value1" attr2="value2" ...> .. content / children's.innerHTML .. </type>
- *
  * property content of type string
  * sets the content of the element
  * works only if there are no children
- *
  * property attributes
  * each attribute has name and value
  * a valid attribute has a non-empty string for a name that contains only Latin letters and digits or dashes (-)
- *
  * property children
  * each child is a domElement or a string
- *
  * property parent
  * parent is a domElement
  * method appendChild(domElement / string)
  * appends to the end of children list
  * method addAttribute(name, value)
  * throw Error if type is not valid
- * // method removeAttribute(attribute)
+ * method removeAttribute(attribute)
+ * throw Error if attribute does not exist in the domElement
  */
 
 
@@ -73,11 +69,19 @@ function solve() {
                 return this;
             },
             appendChild: function (child) {
+                // validation
                 this.children = child;
                 return this;
             },
             addAttribute: function (name, value) {
                 this.attributes = {name: name, value: value};
+                return this;
+            },
+            removeAttribute: function (attribute) {
+                if (!this.attributes[attribute]) {
+                    throw new Error('No such attribute is existing!');
+                }
+                delete this.attributes[attribute];
                 return this;
             },
             get innerHTML() {
@@ -104,6 +108,8 @@ function solve() {
                 }
                 result += this.content || '';
                 result += openTag + '/' + this.type + closeTag;
+
+
                 return result;
             }
         };
@@ -125,7 +131,7 @@ function solve() {
             set: function (attribute) {
                 var name = attribute.name;
                 var value = attribute.value;
-                if (name === '' || !(/^[A-Za-z0-9-]{1,}$/i).test(name)) {
+                if (!(/^[A-Za-z0-9-]{1,}$/i).test(name)) {
                     throw new Error('Valid attribute name must contain only Latin letters, digits or dashes and must not be an empty string!');
                 }
                 this._attributes = this._attributes || [];
@@ -148,14 +154,14 @@ function solve() {
             }
         });
 
-        Object.defineProperty(domElement, 'children', {
+        Object.defineProperty(domElement, 'children', {  //public List<string> Chldren
             get: function () {
                 return this._children;
             },
             set: function (child) {
                 if (typeof child !== 'string' && typeof  (child._type) === 'undefined') {
-                 throw new Error(' ');
-                 }
+                    throw new Error('Type of child is not valid');
+                }
                 if (typeof (child._type) !== 'undefined') {
                     child.parent = this;
                 }
