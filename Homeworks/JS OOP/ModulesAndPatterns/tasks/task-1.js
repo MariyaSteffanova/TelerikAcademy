@@ -22,10 +22,8 @@
  * Names start with an upper case letter
  * All other symbols in the name (if any) are lowercase letters
  * Generates a unique student ID and returns it
- *
  * Create method getAllStudents that returns an array of students in the format:
  * {firstname: 'string', lastname: 'string', id: StudentID}
- *
  * Create method submitHomework
  * Accepts studentID and homeworkID
  * homeworkID 1 is for the first presentation
