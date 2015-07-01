@@ -75,6 +75,12 @@ function solve() {
         return false;
     }
 
+    function validateStudentID(studentID) {
+        if (studentID <= 0 || studentID > this.studentId) {
+            throw  new Error('Student ID is not valid!');
+        }
+    }
+
     var Course = {
 
         init: function (title, presentations) {
@@ -110,15 +116,21 @@ function solve() {
             if (homeworkID === 0 || homeworkID > this.presentations.length) {
                 throw new Error('Homework ID is not valid');
             }
-            if (studentID <= 0 || studentID > this.studentId) {
-                throw  new Error('Student ID is not valid!');
-            }
+            validateStudentID.call(this,studentID);
         },
-        pushExamResults: function (results) {
+        pushExamResults: function (examResults) {
+            if(!examResults || !Array.isArray(examResults) || examResults.length === 0 ||
+                !examResults.StudentID || !examResults.Score || examResults.Score < 0){
+                throw new Error("Invalid input array Exam Results!");
+            }
+            examResults.forEach(function (result) {
+                validateStudentID.call(this,result.StudentId);
+            })
         },
         getTopStudents: function () {
+
         }
-    };
+    }
 
     Object.defineProperty(Course, 'title', {
         get: function () {
