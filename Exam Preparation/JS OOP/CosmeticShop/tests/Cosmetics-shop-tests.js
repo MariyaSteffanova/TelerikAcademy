@@ -1,4 +1,4 @@
-// var solve = require('../task/gyonchev')();
+ //var solve = require('../task/gyonchev')();
 var solve = require('../task/Cosmetics-shop')();
 var expect = require('chai').expect;
 var category = solve.Category;
@@ -70,7 +70,7 @@ describe('Cosmetic shop checks', function () {
 
         it('expect Shampoo to be created and to have correct property [price]', function () {
             var lush = Object.create(Shampoo).init('Lush Fig', 'Lush', 8, 'unisex', 250, 'everyday');
-            expect(lush.price).to.be.eql(8);
+            expect(lush.price).to.be.eql(8*250);
         });
 
         it('expect Shampoo to be created and to have correct property [gender]', function () {

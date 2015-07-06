@@ -102,12 +102,14 @@ function solve() {
             return product;
         }());
 
-        // TODO: modify the total price of a shampoo (+ change the tests)
         var Shampoo = (function (parent) {
             var shampoo = Object.create(parent, {
                 init: {
                     value: function (name, brand, price, gender, milliliters, usage) {
-                        parent.init.call(this, name, brand, price, gender);
+
+                        var finalPrice = price*milliliters;
+
+                        parent.init.call(this, name, brand, finalPrice, gender);
                         this.milliliters = milliliters;
                         this.usage = usage;
                         return this;
@@ -131,7 +133,7 @@ function solve() {
             return toothpaste;
         }(Product));
 
-        // TODO: Implement ShopingCard
+        // TODO: Implement ShoppingCart
 
         var CosmeticFactory = (function () {
 
@@ -252,6 +254,5 @@ function solve() {
     }()
     return cosmeticShop;
 }
-
 
 module.exports = solve;
