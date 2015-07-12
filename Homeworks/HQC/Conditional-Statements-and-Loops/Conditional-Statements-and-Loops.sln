@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.csproj", "{CFA14CFC-E0AB-4D29-A348-BA84C2AF6E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorIfStatements", "RefactorIfStatements\RefactorIfStatements.csproj", "{05468206-5F4C-4D48-A46E-3E3C19E5E03D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorForLoop", "RefactorForLoop\RefactorForLoop.csproj", "{0574DFE7-8F5A-41CF-946D-69696ABABF84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Money", "Exam.Money\Exam_Money.csproj", "{90200323-0A20-4F53-9F50-62F3125D566B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_EncodingSum", "Exam_EncodingSum\Exam_EncodingSum.csproj", "{8903C74E-8F8A-46D6-B7D8-7B853F9EE375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Cube3D", "Exam_Cube3D\Exam_Cube3D.csproj", "{95CEC6E7-2024-4545-B829-9E83E72F8216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA14CFC-E0AB-4D29-A348-BA84C2AF6E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA14CFC-E0AB-4D29-A348-BA84C2AF6E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA14CFC-E0AB-4D29-A348-BA84C2AF6E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA14CFC-E0AB-4D29-A348-BA84C2AF6E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05468206-5F4C-4D48-A46E-3E3C19E5E03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05468206-5F4C-4D48-A46E-3E3C19E5E03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05468206-5F4C-4D48-A46E-3E3C19E5E03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05468206-5F4C-4D48-A46E-3E3C19E5E03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0574DFE7-8F5A-41CF-946D-69696ABABF84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0574DFE7-8F5A-41CF-946D-69696ABABF84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0574DFE7-8F5A-41CF-946D-69696ABABF84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0574DFE7-8F5A-41CF-946D-69696ABABF84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90200323-0A20-4F53-9F50-62F3125D566B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90200323-0A20-4F53-9F50-62F3125D566B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90200323-0A20-4F53-9F50-62F3125D566B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90200323-0A20-4F53-9F50-62F3125D566B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8903C74E-8F8A-46D6-B7D8-7B853F9EE375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8903C74E-8F8A-46D6-B7D8-7B853F9EE375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8903C74E-8F8A-46D6-B7D8-7B853F9EE375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8903C74E-8F8A-46D6-B7D8-7B853F9EE375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

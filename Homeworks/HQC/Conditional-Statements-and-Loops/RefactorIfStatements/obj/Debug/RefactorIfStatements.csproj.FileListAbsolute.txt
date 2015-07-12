@@ -1,0 +1,8 @@
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\bin\Debug\RefactorIfStatements.exe.config
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\bin\Debug\RefactorIfStatements.exe
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\bin\Debug\RefactorIfStatements.pdb
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\bin\Debug\Cooking.exe
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\bin\Debug\Cooking.pdb
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\obj\Debug\RefactorIfStatements.csprojResolveAssemblyReference.cache
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\obj\Debug\RefactorIfStatements.exe
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorIfStatements\obj\Debug\RefactorIfStatements.pdb

@@ -1,0 +1,6 @@
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\bin\Debug\RefactorForLoop.exe.config
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\obj\Debug\RefactorForLoop.csprojResolveAssemblyReference.cache
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\bin\Debug\RefactorForLoop.exe
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\bin\Debug\RefactorForLoop.pdb
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\obj\Debug\RefactorForLoop.exe
+C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\RefactorForLoop\obj\Debug\RefactorForLoop.pdb
