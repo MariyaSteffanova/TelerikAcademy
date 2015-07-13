@@ -1,6 +1,0 @@
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\bin\Debug\Cooking.exe.config
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\bin\Debug\Cooking.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\bin\Debug\Cooking.pdb
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\obj\Debug\Cooking.csprojResolveAssemblyReference.cache
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\obj\Debug\Cooking.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Cooking\obj\Debug\Cooking.pdb

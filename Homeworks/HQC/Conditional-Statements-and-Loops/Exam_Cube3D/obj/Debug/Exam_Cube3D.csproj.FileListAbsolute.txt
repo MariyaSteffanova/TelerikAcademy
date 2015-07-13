@@ -1,6 +1,0 @@
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\bin\Debug\Exam_Cube3D.exe.config
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\bin\Debug\Exam_Cube3D.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\bin\Debug\Exam_Cube3D.pdb
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\obj\Debug\Exam_Cube3D.csprojResolveAssemblyReference.cache
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\obj\Debug\Exam_Cube3D.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_Cube3D\obj\Debug\Exam_Cube3D.pdb

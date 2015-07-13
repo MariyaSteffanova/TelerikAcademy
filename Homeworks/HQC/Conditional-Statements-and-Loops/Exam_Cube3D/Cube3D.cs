@@ -5,7 +5,7 @@
 
     public static class Cube3D
     {
-        public const string BordersSymbol = ":";
+        public const string BordersSymbol = "*";
         public const string FrontSideSymbol = " ";
         public const string RightSideSymbol = "|";
         public const string BottomSideSymbol = "-";

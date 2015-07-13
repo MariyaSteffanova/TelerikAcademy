@@ -1,6 +1,0 @@
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\bin\Debug\Exam_EncodingSum.exe.config
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\bin\Debug\Exam_EncodingSum.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\bin\Debug\Exam_EncodingSum.pdb
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\obj\Debug\Exam_EncodingSum.csprojResolveAssemblyReference.cache
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\obj\Debug\Exam_EncodingSum.exe
-C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\HQC\Conditional-Statements-and-Loops\Exam_EncodingSum\obj\Debug\Exam_EncodingSum.pdb
