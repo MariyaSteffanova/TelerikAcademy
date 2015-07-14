@@ -6,11 +6,9 @@
     {
         public static void Main()
         {
-            var random = Common.GetRandomizedArray();
-            var sorted = Common.GetSortedArray();
-            var reversed = Common.GetReversedArray();
-            SortingAlgorithms.SelectionSort(random);
-            Console.WriteLine(string.Join(", ", reversed));
+            Tester.TestSort(Algorithm.Selection);
+            Tester.TestSort(Algorithm.Insertion);
+            // TODO: Tester.TestSort(Algorithm.Qiuck);
         }
     }
 }
