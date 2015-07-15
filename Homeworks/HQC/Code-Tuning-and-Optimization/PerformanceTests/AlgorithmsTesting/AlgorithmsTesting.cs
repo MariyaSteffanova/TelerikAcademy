@@ -8,7 +8,7 @@
         {
             Tester.TestSort(Algorithm.Selection);
             Tester.TestSort(Algorithm.Insertion);
-            // TODO: Tester.TestSort(Algorithm.Qiuck);
+            Tester.TestSort(Algorithm.Qiuck);            
         }
     }
 }

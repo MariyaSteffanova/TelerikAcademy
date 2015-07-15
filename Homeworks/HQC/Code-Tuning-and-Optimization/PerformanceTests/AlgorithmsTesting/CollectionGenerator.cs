@@ -2,17 +2,7 @@
 {
     using System;
     using System.Collections;
-
-    public enum CollectionOrder
-    {
-        Random, Sorted, Reversed
-    }
-
-    public enum TypeArray
-    {
-        Int, Double, String
-    }
-
+       
     public static class CollectionGenerator
     {
         private const double ConstFraction = 0.5;
@@ -46,28 +36,28 @@
         public static T[] GetReversedArray<T>(int size)
             where T : IComparable
         {
-            T[] array = new T[size];
-            switch (array.GetType().Name)
+            T[] collection = new T[size];
+            switch (collection.GetType().Name)
             {
-                case "Int[]":
+                case "Int32[]":
 
                     for (int index = 0; index < size; index++)
                     {
-                        array[index] = (dynamic)size - index - 1;
+                        collection[index] = (dynamic)(size - index - 1);
                     }
 
                     break;
-                case "Double[]":                    
-                        for (int index = 0; index < size; index++)
-                        {
-                            array[index] = (dynamic)size - index - ConstFraction;
-                        }
-                    
+                case "Double[]":
+                    for (int index = 0; index < size; index++)
+                    {
+                        collection[index] = (dynamic)size - index - ConstFraction;
+                    }
+
                     break;
                 case "String[]":
                     for (int index = 0; index < size; index++)
                     {
-                        array[index] = (dynamic)((char)(size - index - 1 + FirstLetterCodeASCII)).ToString();
+                        collection[index] = (dynamic)((char)(size - index - 1 + FirstLetterCodeASCII)).ToString();
                     }
 
                     break;
@@ -75,34 +65,34 @@
                     break;
             }
 
-            return array;
+            return collection;
         }
 
         public static T[] GetSortedArray<T>(int size)
             where T : IComparable
         {
-            T[] array = new T[size];
-            switch (array.GetType().Name)
+            T[] collection = new T[size];
+            switch (collection.GetType().Name)
             {
-                case "Int[]":
-                    for (int index = 0; index < array.Length; index++)
+                case "Int32[]":
+                    for (int index = 0; index < collection.Length; index++)
                     {
-                        array[index] = (dynamic)index;
+                        collection[index] = (dynamic)index;
                     }
 
                     break;
                 case "Double[]":
-                    for (int index = 0; index < array.Length; index++)
+                    for (int index = 0; index < collection.Length; index++)
                     {
-                        array[index] = (dynamic)index + ConstFraction;
+                        collection[index] = (dynamic)index + ConstFraction;
                     }
 
                     break;
 
                 case "String[]":
-                    for (int index = 0; index < array.Length; index++)
+                    for (int index = 0; index < collection.Length; index++)
                     {
-                        array[index] = (dynamic)((char)(index + FirstLetterCodeASCII)).ToString();
+                        collection[index] = (dynamic)((char)(index + FirstLetterCodeASCII)).ToString();
                     }
 
                     break;
@@ -110,22 +100,22 @@
                     break;
             }
 
-            return array;
+            return collection;
         }
 
         public static T[] GetRandomizedArray<T>(int size)
             where T : IComparable
         {
             var random = new Random();
-            T[] array = new T[size];
+            T[] collection = new T[size];
 
-            switch (array.GetType().Name)
+            switch (collection.GetType().Name)
             {
-                case "Int[]":
+                case "Int32[]":
                     for (int index = 0; index < size; index++)
                     {
                         var value = random.Next(MinValue, MaxValue);
-                        array[index] = (dynamic)value;
+                        collection[index] = (dynamic)value;
                     }
 
                     break;
@@ -133,7 +123,7 @@
                     for (int index = 0; index < size; index++)
                     {
                         var value = random.Next(MinValue, MaxValue) + ConstFraction;
-                        array[index] = (dynamic)value;
+                        collection[index] = (dynamic)value;
                     }
 
                     break;
@@ -141,7 +131,7 @@
                     for (int index = 0; index < size; index++)
                     {
                         var value = random.Next(FirstLetterCodeASCII, LastLetterCodeASCII);
-                        array[index] = (dynamic)((char)value).ToString();
+                        collection[index] = (dynamic)((char)value).ToString();
                     }
 
                     break;
@@ -149,7 +139,7 @@
                     break;
             }
 
-            return array;
+            return collection;
         }
     }
 }

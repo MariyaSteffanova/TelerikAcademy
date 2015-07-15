@@ -5,35 +5,35 @@
 
     public class SortingAlgorithms
     {
-        public static void InsertionSort<T>(T[] numbers)
+        public static void InsertionSort<T>(T[] collection)
             where T : IComparable
         {
             int index;
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < collection.Length; i++)
             {
                 index = i;
-                while (index > 0 && numbers[index - 1].CompareTo(numbers[index]) > 0)
+                while (index > 0 && collection[index - 1].CompareTo(collection[index]) > 0)
                 {
-                    var temp = numbers[index - 1];
-                    numbers[index - 1] = numbers[index];
-                    numbers[index] = temp;
+                    var temp = collection[index - 1];
+                    collection[index - 1] = collection[index];
+                    collection[index] = temp;
 
                     index--;
                 }
             }
         }
 
-        public static void SelectionSort<T>(T[] numbers)
+        public static void SelectionSort<T>(T[] collection)
             where T : IComparable
         {
             int minIndex;
 
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < collection.Length; i++)
             {
                 minIndex = i;
-                for (int j = i + 1; j < numbers.Length; j++)
+                for (int j = i + 1; j < collection.Length; j++)
                 {
-                    if (numbers[j].CompareTo(numbers[minIndex]) < 0)
+                    if (collection[j].CompareTo(collection[minIndex]) < 0)
                     {
                         minIndex = j;
                     }
@@ -41,15 +41,16 @@
 
                 if (minIndex != i)
                 {
-                    var holder = numbers[minIndex];
-                    numbers[minIndex] = numbers[i];
-                    numbers[i] = holder;
+                    var holder = collection[minIndex];
+                    collection[minIndex] = collection[i];
+                    collection[i] = holder;
                 }
             }
         }
 
         // TODO: QuickSort with recursion and Generic :)
-        public static void QuickSort(int[] numbers, int left, int right)
+        public static void QuickSort<T>(T[] collection, int left, int right)
+            where T : IComparable
         {
             if (left >= right)
             {
@@ -57,32 +58,42 @@
             }
 
             int pivotIndex = (left + right) / 2;
-            int pivot = numbers[pivotIndex];
+            T pivot = collection[pivotIndex];
 
             int leftPointer = left;
             int rightPointer = right;
 
             while (leftPointer <= rightPointer)
             {
-                while (numbers[leftPointer] < pivot)
+                while (collection[leftPointer].CompareTo(pivot) < 0)
                 {
                     leftPointer++;
                 }
 
-                while (pivot < numbers[rightPointer])
+                while (collection[rightPointer].CompareTo(pivot) > 0)
                 {
                     rightPointer--;
                 }
 
                 if (leftPointer <= rightPointer)
                 {
-                    numbers[leftPointer] ^= numbers[rightPointer];
-                    numbers[rightPointer] ^= numbers[leftPointer];
-                    numbers[leftPointer] ^= numbers[rightPointer];
+                    T holder = collection[rightPointer];
+                    collection[rightPointer] = collection[leftPointer];
+                    collection[leftPointer] = holder;
 
                     leftPointer++;
                     rightPointer--;
                 }
+            }
+
+            if (left < rightPointer)
+            {
+                QuickSort(collection, left, rightPointer);
+            }
+
+            if (leftPointer < right)
+            {
+                QuickSort(collection, leftPointer, right);
             }
         }
     }

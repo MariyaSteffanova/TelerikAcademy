@@ -4,14 +4,9 @@
     using System.Diagnostics;
     using System.Text;
 
-    public enum Algorithm
-    {
-        Selection, Insertion, Qiuck
-    }
-
     public class Tester
     {
-        private const int ArraySize = 20;
+        private const int CollectionSize = 20;
 
         public static void TestSort(Algorithm algorithm)
         {
@@ -39,7 +34,8 @@
 
             var stopwatch = new Stopwatch();
 
-            var collection = CollectionGenerator.GetCollection<T>(ArraySize, CollectionOrder.Random);
+            var collection = CollectionGenerator.GetCollection<T>(CollectionSize, order);
+
             stopwatch.Start();
             switch (algorithm)
             {
@@ -50,6 +46,7 @@
                     SortingAlgorithms.InsertionSort<T>(collection);
                     break;
                 case Algorithm.Qiuck:
+                    SortingAlgorithms.QuickSort<T>(collection, 0, collection.Length - 1);
                     break;
                 default:
                     break;
