@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_EncodingSum", "Exam_En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Cube3D", "Exam_Cube3D\Exam_Cube3D.csproj", "{95CEC6E7-2024-4545-B829-9E83E72F8216}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_SequencesOfBits", "Exam_SequencesOfBits\Exam_SequencesOfBits.csproj", "{6FE32607-29CE-4787-B778-71D92B3D90FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam_Maslan", "Exam_Maslan\Exam_Maslan.csproj", "{B04D841B-7269-4349-93C6-59F3F7A56A6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,11 +49,16 @@ Global
 		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95CEC6E7-2024-4545-B829-9E83E72F8216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE32607-29CE-4787-B778-71D92B3D90FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE32607-29CE-4787-B778-71D92B3D90FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE32607-29CE-4787-B778-71D92B3D90FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE32607-29CE-4787-B778-71D92B3D90FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04D841B-7269-4349-93C6-59F3F7A56A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04D841B-7269-4349-93C6-59F3F7A56A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04D841B-7269-4349-93C6-59F3F7A56A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04D841B-7269-4349-93C6-59F3F7A56A6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal

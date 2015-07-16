@@ -115,9 +115,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="311447755">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="Chef.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
@@ -187,4 +184,7 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="311447755">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>

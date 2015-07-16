@@ -1,10 +1,10 @@
 <stylecopresultscache>
   <version>12</version>
-  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="IO.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
-      <settingsFile>2015/07/12 01:19:56.631</settingsFile>
-      <sourceFile>2015/07/11 23:52:44.037</sourceFile>
+      <settingsFile>2015/07/16 08:37:23.040</settingsFile>
+      <sourceFile>2015/07/15 21:01:58.499</sourceFile>
       <parser>2014/04/01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -23,11 +23,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
-      <settingsFile>2015/07/12 01:19:56.631</settingsFile>
-      <sourceFile>2015/07/12 01:20:17.185</sourceFile>
+      <settingsFile>2015/07/16 08:37:23.040</settingsFile>
+      <sourceFile>2015/07/15 20:53:22.890</sourceFile>
       <parser>2014/04/01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -44,29 +44,13 @@
       <StyleCop.CSharp.SpacingRules>2014/04/01 11:18:24.000</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>26</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>30</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>32</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
-  <sourcecode name="EncodingSum.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="SequencesOfBits.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
-      <settingsFile>2015/07/12 01:19:56.631</settingsFile>
-      <sourceFile>2015/07/12 09:07:59.443</sourceFile>
+      <settingsFile>2015/07/16 08:37:23.040</settingsFile>
+      <sourceFile>2015/07/16 08:38:04.890</sourceFile>
       <parser>2014/04/01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -83,25 +67,9 @@
       <StyleCop.CSharp.SpacingRules>2014/04/01 11:18:24.000</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>27</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>31</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="UseBuiltInTypeAlias" ruleCheckId="SA1121">
-        <context>Use the built-in type alias 'char' rather than Char or System.Char.</context>
-        <line>33</line>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
-  <project key="-403170572">
+  <project key="2138579777">
     <configuration>DEBUG;TRACE</configuration>
   </project>
 </stylecopresultscache>

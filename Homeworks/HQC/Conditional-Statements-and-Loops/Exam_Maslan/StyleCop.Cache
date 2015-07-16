@@ -3,8 +3,8 @@
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
-      <settingsFile>2015/07/11 22:12:53.391</settingsFile>
-      <sourceFile>2015/07/11 21:43:54.427</sourceFile>
+      <settingsFile>2015/07/16 09:30:23.323</settingsFile>
+      <sourceFile>2015/07/16 08:39:05.285</sourceFile>
       <parser>2014/04/01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -23,11 +23,11 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name="RefactorIfStatements.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="Maslan.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/04/01 11:18:24.000</styleCop>
-      <settingsFile>2015/07/11 22:12:53.391</settingsFile>
-      <sourceFile>2015/07/11 22:58:25.560</sourceFile>
+      <settingsFile>2015/07/16 09:30:23.323</settingsFile>
+      <sourceFile>2015/07/16 09:31:17.310</sourceFile>
       <parser>2014/04/01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014/04/01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-2064112440</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -44,53 +44,9 @@
       <StyleCop.CSharp.SpacingRules>2014/04/01 11:18:24.000</StyleCop.CSharp.SpacingRules>
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
-    <violations>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="SA1512">
-        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>20</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentsMustNotBeFollowedByBlankLine" ruleCheckId="SA1512">
-        <context>A single-line comment must not be followed by a blank line. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>35</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
-        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>17</line>
-        <index>389</index>
-        <endIndex>469</endIndex>
-        <startLine>17</startLine>
-        <startColumn>13</startColumn>
-        <endLine>17</endLine>
-        <endColumn>93</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
-        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>20</line>
-        <index>593</index>
-        <endIndex>612</endIndex>
-        <startLine>20</startLine>
-        <startColumn>13</startColumn>
-        <endLine>20</endLine>
-        <endColumn>32</endColumn>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
-        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
-        <line>32</line>
-        <index>868</index>
-        <endIndex>959</endIndex>
-        <startLine>32</startLine>
-        <startColumn>13</startColumn>
-        <endLine>32</endLine>
-        <endColumn>104</endColumn>
-        <warning>False</warning>
-      </violation>
-    </violations>
+    <violations />
   </sourcecode>
-  <project key="-2052031526">
+  <project key="938527421">
     <configuration>DEBUG;TRACE</configuration>
   </project>
 </stylecopresultscache>
