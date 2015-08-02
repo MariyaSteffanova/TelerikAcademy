@@ -1,0 +1,30 @@
+
+> dom-and-jquery-tests-with-mocha@1.0.0 test C:\Users\Solara\Documents\GitHub\TelerikAcademy\Homeworks\JavaScript-UI-and-DOM\DOM-Operations
+> iojs node_modules/mocha/bin/mocha  tests/
+
+
+
+  Task #1 Tests
+    Valid
+      √ Expect to add 15 divs, valid selector is provided, contents are all strings
+      √ Expect to add 15 divs, valid selector is provided, contents are all numbers
+      √ Expect to add 15 divs, valid selector is provided, contents are numbers and strings
+      √ Expect to add 15 divs, valid DOM element is provided, contents are all strings
+      √ Expect to add 15 divs, valid DOM element is provided, contents are all numbers
+      √ Expect to add 15 divs, valid DOM element is provided, contents are numbers and strings
+      √ Expect #root to contain nothing, valid DOM element is provided, contents is an empty array
+    Invalid
+      √ Expect to throw, when no params are provided
+      √ Expect to throw, when undefined is provided as selector and contents is valid
+      √ Expect to throw, when null is provided as selector and contents is valid
+      √ Expect to throw, when selector that selects nothing is provided and contents is valid
+      √ Expect to throw, when no contents is, selector is valid
+      √ Expect to throw, when undefined is provided as contents, selector is valid
+      √ Expect to throw, when null is provided as contents, selector is valid
+      √ Expect to throw and not to change the #root, when contents contains not a number or string at first position, selector is valid
+      √ Expect to throw and not to change the #root, when contents contains not a number or string at last position, selector is valid
+      √ Expect to throw and not to change the #root, when contents contains not a number or string in the middle, selector is valid
+
+
+  17 passing (287ms)
+
