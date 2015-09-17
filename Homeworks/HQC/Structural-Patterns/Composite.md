@@ -101,3 +101,21 @@ public abstract class UIControl
         }
     }
 ```
+###### Usage
+```c#
+class Client
+    {
+        static void Main()
+        {
+            var mainContent = new TextArea("Hello world!", ConsoleColor.Cyan);
+            var innerContent = new TextArea("I'm inner!", ConsoleColor.Green);
+            var button = new Button(ConsoleColor.Blue);           
+
+            innerContent.Add(button);
+            mainContent.Add(innerContent);
+            mainContent.Add(button);
+
+            mainContent.Display(1);       
+        }
+    }
+```
