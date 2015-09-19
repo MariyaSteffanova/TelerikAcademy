@@ -112,4 +112,4 @@ public  class Client
 </br>
 ___
 ### Output
-![alt text](http://screencast.com/t/Mh6VSPEAm7U)
+![alt text](http://content.screencast.com/users/MariyaSteffanova/folders/Jing/media/debfffeb-e503-4203-a9ca-3336856227ce/2015-09-19_2301.png)
