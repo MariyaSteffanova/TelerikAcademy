@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xslt" ?>
+
+<students xmlns:students="urn:students">
+  <student>
+    <name>Jane Doe</name>
+    <sex>female</sex>
+    <birthDate>2000-01-01</birthDate>
+    <phone>+35954545454</phone>
+    <email>jane.doe@gmail.com</email>
+    <course>Databases</course>
+    <specialty>Ninja</specialty>
+    <facultyNumber>4005050</facultyNumber>
+    <exams>
+      <exam>
+        <name>C#</name>
+        <tutor>Ivaylo Kenov</tutor>
+        <score>500</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Nikolay Kostov</tutor>
+        <score>480</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>John Doe</name>
+    <sex>male</sex>
+    <birthDate>2012-12-21</birthDate>
+    <phone>+35942424242</phone>
+    <email>john.doe@gmail.com</email>
+    <course>Databases</course>
+    <specialty>JS Ninja</specialty>
+    <facultyNumber>4204242</facultyNumber>
+    <exams>
+      <exam>
+        <name>JS Apps</name>
+        <tutor>Doncho Minkov</tutor>
+        <score>500</score>
+      </exam>
+      <exam>
+        <name>Databases</name>
+        <tutor>Nikolay Kostov</tutor>
+        <score>320</score>
+      </exam>
+    </exams>
+  </student>
+</students>
