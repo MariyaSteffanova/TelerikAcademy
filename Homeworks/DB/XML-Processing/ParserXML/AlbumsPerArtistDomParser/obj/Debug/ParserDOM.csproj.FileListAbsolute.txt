@@ -1,0 +1,6 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\bin\Debug\ParserDOM.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\bin\Debug\ParserDOM.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\bin\Debug\ParserDOM.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\obj\Debug\ParserDOM.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\obj\Debug\ParserDOM.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserDOM\obj\Debug\ParserDOM.pdb

@@ -1,0 +1,5 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsQueryLINQ\obj\Debug\AllSongsQueryLINQ.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsQueryLINQ\obj\Debug\AllSongsQueryLINQ.pdb

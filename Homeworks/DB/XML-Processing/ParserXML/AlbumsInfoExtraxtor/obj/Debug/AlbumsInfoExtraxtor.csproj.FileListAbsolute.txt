@@ -1,0 +1,6 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.pdb

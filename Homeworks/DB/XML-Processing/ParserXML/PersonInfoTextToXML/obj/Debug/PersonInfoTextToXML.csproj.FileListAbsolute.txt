@@ -1,0 +1,5 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\PersonInfoTextToXML\obj\Debug\PersonInfoTextToXML.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\PersonInfoTextToXML\obj\Debug\PersonInfoTextToXML.pdb

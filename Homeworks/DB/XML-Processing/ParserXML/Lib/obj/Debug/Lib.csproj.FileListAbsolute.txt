@@ -1,0 +1,9 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\bin\Debug\ParserXML.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\bin\Debug\ParserXML.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\bin\Debug\ParserXML.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\obj\Debug\Lib.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\obj\Debug\ParserXML.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\ParserXML\obj\Debug\ParserXML.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\Lib\bin\Debug\ParserXML.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\Lib\obj\Debug\ParserXML.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\Lib\obj\Debug\ParserXML.pdb

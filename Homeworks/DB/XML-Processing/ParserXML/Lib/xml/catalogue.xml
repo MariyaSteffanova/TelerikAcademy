@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <name>Apsurdistan</name>
+    <artist>Dubioza</artist>
+    <year>2013</year>
+    <producer>Pesho</producer>
+    <price>13</price>
+    <songs>
+      <song>
+        <title>1. Sjećam se</title>
+        <duration>3:34</duration>
+      </song>
+      <song>
+        <title>2. Kažu</title>
+        <duration>3:42</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Firma Ilegal</name>
+    <artist>Dubioza</artist>
+    <year>2008</year>
+    <producer>Gosho</producer>
+    <price>13</price>
+    <songs>
+      <song>
+        <title>1. Dosta</title>
+        <duration>3:29</duration>
+      </song>
+      <song>
+        <title>2. Firma Ilegal</title>
+        <duration>3:44</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Fake</name>
+    <artist>Pesho</artist>
+    <year>2015</year>
+    <producer>Pesho Original</producer>
+    <price>23</price>
+    <songs>
+      <song>
+        <title>1. Prazni dumi</title>
+        <duration>3:20</duration>
+      </song>
+      <song>
+        <title>2. Oshte malko falsh</title>
+        <duration>1:44</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
