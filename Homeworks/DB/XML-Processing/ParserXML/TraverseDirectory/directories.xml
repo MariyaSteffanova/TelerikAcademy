@@ -1,426 +1,593 @@
-﻿<dir xmlns="../../../../">
-  <dir xmlns="../../../../ParserXML">
-    <file xmlns="../../../../ParserXML\ParserXML.sln"></file>
-  </dir>
-  <dir xmlns="../../../../ParserXML">
-    <dir xmlns="../../../../ParserXML\.vs" />
-    <dir xmlns="../../../../ParserXML\.vs">
-      <dir xmlns="../../../../ParserXML\.vs\ParserXML" />
-      <dir xmlns="../../../../ParserXML\.vs\ParserXML">
-        <dir xmlns="../../../../ParserXML\.vs\ParserXML\v14">
-          <file xmlns="../../../../ParserXML\.vs\ParserXML\v14\.suo"></file>
-        </dir>
-        <dir xmlns="../../../../ParserXML\.vs\ParserXML\v14">
-          <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor">
-            <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\albums.xml"></file>
-            <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\AlbumsInfoExtraxtor.csproj"></file>
-            <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\App.config"></file>
-            <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\Program.cs"></file>
-          </dir>
-          <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor">
-            <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin" />
-            <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin">
-              <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug">
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.exe"></file>
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.exe.config"></file>
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.pdb"></file>
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.vshost.exe"></file>
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.vshost.exe.config"></file>
-                <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug\AlbumsInfoExtraxtor.vshost.exe.manifest"></file>
-              </dir>
-              <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug">
-                <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj" />
-                <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj">
-                  <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug">
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.csproj.FileListAbsolute.txt"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.csprojResolveAssemblyReference.cache"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.exe"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\AlbumsInfoExtraxtor.pdb"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                    <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                  </dir>
-                  <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug">
-                    <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TempPE" />
-                    <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TempPE">
-                      <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\Properties">
-                        <file xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\Properties\AssemblyInfo.cs"></file>
-                      </dir>
-                      <dir xmlns="../../../../ParserXML\AlbumsInfoExtraxtor\Properties">
-                        <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser">
-                          <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\AlbumsPerArtistDomParser.csproj"></file>
-                          <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\App.config"></file>
-                          <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\ExtractAllArtists.cs"></file>
-                        </dir>
-                        <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser">
-                          <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin" />
-                          <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin">
-                            <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug">
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.exe"></file>
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.exe.config"></file>
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.pdb"></file>
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.vshost.exe"></file>
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.vshost.exe.config"></file>
-                              <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug\ParserDOM.vshost.exe.manifest"></file>
-                            </dir>
-                            <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug">
-                              <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Release" />
-                              <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Release">
-                                <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj" />
-                                <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj">
-                                  <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug">
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\AlbumsPerArtistDomParser.csproj.FileListAbsolute.txt"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\ParserDOM.csproj.FileListAbsolute.txt"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\ParserDOM.csprojResolveAssemblyReference.cache"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\ParserDOM.exe"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\ParserDOM.pdb"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                  </dir>
-                                  <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug">
-                                    <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TempPE" />
-                                    <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TempPE">
-                                      <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\Properties">
-                                        <file xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\Properties\AssemblyInfo.cs"></file>
-                                      </dir>
-                                      <dir xmlns="../../../../ParserXML\AlbumsPerArtistDomParser\Properties">
-                                        <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath">
-                                          <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\AlbumsPerArtistXPath.csproj"></file>
-                                          <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\App.config"></file>
-                                          <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\EctractAllArtists.cs"></file>
-                                        </dir>
-                                        <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath">
-                                          <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin" />
-                                          <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin">
-                                            <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug">
-                                              <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.exe"></file>
-                                              <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.exe.config"></file>
-                                              <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.pdb"></file>
-                                              <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.vshost.exe"></file>
-                                              <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.vshost.exe.config"></file>
-                                            </dir>
-                                            <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug">
-                                              <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Release" />
-                                              <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\bin\Release">
-                                                <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj" />
-                                                <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj">
-                                                  <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug">
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.csproj.FileListAbsolute.txt"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.csprojResolveAssemblyReference.cache"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.exe"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.pdb"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                    <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                  </dir>
-                                                  <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug">
-                                                    <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TempPE" />
-                                                    <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TempPE">
-                                                      <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\Properties">
-                                                        <file xmlns="../../../../ParserXML\AlbumsPerArtistXPath\Properties\AssemblyInfo.cs"></file>
-                                                      </dir>
-                                                      <dir xmlns="../../../../ParserXML\AlbumsPerArtistXPath\Properties">
-                                                        <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ">
-                                                          <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\AllSongsQueryLINQ.csproj"></file>
-                                                          <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\App.config"></file>
-                                                          <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\ExtractAllSongs.cs"></file>
-                                                        </dir>
-                                                        <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ">
-                                                          <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin" />
-                                                          <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin">
-                                                            <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug">
-                                                              <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.exe"></file>
-                                                              <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.exe.config"></file>
-                                                              <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.pdb"></file>
-                                                              <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.vshost.exe"></file>
-                                                              <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug\AllSongsQueryLINQ.vshost.exe.config"></file>
-                                                            </dir>
-                                                            <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug">
-                                                              <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Release" />
-                                                              <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\bin\Release">
-                                                                <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj" />
-                                                                <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj">
-                                                                  <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug">
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\AllSongsQueryLINQ.csproj.FileListAbsolute.txt"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\AllSongsQueryLINQ.exe"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\AllSongsQueryLINQ.pdb"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                    <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                  </dir>
-                                                                  <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug">
-                                                                    <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TempPE" />
-                                                                    <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TempPE">
-                                                                      <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\Properties">
-                                                                        <file xmlns="../../../../ParserXML\AllSongsQueryLINQ\Properties\AssemblyInfo.cs"></file>
-                                                                      </dir>
-                                                                      <dir xmlns="../../../../ParserXML\AllSongsQueryLINQ\Properties">
-                                                                        <dir xmlns="../../../../ParserXML\AllSongsXmlReader">
-                                                                          <file xmlns="../../../../ParserXML\AllSongsXmlReader\AllSongsXmlReader.csproj"></file>
-                                                                          <file xmlns="../../../../ParserXML\AllSongsXmlReader\App.config"></file>
-                                                                          <file xmlns="../../../../ParserXML\AllSongsXmlReader\ExtractAllSongs.cs"></file>
-                                                                        </dir>
-                                                                        <dir xmlns="../../../../ParserXML\AllSongsXmlReader">
-                                                                          <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin" />
-                                                                          <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin">
-                                                                            <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug">
-                                                                              <file xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.exe"></file>
-                                                                              <file xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.exe.config"></file>
-                                                                              <file xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.pdb"></file>
-                                                                              <file xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.vshost.exe"></file>
-                                                                              <file xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.vshost.exe.config"></file>
-                                                                            </dir>
-                                                                            <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Debug">
-                                                                              <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Release" />
-                                                                              <dir xmlns="../../../../ParserXML\AllSongsXmlReader\bin\Release">
-                                                                                <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj" />
-                                                                                <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj">
-                                                                                  <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug">
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\AllSongsXmlReader.csproj.FileListAbsolute.txt"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\AllSongsXmlReader.exe"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\AllSongsXmlReader.pdb"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                                    <file xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                                  </dir>
-                                                                                  <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug">
-                                                                                    <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TempPE" />
-                                                                                    <dir xmlns="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TempPE">
-                                                                                      <dir xmlns="../../../../ParserXML\AllSongsXmlReader\Properties">
-                                                                                        <file xmlns="../../../../ParserXML\AllSongsXmlReader\Properties\AssemblyInfo.cs"></file>
-                                                                                      </dir>
-                                                                                      <dir xmlns="../../../../ParserXML\AllSongsXmlReader\Properties">
-                                                                                        <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser">
-                                                                                          <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\App.config"></file>
-                                                                                          <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\DeleteAlbums.cs"></file>
-                                                                                          <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\DeleteAlbumsDomParser.csproj"></file>
-                                                                                          <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\updatedCatalogue.xml"></file>
-                                                                                        </dir>
-                                                                                        <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser">
-                                                                                          <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin" />
-                                                                                          <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin">
-                                                                                            <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug">
-                                                                                              <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.exe"></file>
-                                                                                              <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.exe.config"></file>
-                                                                                              <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.pdb"></file>
-                                                                                              <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.vshost.exe"></file>
-                                                                                              <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.vshost.exe.config"></file>
-                                                                                            </dir>
-                                                                                            <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug">
-                                                                                              <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Release" />
-                                                                                              <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\bin\Release">
-                                                                                                <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj" />
-                                                                                                <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj">
-                                                                                                  <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug">
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\DeleteAlbumsDomParser.csproj.FileListAbsolute.txt"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\DeleteAlbumsDomParser.exe"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\DeleteAlbumsDomParser.pdb"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                                                    <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                                                  </dir>
-                                                                                                  <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug">
-                                                                                                    <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TempPE" />
-                                                                                                    <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TempPE">
-                                                                                                      <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\Properties">
-                                                                                                        <file xmlns="../../../../ParserXML\DeleteAlbumsDomParser\Properties\AssemblyInfo.cs"></file>
-                                                                                                      </dir>
-                                                                                                      <dir xmlns="../../../../ParserXML\DeleteAlbumsDomParser\Properties">
-                                                                                                        <dir xmlns="../../../../ParserXML\Lib">
-                                                                                                          <file xmlns="../../../../ParserXML\Lib\App.config"></file>
-                                                                                                          <file xmlns="../../../../ParserXML\Lib\Lib.csproj"></file>
-                                                                                                          <file xmlns="../../../../ParserXML\Lib\Program.cs"></file>
-                                                                                                        </dir>
-                                                                                                        <dir xmlns="../../../../ParserXML\Lib">
-                                                                                                          <dir xmlns="../../../../ParserXML\Lib\bin" />
-                                                                                                          <dir xmlns="../../../../ParserXML\Lib\bin">
-                                                                                                            <dir xmlns="../../../../ParserXML\Lib\bin\Debug">
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.exe"></file>
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.exe.config"></file>
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.pdb"></file>
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.vshost.exe"></file>
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.vshost.exe.config"></file>
-                                                                                                              <file xmlns="../../../../ParserXML\Lib\bin\Debug\ParserXML.vshost.exe.manifest"></file>
-                                                                                                            </dir>
-                                                                                                            <dir xmlns="../../../../ParserXML\Lib\bin\Debug">
-                                                                                                              <dir xmlns="../../../../ParserXML\Lib\obj" />
-                                                                                                              <dir xmlns="../../../../ParserXML\Lib\obj">
-                                                                                                                <dir xmlns="../../../../ParserXML\Lib\obj\Debug">
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\Lib.csproj.FileListAbsolute.txt"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\ParserXML.csproj.FileListAbsolute.txt"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\ParserXML.exe"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\ParserXML.pdb"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                                                                  <file xmlns="../../../../ParserXML\Lib\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                                                                </dir>
-                                                                                                                <dir xmlns="../../../../ParserXML\Lib\obj\Debug">
-                                                                                                                  <dir xmlns="../../../../ParserXML\Lib\obj\Debug\TempPE" />
-                                                                                                                  <dir xmlns="../../../../ParserXML\Lib\obj\Debug\TempPE">
-                                                                                                                    <dir xmlns="../../../../ParserXML\Lib\Properties">
-                                                                                                                      <file xmlns="../../../../ParserXML\Lib\Properties\AssemblyInfo.cs"></file>
-                                                                                                                    </dir>
-                                                                                                                    <dir xmlns="../../../../ParserXML\Lib\Properties">
-                                                                                                                      <dir xmlns="../../../../ParserXML\Lib\xml">
-                                                                                                                        <file xmlns="../../../../ParserXML\Lib\xml\catalogue.xml"></file>
-                                                                                                                      </dir>
-                                                                                                                      <dir xmlns="../../../../ParserXML\Lib\xml">
-                                                                                                                        <dir xmlns="../../../../ParserXML\PersonInfoTextToXML">
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\App.config"></file>
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\CreateXML.cs"></file>
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\Person.cs"></file>
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\person.txt"></file>
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\person.xml"></file>
-                                                                                                                          <file xmlns="../../../../ParserXML\PersonInfoTextToXML\PersonInfoTextToXML.csproj"></file>
-                                                                                                                        </dir>
-                                                                                                                        <dir xmlns="../../../../ParserXML\PersonInfoTextToXML">
-                                                                                                                          <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin" />
-                                                                                                                          <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin">
-                                                                                                                            <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug">
-                                                                                                                              <file xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.exe"></file>
-                                                                                                                              <file xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.exe.config"></file>
-                                                                                                                              <file xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.pdb"></file>
-                                                                                                                              <file xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.vshost.exe"></file>
-                                                                                                                              <file xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug\PersonInfoTextToXML.vshost.exe.config"></file>
-                                                                                                                            </dir>
-                                                                                                                            <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Debug">
-                                                                                                                              <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Release" />
-                                                                                                                              <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\bin\Release">
-                                                                                                                                <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj" />
-                                                                                                                                <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj">
-                                                                                                                                  <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug">
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\PersonInfoTextToXML.csproj.FileListAbsolute.txt"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\PersonInfoTextToXML.exe"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\PersonInfoTextToXML.pdb"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                                                                                    <file xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                                                                                  </dir>
-                                                                                                                                  <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug">
-                                                                                                                                    <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TempPE" />
-                                                                                                                                    <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TempPE">
-                                                                                                                                      <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\Properties">
-                                                                                                                                        <file xmlns="../../../../ParserXML\PersonInfoTextToXML\Properties\AssemblyInfo.cs"></file>
-                                                                                                                                      </dir>
-                                                                                                                                      <dir xmlns="../../../../ParserXML\PersonInfoTextToXML\Properties">
-                                                                                                                                        <dir xmlns="../../../../ParserXML\TraverseDirectory">
-                                                                                                                                          <file xmlns="../../../../ParserXML\TraverseDirectory\App.config"></file>
-                                                                                                                                          <file xmlns="../../../../ParserXML\TraverseDirectory\directories.xml"></file>
-                                                                                                                                          <file xmlns="../../../../ParserXML\TraverseDirectory\Program.cs"></file>
-                                                                                                                                          <file xmlns="../../../../ParserXML\TraverseDirectory\TraverseDirectory.csproj"></file>
-                                                                                                                                        </dir>
-                                                                                                                                        <dir xmlns="../../../../ParserXML\TraverseDirectory">
-                                                                                                                                          <dir xmlns="../../../../ParserXML\TraverseDirectory\bin" />
-                                                                                                                                          <dir xmlns="../../../../ParserXML\TraverseDirectory\bin">
-                                                                                                                                            <dir xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug">
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.exe"></file>
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.exe.config"></file>
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.pdb"></file>
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.vshost.exe"></file>
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.vshost.exe.config"></file>
-                                                                                                                                              <file xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug\TraverseDirectory.vshost.exe.manifest"></file>
-                                                                                                                                            </dir>
-                                                                                                                                            <dir xmlns="../../../../ParserXML\TraverseDirectory\bin\Debug">
-                                                                                                                                              <dir xmlns="../../../../ParserXML\TraverseDirectory\obj" />
-                                                                                                                                              <dir xmlns="../../../../ParserXML\TraverseDirectory\obj">
-                                                                                                                                                <dir xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug">
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TraverseDirectory.csproj.FileListAbsolute.txt"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TraverseDirectory.csprojResolveAssemblyReference.cache"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TraverseDirectory.exe"></file>
-                                                                                                                                                  <file xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TraverseDirectory.pdb"></file>
-                                                                                                                                                </dir>
-                                                                                                                                                <dir xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug">
-                                                                                                                                                  <dir xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TempPE" />
-                                                                                                                                                  <dir xmlns="../../../../ParserXML\TraverseDirectory\obj\Debug\TempPE">
-                                                                                                                                                    <dir xmlns="../../../../ParserXML\TraverseDirectory\Properties">
-                                                                                                                                                      <file xmlns="../../../../ParserXML\TraverseDirectory\Properties\AssemblyInfo.cs"></file>
-                                                                                                                                                    </dir>
-                                                                                                                                                    <dir xmlns="../../../../ParserXML\TraverseDirectory\Properties" />
-                                                                                                                                                  </dir>
-                                                                                                                                                </dir>
-                                                                                                                                              </dir>
-                                                                                                                                            </dir>
-                                                                                                                                          </dir>
-                                                                                                                                        </dir>
-                                                                                                                                      </dir>
-                                                                                                                                    </dir>
-                                                                                                                                  </dir>
-                                                                                                                                </dir>
-                                                                                                                              </dir>
-                                                                                                                            </dir>
-                                                                                                                          </dir>
-                                                                                                                        </dir>
-                                                                                                                      </dir>
-                                                                                                                    </dir>
-                                                                                                                  </dir>
-                                                                                                                </dir>
-                                                                                                              </dir>
-                                                                                                            </dir>
-                                                                                                          </dir>
-                                                                                                        </dir>
-                                                                                                      </dir>
-                                                                                                    </dir>
-                                                                                                  </dir>
-                                                                                                </dir>
-                                                                                              </dir>
-                                                                                            </dir>
-                                                                                          </dir>
-                                                                                        </dir>
-                                                                                      </dir>
-                                                                                    </dir>
-                                                                                  </dir>
-                                                                                </dir>
-                                                                              </dir>
-                                                                            </dir>
-                                                                          </dir>
-                                                                        </dir>
-                                                                      </dir>
-                                                                    </dir>
-                                                                  </dir>
-                                                                </dir>
-                                                              </dir>
-                                                            </dir>
-                                                          </dir>
-                                                        </dir>
-                                                      </dir>
-                                                    </dir>
-                                                  </dir>
-                                                </dir>
-                                              </dir>
-                                            </dir>
-                                          </dir>
-                                        </dir>
-                                      </dir>
-                                    </dir>
-                                  </dir>
-                                </dir>
-                              </dir>
-                            </dir>
-                          </dir>
-                        </dir>
-                      </dir>
-                    </dir>
-                  </dir>
-                </dir>
-              </dir>
-            </dir>
-          </dir>
-        </dir>
+﻿<dir
+  path="../../../../ParserXML">
+  <dir
+    path="../../../../ParserXML\.vs">
+    <dir
+      path="../../../../ParserXML\.vs\ParserXML">
+      <dir
+        path="../../../../ParserXML\.vs\ParserXML\v14">
+        <file
+          name=".suo"></file>
       </dir>
     </dir>
   </dir>
+  <dir
+    path="../../../../ParserXML\AlbumsInfoExtraxtor">
+    <dir
+      path="../../../../ParserXML\AlbumsInfoExtraxtor\bin">
+      <dir
+        path="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug">
+        <file
+          name="AlbumsInfoExtraxtor.exe"></file>
+        <file
+          name="AlbumsInfoExtraxtor.exe.config"></file>
+        <file
+          name="AlbumsInfoExtraxtor.pdb"></file>
+        <file
+          name="AlbumsInfoExtraxtor.vshost.exe"></file>
+        <file
+          name="AlbumsInfoExtraxtor.vshost.exe.config"></file>
+        <file
+          name="AlbumsInfoExtraxtor.vshost.exe.manifest"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsInfoExtraxtor\obj">
+      <dir
+        path="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug">
+        <dir
+          path="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TempPE" />
+        <file
+          name="AlbumsInfoExtraxtor.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="AlbumsInfoExtraxtor.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="AlbumsInfoExtraxtor.exe"></file>
+        <file
+          name="AlbumsInfoExtraxtor.pdb"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsInfoExtraxtor\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="albums.xml"></file>
+    <file
+      name="AlbumsInfoExtraxtor.csproj"></file>
+    <file
+      name="App.config"></file>
+    <file
+      name="Program.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\AlbumsPerArtistDomParser">
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistDomParser\bin">
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug">
+        <file
+          name="ParserDOM.exe"></file>
+        <file
+          name="ParserDOM.exe.config"></file>
+        <file
+          name="ParserDOM.pdb"></file>
+        <file
+          name="ParserDOM.vshost.exe"></file>
+        <file
+          name="ParserDOM.vshost.exe.config"></file>
+        <file
+          name="ParserDOM.vshost.exe.manifest"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistDomParser\obj">
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug">
+        <dir
+          path="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TempPE" />
+        <file
+          name="AlbumsPerArtistDomParser.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="ParserDOM.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="ParserDOM.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="ParserDOM.exe"></file>
+        <file
+          name="ParserDOM.pdb"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistDomParser\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="AlbumsPerArtistDomParser.csproj"></file>
+    <file
+      name="App.config"></file>
+    <file
+      name="ExtractAllArtists.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\AlbumsPerArtistXPath">
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistXPath\bin">
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug">
+        <file
+          name="AlbumsPerArtistXPath.exe"></file>
+        <file
+          name="AlbumsPerArtistXPath.exe.config"></file>
+        <file
+          name="AlbumsPerArtistXPath.pdb"></file>
+        <file
+          name="AlbumsPerArtistXPath.vshost.exe"></file>
+        <file
+          name="AlbumsPerArtistXPath.vshost.exe.config"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistXPath\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistXPath\obj">
+      <dir
+        path="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug">
+        <dir
+          path="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TempPE" />
+        <file
+          name="AlbumsPerArtistXPath.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="AlbumsPerArtistXPath.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="AlbumsPerArtistXPath.exe"></file>
+        <file
+          name="AlbumsPerArtistXPath.pdb"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AlbumsPerArtistXPath\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="AlbumsPerArtistXPath.csproj"></file>
+    <file
+      name="App.config"></file>
+    <file
+      name="EctractAllArtists.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\AllSongsQueryLINQ">
+    <dir
+      path="../../../../ParserXML\AllSongsQueryLINQ\bin">
+      <dir
+        path="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug">
+        <file
+          name="AllSongsQueryLINQ.exe"></file>
+        <file
+          name="AllSongsQueryLINQ.exe.config"></file>
+        <file
+          name="AllSongsQueryLINQ.pdb"></file>
+        <file
+          name="AllSongsQueryLINQ.vshost.exe"></file>
+        <file
+          name="AllSongsQueryLINQ.vshost.exe.config"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\AllSongsQueryLINQ\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\AllSongsQueryLINQ\obj">
+      <dir
+        path="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug">
+        <dir
+          path="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TempPE" />
+        <file
+          name="AllSongsQueryLINQ.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="AllSongsQueryLINQ.exe"></file>
+        <file
+          name="AllSongsQueryLINQ.pdb"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AllSongsQueryLINQ\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="AllSongsQueryLINQ.csproj"></file>
+    <file
+      name="App.config"></file>
+    <file
+      name="ExtractAllSongs.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\AllSongsXmlReader">
+    <dir
+      path="../../../../ParserXML\AllSongsXmlReader\bin">
+      <dir
+        path="../../../../ParserXML\AllSongsXmlReader\bin\Debug">
+        <file
+          name="AllSongsXmlReader.exe"></file>
+        <file
+          name="AllSongsXmlReader.exe.config"></file>
+        <file
+          name="AllSongsXmlReader.pdb"></file>
+        <file
+          name="AllSongsXmlReader.vshost.exe"></file>
+        <file
+          name="AllSongsXmlReader.vshost.exe.config"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\AllSongsXmlReader\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\AllSongsXmlReader\obj">
+      <dir
+        path="../../../../ParserXML\AllSongsXmlReader\obj\Debug">
+        <dir
+          path="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TempPE" />
+        <file
+          name="AllSongsXmlReader.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="AllSongsXmlReader.exe"></file>
+        <file
+          name="AllSongsXmlReader.pdb"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\AllSongsXmlReader\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="AllSongsXmlReader.csproj"></file>
+    <file
+      name="App.config"></file>
+    <file
+      name="ExtractAllSongs.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\DeleteAlbumsDomParser">
+    <dir
+      path="../../../../ParserXML\DeleteAlbumsDomParser\bin">
+      <dir
+        path="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug">
+        <file
+          name="DeleteAlbumsDomParser.exe"></file>
+        <file
+          name="DeleteAlbumsDomParser.exe.config"></file>
+        <file
+          name="DeleteAlbumsDomParser.pdb"></file>
+        <file
+          name="DeleteAlbumsDomParser.vshost.exe"></file>
+        <file
+          name="DeleteAlbumsDomParser.vshost.exe.config"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\DeleteAlbumsDomParser\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\DeleteAlbumsDomParser\obj">
+      <dir
+        path="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug">
+        <dir
+          path="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TempPE" />
+        <file
+          name="DeleteAlbumsDomParser.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="DeleteAlbumsDomParser.exe"></file>
+        <file
+          name="DeleteAlbumsDomParser.pdb"></file>
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\DeleteAlbumsDomParser\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="App.config"></file>
+    <file
+      name="DeleteAlbums.cs"></file>
+    <file
+      name="DeleteAlbumsDomParser.csproj"></file>
+    <file
+      name="updatedCatalogue.xml"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\Lib">
+    <dir
+      path="../../../../ParserXML\Lib\bin">
+      <dir
+        path="../../../../ParserXML\Lib\bin\Debug">
+        <file
+          name="ParserXML.exe"></file>
+        <file
+          name="ParserXML.exe.config"></file>
+        <file
+          name="ParserXML.pdb"></file>
+        <file
+          name="ParserXML.vshost.exe"></file>
+        <file
+          name="ParserXML.vshost.exe.config"></file>
+        <file
+          name="ParserXML.vshost.exe.manifest"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\Lib\obj">
+      <dir
+        path="../../../../ParserXML\Lib\obj\Debug">
+        <dir
+          path="../../../../ParserXML\Lib\obj\Debug\TempPE" />
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="Lib.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="Lib.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="ParserXML.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="ParserXML.exe"></file>
+        <file
+          name="ParserXML.pdb"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\Lib\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <dir
+      path="../../../../ParserXML\Lib\xml">
+      <file
+        name="catalogue.xml"></file>
+    </dir>
+    <file
+      name="App.config"></file>
+    <file
+      name="Lib.csproj"></file>
+    <file
+      name="Program.cs"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\PersonInfoTextToXML">
+    <dir
+      path="../../../../ParserXML\PersonInfoTextToXML\bin">
+      <dir
+        path="../../../../ParserXML\PersonInfoTextToXML\bin\Debug">
+        <file
+          name="PersonInfoTextToXML.exe"></file>
+        <file
+          name="PersonInfoTextToXML.exe.config"></file>
+        <file
+          name="PersonInfoTextToXML.pdb"></file>
+        <file
+          name="PersonInfoTextToXML.vshost.exe"></file>
+        <file
+          name="PersonInfoTextToXML.vshost.exe.config"></file>
+      </dir>
+      <dir
+        path="../../../../ParserXML\PersonInfoTextToXML\bin\Release" />
+    </dir>
+    <dir
+      path="../../../../ParserXML\PersonInfoTextToXML\obj">
+      <dir
+        path="../../../../ParserXML\PersonInfoTextToXML\obj\Debug">
+        <dir
+          path="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TempPE" />
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="PersonInfoTextToXML.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="PersonInfoTextToXML.exe"></file>
+        <file
+          name="PersonInfoTextToXML.pdb"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\PersonInfoTextToXML\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="App.config"></file>
+    <file
+      name="CreateXML.cs"></file>
+    <file
+      name="Person.cs"></file>
+    <file
+      name="person.txt"></file>
+    <file
+      name="person.xml"></file>
+    <file
+      name="PersonInfoTextToXML.csproj"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\TraverseDirectory">
+    <dir
+      path="../../../../ParserXML\TraverseDirectory\bin">
+      <dir
+        path="../../../../ParserXML\TraverseDirectory\bin\Debug">
+        <file
+          name="TraverseDirectory.exe"></file>
+        <file
+          name="TraverseDirectory.exe.config"></file>
+        <file
+          name="TraverseDirectory.pdb"></file>
+        <file
+          name="TraverseDirectory.vshost.exe"></file>
+        <file
+          name="TraverseDirectory.vshost.exe.config"></file>
+        <file
+          name="TraverseDirectory.vshost.exe.manifest"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\TraverseDirectory\obj">
+      <dir
+        path="../../../../ParserXML\TraverseDirectory\obj\Debug">
+        <dir
+          path="../../../../ParserXML\TraverseDirectory\obj\Debug\TempPE" />
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+        <file
+          name="TraverseDirectory.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="TraverseDirectory.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="TraverseDirectory.exe"></file>
+        <file
+          name="TraverseDirectory.pdb"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\TraverseDirectory\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="App.config"></file>
+    <file
+      name="directories.xml"></file>
+    <file
+      name="Program.cs"></file>
+    <file
+      name="TraverseDirectory.csproj"></file>
+  </dir>
+  <dir
+    path="../../../../ParserXML\TraverseDirectoryXDocument">
+    <dir
+      path="../../../../ParserXML\TraverseDirectoryXDocument\bin">
+      <dir
+        path="../../../../ParserXML\TraverseDirectoryXDocument\bin\Debug">
+        <file
+          name="TraverseDirectoryXDocument.exe"></file>
+        <file
+          name="TraverseDirectoryXDocument.exe.config"></file>
+        <file
+          name="TraverseDirectoryXDocument.pdb"></file>
+        <file
+          name="TraverseDirectoryXDocument.vshost.exe"></file>
+        <file
+          name="TraverseDirectoryXDocument.vshost.exe.config"></file>
+        <file
+          name="TraverseDirectoryXDocument.vshost.exe.manifest"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\TraverseDirectoryXDocument\obj">
+      <dir
+        path="../../../../ParserXML\TraverseDirectoryXDocument\obj\Debug">
+        <dir
+          path="../../../../ParserXML\TraverseDirectoryXDocument\obj\Debug\TempPE" />
+        <file
+          name="DesignTimeResolveAssemblyReferencesInput.cache"></file>
+        <file
+          name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"></file>
+        <file
+          name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"></file>
+        <file
+          name="TraverseDirectoryXDocument.csproj.FileListAbsolute.txt"></file>
+        <file
+          name="TraverseDirectoryXDocument.csprojResolveAssemblyReference.cache"></file>
+        <file
+          name="TraverseDirectoryXDocument.exe"></file>
+        <file
+          name="TraverseDirectoryXDocument.pdb"></file>
+      </dir>
+    </dir>
+    <dir
+      path="../../../../ParserXML\TraverseDirectoryXDocument\Properties">
+      <file
+        name="AssemblyInfo.cs"></file>
+    </dir>
+    <file
+      name="App.config"></file>
+    <file
+      name="document.xml"></file>
+    <file
+      name="Program.cs"></file>
+    <file
+      name="TraverseDirectoryXDocument.csproj"></file>
+  </dir>
+  <file
+    name="ParserXML.sln"></file>
 </dir>

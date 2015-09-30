@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="../../../../">
+  <dir path="../../../../ParserXML">
+    <dir path="../../../../ParserXML\.vs">
+      <dir path="../../../../ParserXML\.vs\ParserXML">
+        <dir path="../../../../ParserXML\.vs\ParserXML\v14">
+          <file name=".suo" />
+        </dir>
+      </dir>
+    </dir>
+    <dir path="../../../../ParserXML\AlbumsInfoExtraxtor">
+      <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\bin">
+        <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\bin\Debug">
+          <file name="AlbumsInfoExtraxtor.exe" />
+          <file name="AlbumsInfoExtraxtor.exe.config" />
+          <file name="AlbumsInfoExtraxtor.pdb" />
+          <file name="AlbumsInfoExtraxtor.vshost.exe" />
+          <file name="AlbumsInfoExtraxtor.vshost.exe.config" />
+          <file name="AlbumsInfoExtraxtor.vshost.exe.manifest" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\obj">
+        <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug">
+          <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\obj\Debug\TempPE" />
+          <file name="AlbumsInfoExtraxtor.csproj.FileListAbsolute.txt" />
+          <file name="AlbumsInfoExtraxtor.csprojResolveAssemblyReference.cache" />
+          <file name="AlbumsInfoExtraxtor.exe" />
+          <file name="AlbumsInfoExtraxtor.pdb" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsInfoExtraxtor\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="albums.xml" />
+      <file name="AlbumsInfoExtraxtor.csproj" />
+      <file name="App.config" />
+      <file name="Program.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\AlbumsPerArtistDomParser">
+      <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\bin">
+        <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Debug">
+          <file name="ParserDOM.exe" />
+          <file name="ParserDOM.exe.config" />
+          <file name="ParserDOM.pdb" />
+          <file name="ParserDOM.vshost.exe" />
+          <file name="ParserDOM.vshost.exe.config" />
+          <file name="ParserDOM.vshost.exe.manifest" />
+        </dir>
+        <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\obj">
+        <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug">
+          <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\obj\Debug\TempPE" />
+          <file name="AlbumsPerArtistDomParser.csproj.FileListAbsolute.txt" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="ParserDOM.csproj.FileListAbsolute.txt" />
+          <file name="ParserDOM.csprojResolveAssemblyReference.cache" />
+          <file name="ParserDOM.exe" />
+          <file name="ParserDOM.pdb" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsPerArtistDomParser\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="AlbumsPerArtistDomParser.csproj" />
+      <file name="App.config" />
+      <file name="ExtractAllArtists.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\AlbumsPerArtistXPath">
+      <dir path="../../../../ParserXML\AlbumsPerArtistXPath\bin">
+        <dir path="../../../../ParserXML\AlbumsPerArtistXPath\bin\Debug">
+          <file name="AlbumsPerArtistXPath.exe" />
+          <file name="AlbumsPerArtistXPath.exe.config" />
+          <file name="AlbumsPerArtistXPath.pdb" />
+          <file name="AlbumsPerArtistXPath.vshost.exe" />
+          <file name="AlbumsPerArtistXPath.vshost.exe.config" />
+        </dir>
+        <dir path="../../../../ParserXML\AlbumsPerArtistXPath\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsPerArtistXPath\obj">
+        <dir path="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug">
+          <dir path="../../../../ParserXML\AlbumsPerArtistXPath\obj\Debug\TempPE" />
+          <file name="AlbumsPerArtistXPath.csproj.FileListAbsolute.txt" />
+          <file name="AlbumsPerArtistXPath.csprojResolveAssemblyReference.cache" />
+          <file name="AlbumsPerArtistXPath.exe" />
+          <file name="AlbumsPerArtistXPath.pdb" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AlbumsPerArtistXPath\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="AlbumsPerArtistXPath.csproj" />
+      <file name="App.config" />
+      <file name="EctractAllArtists.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\AllSongsQueryLINQ">
+      <dir path="../../../../ParserXML\AllSongsQueryLINQ\bin">
+        <dir path="../../../../ParserXML\AllSongsQueryLINQ\bin\Debug">
+          <file name="AllSongsQueryLINQ.exe" />
+          <file name="AllSongsQueryLINQ.exe.config" />
+          <file name="AllSongsQueryLINQ.pdb" />
+          <file name="AllSongsQueryLINQ.vshost.exe" />
+          <file name="AllSongsQueryLINQ.vshost.exe.config" />
+        </dir>
+        <dir path="../../../../ParserXML\AllSongsQueryLINQ\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\AllSongsQueryLINQ\obj">
+        <dir path="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug">
+          <dir path="../../../../ParserXML\AllSongsQueryLINQ\obj\Debug\TempPE" />
+          <file name="AllSongsQueryLINQ.csproj.FileListAbsolute.txt" />
+          <file name="AllSongsQueryLINQ.exe" />
+          <file name="AllSongsQueryLINQ.pdb" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AllSongsQueryLINQ\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="AllSongsQueryLINQ.csproj" />
+      <file name="App.config" />
+      <file name="ExtractAllSongs.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\AllSongsXmlReader">
+      <dir path="../../../../ParserXML\AllSongsXmlReader\bin">
+        <dir path="../../../../ParserXML\AllSongsXmlReader\bin\Debug">
+          <file name="AllSongsXmlReader.exe" />
+          <file name="AllSongsXmlReader.exe.config" />
+          <file name="AllSongsXmlReader.pdb" />
+          <file name="AllSongsXmlReader.vshost.exe" />
+          <file name="AllSongsXmlReader.vshost.exe.config" />
+        </dir>
+        <dir path="../../../../ParserXML\AllSongsXmlReader\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\AllSongsXmlReader\obj">
+        <dir path="../../../../ParserXML\AllSongsXmlReader\obj\Debug">
+          <dir path="../../../../ParserXML\AllSongsXmlReader\obj\Debug\TempPE" />
+          <file name="AllSongsXmlReader.csproj.FileListAbsolute.txt" />
+          <file name="AllSongsXmlReader.exe" />
+          <file name="AllSongsXmlReader.pdb" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\AllSongsXmlReader\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="AllSongsXmlReader.csproj" />
+      <file name="App.config" />
+      <file name="ExtractAllSongs.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\DeleteAlbumsDomParser">
+      <dir path="../../../../ParserXML\DeleteAlbumsDomParser\bin">
+        <dir path="../../../../ParserXML\DeleteAlbumsDomParser\bin\Debug">
+          <file name="DeleteAlbumsDomParser.exe" />
+          <file name="DeleteAlbumsDomParser.exe.config" />
+          <file name="DeleteAlbumsDomParser.pdb" />
+          <file name="DeleteAlbumsDomParser.vshost.exe" />
+          <file name="DeleteAlbumsDomParser.vshost.exe.config" />
+        </dir>
+        <dir path="../../../../ParserXML\DeleteAlbumsDomParser\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\DeleteAlbumsDomParser\obj">
+        <dir path="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug">
+          <dir path="../../../../ParserXML\DeleteAlbumsDomParser\obj\Debug\TempPE" />
+          <file name="DeleteAlbumsDomParser.csproj.FileListAbsolute.txt" />
+          <file name="DeleteAlbumsDomParser.exe" />
+          <file name="DeleteAlbumsDomParser.pdb" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\DeleteAlbumsDomParser\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="App.config" />
+      <file name="DeleteAlbums.cs" />
+      <file name="DeleteAlbumsDomParser.csproj" />
+      <file name="updatedCatalogue.xml" />
+    </dir>
+    <dir path="../../../../ParserXML\Lib">
+      <dir path="../../../../ParserXML\Lib\bin">
+        <dir path="../../../../ParserXML\Lib\bin\Debug">
+          <file name="ParserXML.exe" />
+          <file name="ParserXML.exe.config" />
+          <file name="ParserXML.pdb" />
+          <file name="ParserXML.vshost.exe" />
+          <file name="ParserXML.vshost.exe.config" />
+          <file name="ParserXML.vshost.exe.manifest" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\Lib\obj">
+        <dir path="../../../../ParserXML\Lib\obj\Debug">
+          <dir path="../../../../ParserXML\Lib\obj\Debug\TempPE" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="Lib.csproj.FileListAbsolute.txt" />
+          <file name="Lib.csprojResolveAssemblyReference.cache" />
+          <file name="ParserXML.csproj.FileListAbsolute.txt" />
+          <file name="ParserXML.exe" />
+          <file name="ParserXML.pdb" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\Lib\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <dir path="../../../../ParserXML\Lib\xml">
+        <file name="catalogue.xml" />
+      </dir>
+      <file name="App.config" />
+      <file name="Lib.csproj" />
+      <file name="Program.cs" />
+    </dir>
+    <dir path="../../../../ParserXML\PersonInfoTextToXML">
+      <dir path="../../../../ParserXML\PersonInfoTextToXML\bin">
+        <dir path="../../../../ParserXML\PersonInfoTextToXML\bin\Debug">
+          <file name="PersonInfoTextToXML.exe" />
+          <file name="PersonInfoTextToXML.exe.config" />
+          <file name="PersonInfoTextToXML.pdb" />
+          <file name="PersonInfoTextToXML.vshost.exe" />
+          <file name="PersonInfoTextToXML.vshost.exe.config" />
+        </dir>
+        <dir path="../../../../ParserXML\PersonInfoTextToXML\bin\Release" />
+      </dir>
+      <dir path="../../../../ParserXML\PersonInfoTextToXML\obj">
+        <dir path="../../../../ParserXML\PersonInfoTextToXML\obj\Debug">
+          <dir path="../../../../ParserXML\PersonInfoTextToXML\obj\Debug\TempPE" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="PersonInfoTextToXML.csproj.FileListAbsolute.txt" />
+          <file name="PersonInfoTextToXML.exe" />
+          <file name="PersonInfoTextToXML.pdb" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\PersonInfoTextToXML\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="App.config" />
+      <file name="CreateXML.cs" />
+      <file name="Person.cs" />
+      <file name="person.txt" />
+      <file name="person.xml" />
+      <file name="PersonInfoTextToXML.csproj" />
+    </dir>
+    <dir path="../../../../ParserXML\TraverseDirectory">
+      <dir path="../../../../ParserXML\TraverseDirectory\bin">
+        <dir path="../../../../ParserXML\TraverseDirectory\bin\Debug">
+          <file name="TraverseDirectory.exe" />
+          <file name="TraverseDirectory.exe.config" />
+          <file name="TraverseDirectory.pdb" />
+          <file name="TraverseDirectory.vshost.exe" />
+          <file name="TraverseDirectory.vshost.exe.config" />
+          <file name="TraverseDirectory.vshost.exe.manifest" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\TraverseDirectory\obj">
+        <dir path="../../../../ParserXML\TraverseDirectory\obj\Debug">
+          <dir path="../../../../ParserXML\TraverseDirectory\obj\Debug\TempPE" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+          <file name="TraverseDirectory.csproj.FileListAbsolute.txt" />
+          <file name="TraverseDirectory.csprojResolveAssemblyReference.cache" />
+          <file name="TraverseDirectory.exe" />
+          <file name="TraverseDirectory.pdb" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\TraverseDirectory\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="App.config" />
+      <file name="directories.xml" />
+      <file name="Program.cs" />
+      <file name="TraverseDirectory.csproj" />
+    </dir>
+    <dir path="../../../../ParserXML\TraverseDirectoryXDocument">
+      <dir path="../../../../ParserXML\TraverseDirectoryXDocument\bin">
+        <dir path="../../../../ParserXML\TraverseDirectoryXDocument\bin\Debug">
+          <file name="TraverseDirectoryXDocument.exe" />
+          <file name="TraverseDirectoryXDocument.exe.config" />
+          <file name="TraverseDirectoryXDocument.pdb" />
+          <file name="TraverseDirectoryXDocument.vshost.exe" />
+          <file name="TraverseDirectoryXDocument.vshost.exe.config" />
+          <file name="TraverseDirectoryXDocument.vshost.exe.manifest" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\TraverseDirectoryXDocument\obj">
+        <dir path="../../../../ParserXML\TraverseDirectoryXDocument\obj\Debug">
+          <dir path="../../../../ParserXML\TraverseDirectoryXDocument\obj\Debug\TempPE" />
+          <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+          <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+          <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+          <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+          <file name="TraverseDirectoryXDocument.csproj.FileListAbsolute.txt" />
+          <file name="TraverseDirectoryXDocument.csprojResolveAssemblyReference.cache" />
+          <file name="TraverseDirectoryXDocument.exe" />
+          <file name="TraverseDirectoryXDocument.pdb" />
+        </dir>
+      </dir>
+      <dir path="../../../../ParserXML\TraverseDirectoryXDocument\Properties">
+        <file name="AssemblyInfo.cs" />
+      </dir>
+      <file name="App.config" />
+      <file name="document.xml" />
+      <file name="Program.cs" />
+      <file name="TraverseDirectoryXDocument.csproj" />
+    </dir>
+    <file name="ParserXML.sln" />
+  </dir>
+</dir>
