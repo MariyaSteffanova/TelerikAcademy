@@ -1,6 +1,0 @@
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.exe.config
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.csprojResolveAssemblyReference.cache
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\bin\Debug\AlbumsPerArtistXPath.pdb
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AlbumsPerArtistXPath\obj\Debug\AlbumsPerArtistXPath.pdb

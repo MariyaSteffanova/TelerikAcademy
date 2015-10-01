@@ -1,5 +1,0 @@
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.exe.config
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsXmlReader\bin\Debug\AllSongsXmlReader.pdb
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsXmlReader\obj\Debug\AllSongsXmlReader.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\AllSongsXmlReader\obj\Debug\AllSongsXmlReader.pdb

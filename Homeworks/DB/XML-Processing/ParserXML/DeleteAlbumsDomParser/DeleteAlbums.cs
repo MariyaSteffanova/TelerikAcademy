@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Xml;
 
 namespace DeleteAlbumsDomParser
@@ -17,14 +18,21 @@ namespace DeleteAlbumsDomParser
 
         private static void DeleteAlbumsByPrice(XmlNode root, double maxPrice)
         {
+            var nodesToRemove = new List<XmlNode>();
+
             foreach (XmlNode album in root.ChildNodes)
             {
                 var price = double.Parse(album["price"].InnerText);
 
                 if(price > maxPrice)
                 {
-                    root.RemoveChild(album);
+                   nodesToRemove.Add(album);                    
                 }
+            }
+
+            foreach (var album in nodesToRemove)
+            {
+                root.RemoveChild(album);
             }
         }
     }

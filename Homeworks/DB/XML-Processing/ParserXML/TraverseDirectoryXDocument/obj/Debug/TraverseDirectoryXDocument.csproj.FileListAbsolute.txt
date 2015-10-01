@@ -1,6 +1,0 @@
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\bin\Debug\TraverseDirectoryXDocument.exe.config
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\bin\Debug\TraverseDirectoryXDocument.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\bin\Debug\TraverseDirectoryXDocument.pdb
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\obj\Debug\TraverseDirectoryXDocument.csprojResolveAssemblyReference.cache
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\obj\Debug\TraverseDirectoryXDocument.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\TraverseDirectoryXDocument\obj\Debug\TraverseDirectoryXDocument.pdb

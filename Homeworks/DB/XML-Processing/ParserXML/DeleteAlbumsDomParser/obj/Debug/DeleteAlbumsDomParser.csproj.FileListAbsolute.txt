@@ -1,5 +1,0 @@
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.exe.config
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\DeleteAlbumsDomParser\bin\Debug\DeleteAlbumsDomParser.pdb
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\DeleteAlbumsDomParser\obj\Debug\DeleteAlbumsDomParser.exe
-C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\XML-Processing\ParserXML\DeleteAlbumsDomParser\obj\Debug\DeleteAlbumsDomParser.pdb

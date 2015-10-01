@@ -17,21 +17,4 @@
       </song>
     </songs>
   </album>
-  <album>
-    <name>Firma Ilegal</name>
-    <artist>Dubioza</artist>
-    <year>2008</year>
-    <producer>Gosho</producer>
-    <price>13</price>
-    <songs>
-      <song>
-        <title>1. Dosta</title>
-        <duration>3:29</duration>
-      </song>
-      <song>
-        <title>2. Firma Ilegal</title>
-        <duration>3:44</duration>
-      </song>
-    </songs>
-  </album>
 </catalogue>
