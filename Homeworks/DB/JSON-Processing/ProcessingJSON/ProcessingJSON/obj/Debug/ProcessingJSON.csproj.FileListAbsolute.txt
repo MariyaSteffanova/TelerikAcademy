@@ -1,0 +1,8 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\bin\Debug\ProcessingJSON.exe.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\bin\Debug\ProcessingJSON.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\bin\Debug\ProcessingJSON.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\obj\Debug\ProcessingJSON.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\obj\Debug\ProcessingJSON.exe
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\obj\Debug\ProcessingJSON.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\DB\JSON-Processing\ProcessingJSON\ProcessingJSON\bin\Debug\Newtonsoft.Json.xml
