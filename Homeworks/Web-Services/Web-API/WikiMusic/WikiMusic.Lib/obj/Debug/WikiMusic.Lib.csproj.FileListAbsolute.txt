@@ -1,0 +1,5 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Lib\bin\Debug\WikiMusic.Lib.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Lib\bin\Debug\WikiMusic.Lib.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Lib\obj\Debug\WikiMusic.Lib.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Lib\obj\Debug\WikiMusic.Lib.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Lib\obj\Debug\WikiMusic.Lib.pdb

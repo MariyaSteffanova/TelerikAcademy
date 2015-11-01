@@ -1,0 +1,29 @@
+{
+  "name": "Wiki Music",
+  "homepage": "https://github.com/MariyaSteffanova/TelerikAcademy",
+  "authors": [
+    "MariyaSteffanova <mariya.steffanova@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "handlebars": "~4.0.4",
+    "sammy": "~0.7.6",
+    "bootstrap": "~3.3.5",
+    "toastr": "~2.1.2"
+  }
+}

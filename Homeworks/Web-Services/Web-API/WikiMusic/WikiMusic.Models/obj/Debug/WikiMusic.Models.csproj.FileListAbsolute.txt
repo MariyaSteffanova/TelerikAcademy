@@ -1,0 +1,10 @@
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\WikiMusic.Models.dll.config
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\WikiMusic.Models.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\WikiMusic.Models.pdb
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\EntityFramework.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\EntityFramework.xml
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\obj\Debug\WikiMusic.Models.csprojResolveAssemblyReference.cache
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\obj\Debug\WikiMusic.Models.dll
+C:\Users\mariy\Documents\GitHub\TelerikAcademy\Homeworks\Web-Services\Web-API\WikiMusic\WikiMusic.Models\obj\Debug\WikiMusic.Models.pdb
