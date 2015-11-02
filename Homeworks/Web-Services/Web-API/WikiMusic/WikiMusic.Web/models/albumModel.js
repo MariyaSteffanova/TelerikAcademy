@@ -20,7 +20,8 @@
     }
 
     function updateAlbum(id, updates) {
-        return AjaxReq.put("/api/albums", { data: { id: id, updates: updates } });
+        console.log(id);
+        return AjaxReq.put("/api/albums", { data: { id: id, songs: updates } });
     }
 
     // TODO: Fix this sh*t 

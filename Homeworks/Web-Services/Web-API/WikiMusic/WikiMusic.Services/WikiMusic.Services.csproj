@@ -154,6 +154,7 @@
     <Compile Include="Models\AlbumRequestModel.cs" />
     <Compile Include="Models\ArtistRequestModel.cs" />
     <Compile Include="Models\SongRequestModel.cs" />
+    <Compile Include="Models\UpdateAlbumSongs.cs" />
     <Compile Include="Models\UpdateArtistByIdModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

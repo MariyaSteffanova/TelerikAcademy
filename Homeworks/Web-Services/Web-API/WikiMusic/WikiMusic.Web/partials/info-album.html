@@ -11,15 +11,15 @@
                 {{#each Songs}}
                 <div class="panel-body  song">
 
-                    <h3><span class="label label-primary">{{Name}}</span></h3>
+                    <h3><span class="label label-primary">{{Title}}</span></h3>
                     <h4><span class="label label-info">{{Year}}</span></h4>
-
-                    <button class="btn btn-info" id="btn-song-{{ID}}">View</button>
+                    
                 </div>
                 {{/each}}
             </div>
         </div>
     </div>
+    <div id="songs"></div>
     <div id="wrpper-editable-options">
         <button class="edit btn btn-primary" id="btn-edit-{{ID}}">Edit</button>
         <button class="delete btn btn-default" id="btn-delete-{{ID}}">Delete</button>

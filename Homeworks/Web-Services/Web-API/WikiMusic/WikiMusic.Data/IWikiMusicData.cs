@@ -11,5 +11,7 @@
         IGenericRepository<Song> Songs { get; }
 
         void SaveChanges();
+
+        void Dispose();
     }
 }

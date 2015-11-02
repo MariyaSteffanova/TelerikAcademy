@@ -40,6 +40,11 @@
             this.context.SaveChanges();
         }
 
+        public void Dispose()
+        {
+            this.context.Dispose();
+        }
+
         private IGenericRepository<T> GetRepository<T>() where T : class
         {
             var typeOfModel = typeof(T);

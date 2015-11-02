@@ -294,10 +294,12 @@
     <Content Include="css\home.css" />
     <None Include="libs\jquery-2.1.4.intellisense.js" />
     <Content Include="helpers\ajaxRequester.js" />
+    <Content Include="helpers\formsCreator.js" />
     <Content Include="libs\jquery-2.1.4.js" />
     <Content Include="libs\jquery-2.1.4.min.js" />
     <Content Include="models\albumModel.js" />
     <Content Include="models\artistModeljs.js" />
+    <Content Include="models\songModel.js" />
     <Content Include="pace\pace.css" />
     <Content Include="pace\pace.js" />
     <Content Include="packages.config" />

@@ -46,7 +46,7 @@
             return this.Ok();
         }
 
-        public IHttpActionResult Put([FromBody] UpdateArtistByIdModel data)
+       public IHttpActionResult Put([FromBody] UpdateArtistByIdModel data)
         {
             data.Updates.Id = data.Id;
 

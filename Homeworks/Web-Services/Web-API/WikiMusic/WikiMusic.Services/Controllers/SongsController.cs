@@ -4,11 +4,15 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Http;
+    using System.Web.Http.Cors;
     using System.Web.UI.WebControls;
     using Antlr.Runtime.Misc;
     using Data;
+    using WebGrease.Css.Extensions;
     using WikiMusic.Models;
 
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    [RoutePrefix("api/songs")]
     public class SongsController : ApiController
     {
         private IWikiMusicData data;
@@ -24,21 +28,25 @@
             return songs;
         }
 
-        public IHttpActionResult Post([FromUri] SongRequestModel song)
+        public IHttpActionResult Post([FromBody] IEnumerable<SongRequestModel> songs)
         {
-            if (song == null)
+            if (songs == null)
             {
                 return this.BadRequest();
             }
 
-            this.data.Songs.Add(new Song
+            songs.ForEach(song =>
             {
-                Title = song.Title,
-                Year = song.Year,
-                Genre = song.Genre
+                this.data.Songs.Add(new Song
+                {
+                    Title = song.Title,
+                    Year = song.Year,
+                    Genre = song.Genre
+                });
             });
-
+            
             this.data.SaveChanges();
+            this.data.Dispose();
             return this.Ok("Song added");
         }
 

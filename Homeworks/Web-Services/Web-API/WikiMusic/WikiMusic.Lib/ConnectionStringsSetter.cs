@@ -13,7 +13,7 @@
         private const string EXPRESS = "Express";
         private const string DATA_SOURCE_EXPRESS = @".\SQLEXPRESS";
         private const string DATA_SOURCE_MSSQL = @".\";
-        private const string CONNECTION_STRING_FORMAT = "Data Source={0};Initial Catalog={1};Integrated Security={2}";
+        private const string CONNECTION_STRING_FORMAT = "Data Source={0};Initial Catalog={1};Integrated Security={2};MultipleActiveResultSets = true;";
 
         public ConnectionStringsSetter(string databaseName, bool integratedSecurity)
         {

@@ -38,6 +38,11 @@
             base.SaveChanges();
         }
 
+        public new void Dispose()
+        {
+            base.Dispose();
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
