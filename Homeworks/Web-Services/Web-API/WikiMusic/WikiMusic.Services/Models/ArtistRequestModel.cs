@@ -15,8 +15,6 @@
         public string ImgLink { get; set; }
 
         public DateTime BirthDate { get; set; }
-
-        public ICollection<SongRequestModel> Songs { get; set; }
         
         public ICollection<AlbumRequestModel> Albums { get; set; }
     }

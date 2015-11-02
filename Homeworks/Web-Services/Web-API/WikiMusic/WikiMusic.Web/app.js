@@ -5,8 +5,7 @@
         this.get('#/', homeController.get);
         this.get('#/artists', artistsController.all);
         this.get('#/add-artist', artistsController.add);
-        this.get('#/test', homeController.test);
-
+        this.get('#/info-artist', singleArtistController.show);
     });
 
     $(function () {

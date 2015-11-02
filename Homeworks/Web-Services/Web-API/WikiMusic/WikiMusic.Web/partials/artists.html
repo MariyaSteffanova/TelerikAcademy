@@ -18,10 +18,13 @@
                     <h3>{{Name}}</h3>
                     <p> Country: {{Country}}</p>
                     <p>Birth Date: {{BirthDate}}</p>
+                    <p>Albums:</p>
+                    {{#each Albums}}
+                    <p>{{Title}}</p>
+                    {{/each}}
                 </div>
                 <div class="col-md-4">
-                    <button class="edit btn btn-primary" id="btn-edit-{{ID}}">Edit</button><br/>
-                    <button class="delete btn btn-default" id="btn-delete-{{ID}}">Delete</button>
+                    <a class="more-info btn btn-primary" id="btn-more-{{ID}}">More info</a>
                 </div>
             </div>
             {{/each}}

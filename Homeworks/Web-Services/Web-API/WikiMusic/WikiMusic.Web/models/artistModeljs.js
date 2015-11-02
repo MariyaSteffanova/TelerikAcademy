@@ -1,5 +1,7 @@
 ﻿var artistModel = (function () {
 
+    var currentId;
+
     function getById(id) {
         console.log(id);
         return AjaxReq.get('/api/artists/' + id);
@@ -21,12 +23,22 @@
     function updateArtist(id, updates) {
         return AjaxReq.put("/api/artists", { data: { id: id, updates: updates } });
     }
+
+    // TODO: Fix this sh*t 
+    function currentArtistId( id) {
+        if (!id) {
+            return currentId;
+        } else {
+            currentId = id;
+        }
+    }
     return {
         all: getAllArtists,
         getById : getById,
         add: addArtist,
         remove: deleteArtistById,
-        edit: updateArtist
+        edit: updateArtist,
+        currentId : currentArtistId
     }
 
 }())

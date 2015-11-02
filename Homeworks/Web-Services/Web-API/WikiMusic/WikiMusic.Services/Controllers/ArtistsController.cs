@@ -1,8 +1,10 @@
 ﻿namespace WikiMusic.Services.Controllers
 {
+    using System.Collections.Generic;
     using System.Linq;
     using System.Web.Http;
     using System.Web.Http.Cors;
+    using AutoMapper.QueryableExtensions;
     using Data;
     using Models;
     using WebGrease.Css.Extensions;
@@ -48,21 +50,38 @@
         {
             data.Updates.Id = data.Id;
 
+            var testAlbums = new List<Album>()
+            {
+                new Album
+                {
+                    Title = data.Updates.Albums.First().Title,
+                    Year = data.Updates.Albums.First().Year,
+                    Producer = data.Updates.Albums.First().Producer,
+                    ImgLink = data.Updates.Albums.First().ImgLink
+                }
+            };
+
             this.data.Artists
                 .SearchFor(x => x.ID == data.Id)
+                .ToList()
                 .ForEach(y =>
                 {
                     y.Name = data.Updates.Name;
                     y.BirthDate = data.Updates.BirthDate;
                     y.Country = data.Updates.Country;
                     y.ImgLink = data.Updates.ImgLink;
+                    y.Albums=(testAlbums);
+                    //y.Albums.ToList()
+                    //    .AddRange(data.Updates.Albums
+                    //        .AsQueryable()
+                    //        .ProjectTo<Album>());
                     this.data.Artists.Update(y);
                 });
 
             this.data.SaveChanges();
             return this.Ok();
         }
-        
+
         [HttpDelete]
         public IHttpActionResult Delete([FromBody] int id)
         {

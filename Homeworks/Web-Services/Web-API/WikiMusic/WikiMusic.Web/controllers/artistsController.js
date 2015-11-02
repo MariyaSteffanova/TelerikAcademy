@@ -10,20 +10,21 @@
         artistModel.all()
             .then(function (resArtists) {
                 artists = resArtists;
+                console.log(artists);
                 return templatesManager.get("artists");
             }, function (err) {
+                console.log(err);
                 toastr.error(err);
             }).then(function (partial) {
                 context.$element().html(partial(artists));
             }).then(function () {
-                $('#wrapper-artists').on('click', 'button', function (e) {
+                $('#wrapper-artists').on('click', 'a', function (e) {
                     var $target = $(e.target)[0],
                         target = e.target;
 
-                    if ($(target).hasClass('edit')) {
-                        edit($target, context);
-                    } else if ($(target).hasClass('delete')) {
-                        remove($target);
+                  if ($(target).hasClass('more-info')) {
+                        artistModel.currentId($target.id.replace('btn-more-', ''));
+                        context.redirect("#/info-artist");
                     }
                 });
             });
@@ -52,35 +53,19 @@
             });
     }
 
-    function edit($target, context) {
-        var artistId = $target.id.replace('btn-edit-', '');
+   
+
+    function showInfo($target, context) {
+        var artistId = $target.id.replace('btn-more-', '');
         var artist;
         artistModel.getById(artistId)
-            .then(function (resArtist) {
-                artist = resArtist;
-                return templatesManager.get('edit-artist');
+            .then(function(artistRes) {
+                artist = artistRes;
+                return templatesManager.get('info-artist');
             })
-            .then(function (partial) {
+            .then(function(partial) {
                 context.$element().html(partial(artist));
-            })
-             .then(function () {
-                 $('#btn-edit-artist').on('click', function () {
-                     var newArtist = {
-                         name: $(ARTIST_FORMS.ARTIST_NAME).val() || $(ARTIST_FORMS.ARTIST_NAME).attr('placeholder'),
-                         country: $(ARTIST_FORMS.ARTIST_COUNTRY).val() || $(ARTIST_FORMS.ARTIST_COUNTRY).attr('placeholder'),
-                         birthDate: "2015/10/10", //$(ARTIST_FORMS.ARTIST_BDATE).val,
-                         imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || $(ARTIST_FORMS.ARTIST_IMG).attr('placeholder'),
-                         songs: [],
-                         albums: []
-                     };
-                     artistModel.edit(artistId, newArtist);
-                 });
-             });
-    }
-
-    function remove($target) {
-        var artistId = $target.id.replace('btn-delete-', '');
-        artistModel.remove(artistId);
+            });
     }
 
     return {

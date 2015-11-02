@@ -16,9 +16,5 @@
 
         [MaxLength(20)]
         public string Genre { get; set; }
-
-        public virtual Artist Artist { get; set; }
-
-        public virtual Album Album { get; set; }
     }
 }

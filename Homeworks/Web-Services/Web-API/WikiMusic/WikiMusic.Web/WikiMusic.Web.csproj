@@ -289,6 +289,7 @@
     <Content Include="bower_components\toastr\toastr.min.js" />
     <Content Include="controllers\artistsController.js" />
     <Content Include="controllers\homeController.js" />
+    <Content Include="controllers\singleArtistController.js" />
     <Content Include="css\home.css" />
     <None Include="libs\jquery-2.1.4.intellisense.js" />
     <Content Include="helpers\ajaxRequester.js" />
@@ -445,6 +446,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="partials\info-artist.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

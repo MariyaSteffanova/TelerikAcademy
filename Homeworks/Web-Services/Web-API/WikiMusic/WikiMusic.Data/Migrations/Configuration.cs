@@ -1,6 +1,7 @@
 namespace WikiMusic.Data.Migrations
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity.Migrations;
     using Models;
 
@@ -9,6 +10,8 @@ namespace WikiMusic.Data.Migrations
         public Configuration()
         {
             this.AutomaticMigrationsEnabled = true;
+            this.AutomaticMigrationDataLossAllowed = true;
+
             this.ContextKey = "WikiMusic.Data.WikiMusicDbContext";
         }
 
@@ -21,7 +24,17 @@ namespace WikiMusic.Data.Migrations
                     Name = "Dubioza kolektiv",
                     Country = "Bosna",
                     BirthDate = new DateTime(2000, 1, 1),
-                    ImgLink = "http://e-volutionradio.com/wp-content/uploads/2015/06/dubioza-kolektiv-515a21052f5f7.jpg"
+                    ImgLink = "http://e-volutionradio.com/wp-content/uploads/2015/06/dubioza-kolektiv-515a21052f5f7.jpg",
+                    Albums = new List<Album>
+                    {
+                        new Album
+                        {
+                            Title = "Apsurdistan",
+                            Year = 2012,
+                            Producer = "Dubioza kolektiv"
+                        }
+                    }
+                    
                 });
         }
     }

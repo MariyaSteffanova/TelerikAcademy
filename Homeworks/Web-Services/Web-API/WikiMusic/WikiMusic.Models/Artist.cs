@@ -8,13 +8,11 @@
 
     public class Artist
     {
-        private ICollection<Song> songs;
         private ICollection<Album> albums;
 
         public Artist()
         {
             this.albums = new HashSet<Album>();
-            this.songs = new HashSet<Song>();
         }
 
         [Key]
@@ -31,12 +29,6 @@
         public string ImgLink { get; set; }
 
         public DateTime BirthDate { get; set; }
-
-        public virtual ICollection<Song> Songs
-        {
-            get { return this.songs; }
-            set { this.songs = value; }
-        }
 
         public virtual ICollection<Album> Albums
         {

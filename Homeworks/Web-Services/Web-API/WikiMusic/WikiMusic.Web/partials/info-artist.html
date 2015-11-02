@@ -1,0 +1,53 @@
+﻿<div>
+    <h3>Name</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <img style="width: 100%; height: 100%;" src={{ImgLink}}>
+        </div>
+        <div class="col-md-6">
+            <p>
+                <span class="label label-primary">Country:</span>
+                {{Country}}
+            </p>
+            <p>
+                <span class="label label-primary">Birth Date:</span>{{BirthDate}}
+            </p>
+            <div id="wrpper-editable-options">
+                <button class="edit btn btn-primary" id="btn-edit-{{ID}}">Edit</button>
+                <button class="delete btn btn-default" id="btn-delete-{{ID}}">Delete</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!--<div id="myCarousel" class="carousel slide" style="height: 100px">-->
+        <!--<div class="carousel-inner">-->
+
+
+        <div class="panel panel-primary" style="background: none">
+            <div class="panel-heading">
+                <h2 class="panel-title">Albums</h2>
+            </div>
+            <div class="row" id="wrapper-albums">
+                {{#each Albums}}
+                <div class="panel-body col-md-4 album">
+                    <img src={{ImgLink}} style="width: 100%" class="img-responsive" />
+
+                    <h3><span class="label label-primary">{{Title}}</span></h3>
+                    <h4><span class="label label-info">{{Year}}</span></h4>
+                    
+                    <button class="btn btn-info" id="btn-album-{{ID}}">View</button>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <!--</div>-->
+        <!-- Controls -->
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>-->
+    </div>
+    <!--</div>-->
+</div>
