@@ -1,4 +1,30 @@
 ﻿<div>
-    {{Title}}
-    {{Year}}
+    <h2><span class="label label-info">{{Title}}</span></h2>
+    <span class="label label-info">{{Year}}</span>
+    <div class="row">
+        <div class="col-md-6">
+
+            <img style="width: 100%; height: 100%;" src={{ImgLink}}>
+        </div>
+        <div class="col-md-6">
+            <div id="wrapper-songs">Songs:
+                {{#each Songs}}
+                <div class="panel-body  song">
+
+                    <h3><span class="label label-primary">{{Name}}</span></h3>
+                    <h4><span class="label label-info">{{Year}}</span></h4>
+
+                    <button class="btn btn-info" id="btn-song-{{ID}}">View</button>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    <div id="wrpper-editable-options">
+        <button class="edit btn btn-primary" id="btn-edit-{{ID}}">Edit</button>
+        <button class="delete btn btn-default" id="btn-delete-{{ID}}">Delete</button>
+        <button class="add-song btn btn-default" id="btn-add-song-{{ID}}">Add Song</button>
+    </div>
+   
+    <!--</div>-->
 </div>
