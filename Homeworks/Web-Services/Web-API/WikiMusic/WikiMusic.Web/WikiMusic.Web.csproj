@@ -287,6 +287,7 @@
     <Content Include="bower_components\toastr\toastr.js" />
     <Content Include="bower_components\toastr\toastr.min.css" />
     <Content Include="bower_components\toastr\toastr.min.js" />
+    <Content Include="controllers\albumController.js" />
     <Content Include="controllers\artistsController.js" />
     <Content Include="controllers\homeController.js" />
     <Content Include="controllers\singleArtistController.js" />
@@ -295,6 +296,7 @@
     <Content Include="helpers\ajaxRequester.js" />
     <Content Include="libs\jquery-2.1.4.js" />
     <Content Include="libs\jquery-2.1.4.min.js" />
+    <Content Include="models\albumModel.js" />
     <Content Include="models\artistModeljs.js" />
     <Content Include="pace\pace.css" />
     <Content Include="pace\pace.js" />
@@ -446,6 +448,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="partials\info-album.html" />
     <Content Include="partials\info-artist.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

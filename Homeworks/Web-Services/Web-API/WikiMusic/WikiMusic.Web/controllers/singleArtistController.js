@@ -32,8 +32,9 @@
 
                 $('#wrapper-albums').on('click', 'button', function (e) {
                     var $target = $(e.target)[0];
-                    var id = $target.id.replace('btn-album-', '')
-                    console.log(id);
+                    var id = $target.id.replace('btn-album-', '');
+                    albumModel.currentId(id);
+                    context.redirect('#/info-album');
                 });
             });
     }

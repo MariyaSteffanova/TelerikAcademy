@@ -145,6 +145,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="App_Start\AutoMapperConfig.cs" />
+    <Compile Include="Controllers\AlbumsController.cs" />
     <Compile Include="Controllers\ArtistsController.cs" />
     <Compile Include="Controllers\SongsController.cs" />
     <Compile Include="Global.asax.cs">
