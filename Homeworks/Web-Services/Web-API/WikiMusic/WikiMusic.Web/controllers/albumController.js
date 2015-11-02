@@ -12,7 +12,7 @@
                 context.$element().html(partial(album));
             })
             .then(function () {
-                $('#wrpper-editable-options').on('click', 'button', function (e) {
+                $('#wrapper-editable-options').on('click', 'button', function (e) {
                     var $target = $(e.target)[0],
                         target = e.target;
 
@@ -32,8 +32,8 @@
             .createTripleForm('song', ['title', 'year', 'genre'])
             .appendTo($('#songs'));
 
-        uiElementCreator.createButton($('#songs'),'Save Song').on('click', function() {
-            var songs= saveSongs();
+        uiElementCreator.createButton($('#songs'), 'Save Song').on('click', function () {
+            var songs = saveSongs();
             songModel.add(songs);
             //attachSongsToAlbum(songs);
             console.log(+albumModel.currentId());
@@ -43,11 +43,15 @@
     }
 
     function edit($target, context) {
-       
-    }
+        var albumId = $target.id.replace('btn-edit-', '');
+        console.log(albumId);
+        uiElementCreator.createTripleForm('album', ['title', 'year', 'imglink'])
+            .prependTo('#wrapper-editable-options');
 
-    function attachSongsToAlbum(songs) {
-        albumModel.edit(albumModel.currentId, songs);
+        uiElementCreator.createButton($('#wrapper-editable-options'), 'Save Changes').on('click', function () {
+            var updates = $('#wrapper-editable-options').children('.item');
+
+        });
     }
 
     function saveSongs() {
