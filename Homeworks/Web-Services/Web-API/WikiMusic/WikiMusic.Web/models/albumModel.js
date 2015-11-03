@@ -1,4 +1,4 @@
-﻿var albumModel = (function() {
+﻿var albumModel = (function () {
     var currentId;
 
     function getById(id) {
@@ -24,6 +24,10 @@
         return AjaxReq.put("/api/albums", { data: { id: id, songs: updates } });
     }
 
+    function updateAlbumById(id, updates) {
+        return AjaxReq.put("/api/albums/" + id, { data: updates });
+    }
+
     // TODO: Fix this sh*t 
     function currentAlbumId(id) {
         if (!id) {
@@ -38,6 +42,7 @@
         add: addAlbum,
         remove: deleteAlbumById,
         edit: updateAlbum,
+        editById: updateAlbumById,
         currentId: currentAlbumId
     }
 }())

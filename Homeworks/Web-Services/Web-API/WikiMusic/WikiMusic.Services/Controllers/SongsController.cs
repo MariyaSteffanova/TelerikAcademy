@@ -1,12 +1,9 @@
 ﻿namespace WikiMusic.Services.Controllers
 {
-    using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Http;
     using System.Web.Http.Cors;
-    using System.Web.UI.WebControls;
-    using Antlr.Runtime.Misc;
     using Data;
     using WebGrease.Css.Extensions;
     using WikiMusic.Models;

@@ -50,16 +50,23 @@
         {
             data.Updates.Id = data.Id;
 
-            var testAlbums = new List<Album>()
-            {
-                new Album
-                {
-                    Title = data.Updates.Albums.First().Title,
-                    Year = data.Updates.Albums.First().Year,
-                    Producer = data.Updates.Albums.First().Producer,
-                    ImgLink = data.Updates.Albums.First().ImgLink
-                }
-            };
+            // TODO: Clean up
+            //this.data.Artists.SearchFor(x => x.ID == data.Id)
+            //    .ForEach(a =>
+            //    {
+            //        data.Updates.Albums.AsQueryable().ProjectTo<Album>().ForEach(s => s.Artists.Add(a));
+            //    });
+
+            //var testAlbums = new List<Album>()
+            //{
+            //    new Album
+            //    {
+            //        Title = data.Updates.Albums.First().Title,
+            //        Year = data.Updates.Albums.First().Year,
+            //        Producer = data.Updates.Albums.First().Producer,
+            //        ImgLink = data.Updates.Albums.First().ImgLink
+            //    }
+            //};
 
             this.data.Artists
                 .SearchFor(x => x.ID == data.Id)
@@ -70,7 +77,7 @@
                     y.BirthDate = data.Updates.BirthDate;
                     y.Country = data.Updates.Country;
                     y.ImgLink = data.Updates.ImgLink;
-                    y.Albums=(testAlbums);
+                  //  y.Albums=(testAlbums);
                     //y.Albums.ToList()
                     //    .AddRange(data.Updates.Albums
                     //        .AsQueryable()

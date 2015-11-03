@@ -45,7 +45,8 @@
 
                     artistModel.add(newArtist)
                         .then(function (res) {
-                            toastr.success('Artist  successfully created!');
+                            toastr.success('Artist  successfully created');
+                            context.redirect('#/artists');
                         }, function (err) {
                             toastr.error(err.responseJSON);
                         });

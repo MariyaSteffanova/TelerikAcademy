@@ -32,6 +32,28 @@
             return this.Ok(this.data.Albums.SearchFor(x => x.ID == id).First());
         }
 
+        public IHttpActionResult Post([FromBody] IEnumerable<AlbumRequestModel> albums)
+        {
+            albums
+                 
+                 .ForEach(album =>
+                 {
+                     var newAlbum = new Album
+                     {
+                         Title = album.Title,
+                         Year = album.Year,
+                         Producer = album.Producer,
+                         Artists = album.Artists.AsQueryable().ProjectTo<Artist>().ToList()
+                     };
+                    
+
+                     this.data.Albums.Add(newAlbum);
+                 });
+            
+            this.data.SaveChanges();
+            return this.Ok();
+        }
+
         public IHttpActionResult Put(UpdateAlbumSongs data)
         {
             this.data.Albums.SearchFor(x => x.ID == data.Id)
@@ -40,6 +62,36 @@
                     data.Songs.AsQueryable().ProjectTo<Song>().ForEach(s => a.Songs.Add(s));
                 });
             this.data.SaveChanges();
+            return this.Ok();
+        }
+
+        public IHttpActionResult Put(int id, [FromBody] AlbumRequestModel updates)
+        {
+            var album = this.data.Albums.SearchFor(x => x.ID == id).First();
+
+            updates
+                .GetType()
+                .GetProperties()
+                .Where(x => x.GetValue(updates) != null)
+                // .Select(p => p.GetValue(updates))
+                .ToList()
+                 .ForEach(pr =>
+                 {
+                     album.GetType().GetProperty(pr.Name).SetValue(album, pr.GetValue(updates));
+                 });
+            this.data.Albums.Update(album);
+            this.data.SaveChanges();
+
+            return this.Ok();
+        }
+
+        public IHttpActionResult Delete([FromBody] int id)
+        {
+            var album = this.data.Albums.SearchFor(x => x.ID == id).FirstOrDefault();
+            this.data.Albums.Delete(album);
+
+            this.data.SaveChanges();
+
             return this.Ok();
         }
     }

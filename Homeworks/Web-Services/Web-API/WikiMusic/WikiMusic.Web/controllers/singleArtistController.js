@@ -26,7 +26,7 @@
                     if ($(target).hasClass('edit')) {
                         edit($target, context);
                     } else if ($(target).hasClass('delete')) {
-                        remove($target);
+                        remove($target,context);
                     }
                 });
 
@@ -91,7 +91,8 @@
                              Title: $song.children('.song-title').val(),
                              Year: $song.children('.song-year').val(),
                              Producer: $song.children('.song-genre').val(),
-                             ImgLink: 'none for now'
+                             ImgLink: 'none for now',
+                             Artists: [artist]
                          });
                      }
 
@@ -101,16 +102,26 @@
                          birthDate: "2015/10/10", //$(ARTIST_FORMS.ARTIST_BDATE).val,
                          imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || $(ARTIST_FORMS.ARTIST_IMG).attr('placeholder'),
                          songs: [],
-                         albums: songs
+                         // albums: songs
                      };
-                     artistModel.edit(artistId, newArtist);
+
+                     albumModel.add(songs)
+                         .then(function () {
+                             artistModel.edit(artistId, newArtist);
+                         }).then(function () {
+                             context.redirect('#/artists');
+                         });
+
                  });
              });
     }
 
-    function remove($target) {
+    function remove($target, context) {
         var artistId = $target.id.replace('btn-delete-', '');
-        artistModel.remove(artistId);
+        artistModel.remove(artistId)
+            .then(function() {
+                context.redirect('#/artists');
+            });
     }
 
     return {

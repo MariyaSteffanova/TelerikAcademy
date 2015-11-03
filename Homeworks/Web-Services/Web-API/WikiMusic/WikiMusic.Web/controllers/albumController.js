@@ -19,15 +19,15 @@
                     if ($(target).hasClass('edit')) {
                         edit($target, context);
                     } else if ($(target).hasClass('delete')) {
-                        remove($target);
+                        remove($target, context);
                     } else if ($(target).hasClass('add-song')) {
-                        addSong($(target));
+                        addSong(context);
                     }
                 });
             });
     }
 
-    function addSong() {
+    function addSong(context) {
         uiElementCreator
             .createTripleForm('song', ['title', 'year', 'genre'])
             .appendTo($('#songs'));
@@ -35,9 +35,10 @@
         uiElementCreator.createButton($('#songs'), 'Save Song').on('click', function () {
             var songs = saveSongs();
             songModel.add(songs);
-            //attachSongsToAlbum(songs);
-            console.log(+albumModel.currentId());
-            albumModel.edit(albumModel.currentId(), songs);
+            albumModel.edit(albumModel.currentId(), songs)
+                .then(function() {
+                    context.redirect('#/info-artist');
+                });
 
         });
     }
@@ -49,7 +50,15 @@
             .prependTo('#wrapper-editable-options');
 
         uiElementCreator.createButton($('#wrapper-editable-options'), 'Save Changes').on('click', function () {
-            var updates = $('#wrapper-editable-options').children('.item');
+            var updates = $($('#wrapper-editable-options').children('.item')[0]);
+            var updatedAlbum = {
+                Title: updates.children('.album-title').val() || null,
+                Year: updates.children('.album-year').val() || null,
+                ImgLink: updates.children('.album-imglink').val() || null
+            }
+            console.log(updatedAlbum);
+            albumModel.editById(albumModel.currentId(), updatedAlbum);
+            context.redirect('#/info-artist');
 
         });
     }
@@ -67,6 +76,15 @@
             });
         }
         return songs;
+    }
+
+    function remove($target,context) {
+        var albumId = $target.id.replace('btn-delete-', '');
+        albumModel.remove(albumId)
+            .then(function() {
+                toastr.success('Album successfully deleted');
+                context.redirect('#/info-artist');
+            });
     }
 
     return {

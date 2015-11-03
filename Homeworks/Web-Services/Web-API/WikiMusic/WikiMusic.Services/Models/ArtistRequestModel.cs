@@ -16,6 +16,6 @@
 
         public DateTime BirthDate { get; set; }
         
-        public ICollection<AlbumRequestModel> Albums { get; set; }
+       // public ICollection<AlbumRequestModel> Albums { get; set; }
     }
 }

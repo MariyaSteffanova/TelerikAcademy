@@ -1,0 +1,65 @@
+##api/artists
+#### Get
+Provides full information about all artists <br/>
+Client-side:
+* route: #/artists
+* navbar tab Artists
+
+#### Post
+Add new artist with basic information<br/>
+Client-side:
+* route: #/add-artist
+* button 'Add Artist' on #/artists
+
+#### Put
+Updates artist information<br/>
+Client-side:
+*route #/artists -> More info -> Edit
+
+#### Delete
+Deletes artist by id [FromBody]<br/>
+Client-side:
+* route #/artists -> More info -> Delete
+
+___
+
+##api/artists/id
+#### Get
+Provides full information about an artist by id<br/>
+Client side:
+* #/artists -> More info
+
+___
+
+##api/albums
+#### Put 
+Updates songs of the album<br/>
+Client-side:
+* #/artists -> More Info -> View (in section Albums) -> Add Song -> Save Song
+
+#### Post
+Add new album with connection to artist </br>
+Client-side:
+* route #/artists -> More info -> Edit -> Add Album -> Save
+
+#### Delete
+Deletes an album</br>
+Client-side:
+* #/artists -> More Info -> View (in section Albums) -> Delete
+
+___
+
+## api/albums/id
+#### Get
+Provides information for album by id<br/>
+Client side:
+* #/artists -> More Info -> View (in section Albums)
+
+#### Put
+Updates album baqsic information<br/>
+Client side:
+* #/artists -> More Info -> View -> Edit -> Save Changes
+
+___
+
+## api/songs
