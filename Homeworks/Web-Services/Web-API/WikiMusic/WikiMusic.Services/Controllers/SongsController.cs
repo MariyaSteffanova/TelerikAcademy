@@ -23,13 +23,12 @@
         public IEnumerable<Song> Get()
         {
             var songs = this.data.Songs.All().ToList();
-           
+
             return songs;
         }
 
         public IHttpActionResult Post([FromBody] IEnumerable<SongRequestModel> songs)
         {
-            
             if (songs == null)
             {
                 return this.BadRequest();
@@ -44,7 +43,7 @@
                     Genre = song.Genre
                 });
             });
-            
+
             this.data.SaveChanges();
             this.data.Dispose();
             return this.Ok("Song added");

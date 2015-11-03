@@ -11,7 +11,7 @@ namespace WikiMusic.Data.Migrations
         {
             this.AutomaticMigrationsEnabled = true;
             this.AutomaticMigrationDataLossAllowed = true;
-            
+
             this.ContextKey = "WikiMusic.Data.WikiMusicDbContext";
         }
 
@@ -44,7 +44,6 @@ namespace WikiMusic.Data.Migrations
                             }
                         }
                     }
-                    
                 });
         }
     }

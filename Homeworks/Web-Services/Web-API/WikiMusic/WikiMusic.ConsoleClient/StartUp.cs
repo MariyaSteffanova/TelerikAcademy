@@ -19,7 +19,6 @@
             PostSongs(connection, "api/artists");
 
             Console.ReadLine();
-
         }
 
         private static async void PrintJsonSongs(Uri connection, string requestPath)
@@ -55,6 +54,5 @@
                 Console.WriteLine(Environment.NewLine + "Added Artist: " + artist);
             }
         }
-
     }
 }

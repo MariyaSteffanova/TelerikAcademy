@@ -35,7 +35,7 @@
         public IHttpActionResult Post([FromBody] IEnumerable<AlbumRequestModel> albums)
         {
             albums
-                 
+
                  .ForEach(album =>
                  {
                      var newAlbum = new Album
@@ -46,11 +46,10 @@
                          Artists = album.Artists.AsQueryable().ProjectTo<Artist>().ToList(),
                          ImgLink = album.ImgLink
                      };
-                    
 
                      this.data.Albums.Add(newAlbum);
                  });
-            
+
             this.data.SaveChanges();
             return this.Ok();
         }
@@ -74,7 +73,6 @@
                 .GetType()
                 .GetProperties()
                 .Where(x => x.GetValue(updates) != null)
-                // .Select(p => p.GetValue(updates))
                 .ToList()
                  .ForEach(pr =>
                  {

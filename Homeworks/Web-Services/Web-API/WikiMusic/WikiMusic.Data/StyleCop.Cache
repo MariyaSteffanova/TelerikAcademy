@@ -73,7 +73,7 @@
     <timestamps>
       <styleCop>2015/10/10 21:10:41.569</styleCop>
       <settingsFile>2015/11/01 20:05:52.886</settingsFile>
-      <sourceFile>2015/11/01 20:07:15.536</sourceFile>
+      <sourceFile>2015/11/02 16:30:35.094</sourceFile>
       <parser>2015/10/10 21:10:41.569</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -96,30 +96,7 @@
     <timestamps>
       <styleCop>2015/10/10 21:10:41.569</styleCop>
       <settingsFile>2015/11/01 20:05:52.886</settingsFile>
-      <sourceFile>2015/11/01 20:07:31.997</sourceFile>
-      <parser>2015/10/10 21:10:41.569</parser>
-      <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
-      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
-      <StyleCop.CSharp.LayoutRules>2015/10/10 21:10:41.569</StyleCop.CSharp.LayoutRules>
-      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
-      <StyleCop.CSharp.MaintainabilityRules>2015/10/10 21:10:41.569</StyleCop.CSharp.MaintainabilityRules>
-      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
-      <StyleCop.CSharp.NamingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.NamingRules>
-      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
-      <StyleCop.CSharp.OrderingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.OrderingRules>
-      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
-      <StyleCop.CSharp.ReadabilityRules>2015/10/10 21:10:41.569</StyleCop.CSharp.ReadabilityRules>
-      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
-      <StyleCop.CSharp.SpacingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.SpacingRules>
-      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
-  <sourcecode name="Configuration.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2015/10/10 21:10:41.569</styleCop>
-      <settingsFile>2015/11/01 20:05:52.886</settingsFile>
-      <sourceFile>2015/11/01 20:13:08.615</sourceFile>
+      <sourceFile>2015/11/02 16:30:01.336</sourceFile>
       <parser>2015/10/10 21:10:41.569</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -142,7 +119,7 @@
     <timestamps>
       <styleCop>2015/10/10 21:10:41.569</styleCop>
       <settingsFile>2015/11/01 20:05:52.886</settingsFile>
-      <sourceFile>2015/11/01 20:13:28.644</sourceFile>
+      <sourceFile>2015/11/02 16:30:06.923</sourceFile>
       <parser>2015/10/10 21:10:41.569</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -161,14 +138,49 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="1999720222">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="WikiMusicDbContext.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2015/10/10 21:10:41.569</styleCop>
       <settingsFile>2015/11/01 20:05:52.886</settingsFile>
-      <sourceFile>2015/11/01 20:13:44.977</sourceFile>
+      <sourceFile>2015/11/03 00:57:57.948</sourceFile>
+      <parser>2015/10/10 21:10:41.569</parser>
+      <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2015/10/10 21:10:41.569</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2015/10/10 21:10:41.569</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2015/10/10 21:10:41.569</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2015/10/10 21:10:41.569</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.SpacingRules" rule="SingleLineCommentsMustBeginWithSingleSpace" ruleCheckId="SA1005">
+        <context>The comment must start with a single space. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>48</line>
+        <index>1587</index>
+        <endIndex>1658</endIndex>
+        <startLine>48</startLine>
+        <startColumn>11</startColumn>
+        <endLine>48</endLine>
+        <endColumn>82</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="1999720222">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Configuration.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2015/10/10 21:10:41.569</styleCop>
+      <settingsFile>2015/11/01 20:05:52.886</settingsFile>
+      <sourceFile>2015/11/03 19:55:52.093</sourceFile>
       <parser>2015/10/10 21:10:41.569</parser>
       <StyleCop.CSharp.DocumentationRules>2015/10/10 21:10:41.569</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1567092352</StyleCop.CSharp.DocumentationRules.FilesHashCode>
