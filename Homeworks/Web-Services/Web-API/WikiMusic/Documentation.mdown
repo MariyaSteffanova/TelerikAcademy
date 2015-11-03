@@ -56,10 +56,19 @@ Client side:
 * #/artists -> More Info -> View (in section Albums)
 
 #### Put
-Updates album baqsic information<br/>
+Updates album basic information<br/>
 Client side:
 * #/artists -> More Info -> View -> Edit -> Save Changes
 
 ___
 
 ## api/songs
+
+#### Post
+Add new songs to database <br/>
+Client-side:
+* #/artists -> More Info -> View (in section Albums) -> Add Song -> Save Song
+
+#### Delete
+Client-side:
+* #/artists -> More Info -> View -> Delete (in section Songs)

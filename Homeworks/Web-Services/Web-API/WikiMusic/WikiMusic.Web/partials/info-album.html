@@ -4,16 +4,18 @@
     <div class="row">
         <div class="col-md-6">
 
-            <img style="width: 100%; height: 100%;" src={{ImgLink}}>
+            <img style="width: 65%; height: 100%;" src={{ImgLink}}>
         </div>
         <div class="col-md-6">
-            <div id="wrapper-songs">Songs:
+            <div  id="wrapper-songs">Songs:
                 {{#each Songs}}
-                <div class="panel-body  song">
-
-                    <h3><span class="label label-primary">{{Title}}</span></h3>
-                    <h4><span class="label label-info">{{Year}}</span></h4>
-                    
+                <div class="row panel-body  song">
+                    <div class="col-md-3">{{Title}}</div>
+                    <div class="col-md-3">{{Year}}</div>
+                    <div class="col-md-3">{{Genre}}</div>
+                    <div class="col-md-3">
+                        <button class="btn btn-sm btn-danger" id="btn-delete-song-{{ID}}">Delete</button>
+                    </div>
                 </div>
                 {{/each}}
             </div>

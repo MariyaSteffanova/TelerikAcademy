@@ -24,6 +24,29 @@
                         addSong(context);
                     }
                 });
+
+                $('#wrapper-songs').on('click', 'button', function(e) {
+                    var $target = $(e.target)[0],
+                        currentAlbum;
+
+                    songModel.remove($target.id.replace('btn-delete-song-', ''))
+                        .then(function () {
+                            albumController.show(context);
+                            //return albumModel.getById(albumModel.currentId());
+                        });
+                    //.then(function (resAlbum) {
+                    //    console.log(resAlbum);
+                    //    currentAlbum = resAlbum;
+                    //})
+                    //.then(function() {
+                    //    return templatesManager.get('info-album');
+                    //})
+                    //.then(function (partial) {
+                    //    context.$element().html('');
+                    //    context.$element().html(partial(currentAlbum));
+                    //    context.redirect('#info-album');
+                    //});
+                });
             });
     }
 
@@ -33,10 +56,13 @@
             .appendTo($('#songs'));
 
         uiElementCreator.createButton($('#songs'), 'Save Song').on('click', function () {
+
             var songs = saveSongs();
-            songModel.add(songs);
-            albumModel.edit(albumModel.currentId(), songs)
-                .then(function() {
+            songModel.add(songs)
+                .then(function () {
+                    return albumModel.edit(albumModel.currentId(), songs);
+                })
+                .then(function () {
                     context.redirect('#/info-artist');
                 });
 
@@ -54,7 +80,7 @@
             var updatedAlbum = {
                 Title: updates.children('.album-title').val() || null,
                 Year: updates.children('.album-year').val() || null,
-                ImgLink: updates.children('.album-imglink').val() || null
+                ImgLink: updates.children('.album-imglink').val() || GLOBAL_CONSTANTS.DEFAULT_IMAGE
             }
             console.log(updatedAlbum);
             albumModel.editById(albumModel.currentId(), updatedAlbum);
@@ -78,10 +104,10 @@
         return songs;
     }
 
-    function remove($target,context) {
+    function remove($target, context) {
         var albumId = $target.id.replace('btn-delete-', '');
         albumModel.remove(albumId)
-            .then(function() {
+            .then(function () {
                 toastr.success('Album successfully deleted');
                 context.redirect('#/info-artist');
             });

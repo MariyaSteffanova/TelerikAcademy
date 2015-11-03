@@ -295,6 +295,7 @@
     <None Include="libs\jquery-2.1.4.intellisense.js" />
     <Content Include="helpers\ajaxRequester.js" />
     <Content Include="helpers\formsCreator.js" />
+    <Content Include="helpers\globalConstants.js" />
     <Content Include="libs\jquery-2.1.4.js" />
     <Content Include="libs\jquery-2.1.4.min.js" />
     <Content Include="models\albumModel.js" />

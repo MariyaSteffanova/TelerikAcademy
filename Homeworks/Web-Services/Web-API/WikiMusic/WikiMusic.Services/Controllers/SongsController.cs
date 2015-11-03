@@ -1,5 +1,6 @@
 ﻿namespace WikiMusic.Services.Controllers
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Http;
@@ -22,11 +23,13 @@
         public IEnumerable<Song> Get()
         {
             var songs = this.data.Songs.All().ToList();
+           
             return songs;
         }
 
         public IHttpActionResult Post([FromBody] IEnumerable<SongRequestModel> songs)
         {
+            
             if (songs == null)
             {
                 return this.BadRequest();
@@ -75,10 +78,10 @@
             return this.Ok("song updated!");
         }
 
-        public IHttpActionResult Delete([FromBody] SongRequestModel song)
+        public IHttpActionResult Delete([FromBody] int id)
         {
             var dbSong = this.data.Songs
-                .SearchFor(x => x.Title == song.Title)
+                .SearchFor(x => x.ID == id)
                 .FirstOrDefault();
 
             if (dbSong == null)

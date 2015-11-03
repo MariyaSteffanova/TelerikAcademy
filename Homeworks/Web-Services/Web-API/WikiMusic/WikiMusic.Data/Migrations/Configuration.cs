@@ -31,7 +31,17 @@ namespace WikiMusic.Data.Migrations
                         {
                             Title = "Apsurdistan",
                             Year = 2012,
-                            Producer = "Dubioza kolektiv"
+                            Producer = "Dubioza kolektiv",
+                            ImgLink = "http://www.muzika.hr/images/Rubrika_5/20101025-145541_dkplakatz22agreb-2010.jpg",
+                            Songs = new List<Song>()
+                            {
+                                new Song
+                                {
+                                    Title = "Kazu",
+                                    Genre = "Balkan Ska",
+                                    Year = 2015
+                                }
+                            }
                         }
                     }
                     

@@ -40,7 +40,7 @@
                         name: $(ARTIST_FORMS.ARTIST_NAME).val(),
                         country: $(ARTIST_FORMS.ARTIST_COUNTRY).val(),
                         birthDate: "2015/10/10",//$(ARTIST_FORMS.ARTIST_BDATE).val,
-                        imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || null
+                        imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || GLOBAL_CONSTANTS.DEFAULT_IMAGE
                     };
 
                     artistModel.add(newArtist)

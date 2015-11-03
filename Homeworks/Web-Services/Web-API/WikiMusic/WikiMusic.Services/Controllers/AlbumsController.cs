@@ -43,7 +43,8 @@
                          Title = album.Title,
                          Year = album.Year,
                          Producer = album.Producer,
-                         Artists = album.Artists.AsQueryable().ProjectTo<Artist>().ToList()
+                         Artists = album.Artists.AsQueryable().ProjectTo<Artist>().ToList(),
+                         ImgLink = album.ImgLink
                      };
                     
 

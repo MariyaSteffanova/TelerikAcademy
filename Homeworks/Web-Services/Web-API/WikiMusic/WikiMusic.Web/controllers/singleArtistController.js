@@ -26,7 +26,7 @@
                     if ($(target).hasClass('edit')) {
                         edit($target, context);
                     } else if ($(target).hasClass('delete')) {
-                        remove($target,context);
+                        remove($target, context);
                     }
                 });
 
@@ -81,17 +81,17 @@
                  });
 
                  $('#btn-edit-artist').on('click', function () {
-                     var songs = [];
+                     var albums = [];
 
-                     var songsRaw = $('#songs').children('.song');
+                     var albumsRaw = $('#songs').children('.song');
                      // console.log(songsRaw[0]);
-                     for (var i = 0; i < songsRaw.length; i++) {
-                         var $song = $(songsRaw[i]);
-                         songs.push({
+                     for (var i = 0; i < albumsRaw.length; i++) {
+                         var $song = $(albumsRaw[i]);
+                         albums.push({
                              Title: $song.children('.song-title').val(),
                              Year: $song.children('.song-year').val(),
                              Producer: $song.children('.song-genre').val(),
-                             ImgLink: 'none for now',
+                             ImgLink:GLOBAL_CONSTANTS.DEFAULT_IMAGE,
                              Artists: [artist]
                          });
                      }
@@ -100,12 +100,12 @@
                          name: $(ARTIST_FORMS.ARTIST_NAME).val() || $(ARTIST_FORMS.ARTIST_NAME).attr('placeholder'),
                          country: $(ARTIST_FORMS.ARTIST_COUNTRY).val() || $(ARTIST_FORMS.ARTIST_COUNTRY).attr('placeholder'),
                          birthDate: "2015/10/10", //$(ARTIST_FORMS.ARTIST_BDATE).val,
-                         imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || $(ARTIST_FORMS.ARTIST_IMG).attr('placeholder'),
-                         songs: [],
+                         imglink: $(ARTIST_FORMS.ARTIST_IMG).val() || $(ARTIST_FORMS.ARTIST_IMG).attr('placeholder') || GLOBAL_CONSTANTS.DEFAULT_IMAGE,
+                         albums: [],
                          // albums: songs
                      };
 
-                     albumModel.add(songs)
+                     albumModel.add(albums)
                          .then(function () {
                              artistModel.edit(artistId, newArtist);
                          }).then(function () {
@@ -119,7 +119,7 @@
     function remove($target, context) {
         var artistId = $target.id.replace('btn-delete-', '');
         artistModel.remove(artistId)
-            .then(function() {
+            .then(function () {
                 context.redirect('#/artists');
             });
     }

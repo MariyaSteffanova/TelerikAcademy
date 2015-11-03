@@ -11,6 +11,8 @@
     }
 
     function addSong(song) {
+        console.log('SONG MODEL ADD');
+        console.log(song);
         return AjaxReq.post("/api/songs", { data: song });
     }
 
