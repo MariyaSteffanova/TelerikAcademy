@@ -20,7 +20,7 @@
 
         [MinLength(3)]
         [MaxLength(40)]
-        [Index(IsUnique = true)]
+       // [Index(IsUnique = true)]
         public string Name { get; set; }
 
         [MaxLength(30)]

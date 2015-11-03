@@ -43,7 +43,7 @@
             });
 
             this.data.SaveChanges();
-            return this.Ok();
+            return this.Ok(artist.Name);
         }
 
        public IHttpActionResult Put([FromBody] UpdateArtistByIdModel data)
